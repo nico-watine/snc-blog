@@ -24,34 +24,34 @@
 // 	-moz-osx-font-smoothing: grayscale;
 // }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	padding: 0;
-	margin: 0;
-	color: inherit;
-}
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+// 	padding: 0;
+// 	margin: 0;
+// 	color: inherit;
+// }
 
-h1 {
-	font-size: 2em; // [normalize] Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Edge, Firefox, and Safari.
-}
+// h1 {
+// 	font-size: 2em; // [normalize] Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Edge, Firefox, and Safari.
+// }
 
-p {
-	padding: 0;
-	margin-top: 0; // [bootstrap-reboot]
-	margin-bottom: 1rem;
-	font-size: inherit;
-	line-height: 1.5; // [Opinionated] Because to inherit the 1.15 value set on <html> is too small
-}
+// p {
+// 	padding: 0;
+// 	margin-top: 0; // [bootstrap-reboot]
+// 	margin-bottom: 1rem;
+// 	font-size: inherit;
+// 	line-height: 1.5; // [Opinionated] Because to inherit the 1.15 value set on <html> is too small
+// }
 
-a {
-	color: #00e; // Specify to use the default <a> color from Chrome/FF/Safari so that a:visited/a:hover/a:active do not have a different color
-	background-color: transparent; // [normalize] Remove the gray background on active links in IE 10.
-	line-height: inherit;
-}
+// a {
+// 	color: #00e; // Specify to use the default <a> color from Chrome/FF/Safari so that a:visited/a:hover/a:active do not have a different color
+// 	background-color: transparent; // [normalize] Remove the gray background on active links in IE 10.
+// 	line-height: inherit;
+// }
 
 b,
 strong {
