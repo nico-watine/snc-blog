@@ -144,6 +144,10 @@ code {
   font-size: 80%;
   padding: 4px; }
 
+ul {
+  margin: 0;
+  padding: 0; }
+
 address {
   font-size: 14px; }
 
@@ -186,6 +190,22 @@ blockquote + figcaption {
   text-align: right;
   font-weight: normal;
   font-style: italic; }
+
+table {
+  width: 96%;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc; }
+
+th {
+  background-color: #eee; }
+
+dd {
+  margin-left: 20px; }
 
 b,
 strong {
@@ -309,26 +329,6 @@ template {
 
 [hidden] {
   display: none; }
-
-table {
-  width: 96%;
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-th,
-td {
-  padding: 10px;
-  border: 1px solid #ccc; }
-
-th {
-  background-color: #eee; }
-
-dd {
-  margin-left: 20px; }
-
-ul {
-  margin: 0;
-  padding: 0; }
 
 button {
   font-family: inherit;
