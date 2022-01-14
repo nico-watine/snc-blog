@@ -167,6 +167,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/2-typography\/_b-strong.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_b-strong.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/2-typography\/_blockquote.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -212,6 +227,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/2-typography\/_i-em.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_i-em.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/2-typography\/_lists.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -252,6 +282,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/css\/_pre-code.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/2-typography\/_small.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_small.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

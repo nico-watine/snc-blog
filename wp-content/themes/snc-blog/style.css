@@ -144,12 +144,27 @@ code {
   font-size: 80%;
   padding: 4px; }
 
+b,
+strong {
+  font-weight: bolder;
+  line-height: inherit; }
+
+i,
+em {
+  font-style: italic;
+  line-height: inherit; }
+
 ul {
   margin: 0;
   padding: 0; }
 
 address {
-  font-size: 14px; }
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  padding: 0;
+  font-size: 14px;
+  line-height: inherit; }
 
 blockquote {
   position: relative;
@@ -206,27 +221,6 @@ th {
 
 dd {
   margin-left: 20px; }
-
-b,
-strong {
-  font-weight: bolder;
-  line-height: inherit; }
-
-i,
-em {
-  font-style: italic;
-  line-height: inherit; }
-
-small {
-  font-size: 80%;
-  line-height: inherit; }
-
-address {
-  font-style: normal;
-  font-weight: normal;
-  margin-bottom: 1rem;
-  padding: 0;
-  line-height: inherit; }
 
 img {
   display: inline-block;
