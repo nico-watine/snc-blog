@@ -1,0 +1,54 @@
+// ---------------------------------------
+// |            Media-Queries            |
+// ---------------------------------------
+// medium+
+$minWidth-640: 'only screen and (min-width : 640px)';
+
+
+// ----------------------------------------------
+// |            TYPOGRAPHY VARIABLES            |
+// ----------------------------------------------
+$p: 18px;
+$p-medium: 21px;
+
+// Heading sizes @small
+$h1: 40px;
+$h2: 31px;
+$h3: 25px;
+$h4: 20px;
+$h5: 16px;
+$h6: 14px;
+
+// Heading sizes @medium+
+// (min-width=640px)
+$h1-medium: 48px;
+$h2-medium: 40px;
+$h3-medium: 31px;
+$h4-medium: 25px;
+$h5-medium: 16px;
+$h6-medium: 14px;
+
+
+// --------------------------------
+// |            COLORS            |
+// --------------------------------
+$white: #fefefe;
+$black: #0a0a0a;
+$linkBlue: #1779ba;
+$linkBlue-hover: #1468a0;
+$sncBlue: #566372;
+$red: #cc4b37;
+$orange: #ffae00;
+$green: #3adb76;
+
+$commentColor_primary: #fff;
+$commentColor_secondary: #fafafa;
+$commentColor_primary-dark: #2b2c2e;
+$commentColor_secondary-dark: #4a4a4d;
+
+
+// ----------------------------------------------
+// |            box-shadow Variables            |
+// ----------------------------------------------
+$z-1: 0 1px 4px 0 rgba(0,0,0,.37);
+$z-2: 0 2px 2px 0 rgba(0,0,0,.20), 0 6px 10px 0 rgba(0,0,0,.30);

@@ -1,0 +1,21 @@
+.footer {
+	margin-top: 80px;
+	padding: 100px 0;
+	// background-color: #566372;
+	background: linear-gradient(
+	rgba(86,99,114,.80),
+	rgba(86,99,114,.80)
+	), url('https://studioncreations.com/img/index/bubble-bg/bubble-background.png') center top/cover no-repeat;
+	color: #fff;
+	text-align: center;
+
+	.colophon {
+		text-transform: uppercase;
+		letter-spacing: 1.5px;
+		font-size: 14px;
+	}
+}
+
+.footer a {
+	color: #fff;
+}

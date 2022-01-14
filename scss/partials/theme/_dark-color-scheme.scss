@@ -1,0 +1,101 @@
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #323233;
+		color: rgba(255,255,255,.78);
+		-webkit-font-smoothing: auto;
+	}
+
+	p {
+		color: rgba(255,255,255,.78);
+	}
+
+	.entry {
+		background-color: #4a4a4d;
+		border: 1px solid #4e4f52;
+	}
+
+	.home .entry__content p,
+	.archive .entry__content p,
+	.search .entry__content p {
+		color: #fff;
+	}
+
+	.entry__featured {
+		background: #fff;
+		color: #000;
+	}
+
+	.entry__meta {
+		color: rgba(255,255,255,.78);
+	}
+
+	.entry__footer {
+		color: rgba(255,255,255,.78);
+	}
+
+	.single-post .entry,
+	.page .entry {
+		background-color: #4a4a4d;
+	}
+
+	a {
+		color: #5ac8fa;
+
+		&:hover,
+		&:focus {
+			color: #5ac8fa;
+		}
+	}
+
+	.comment {
+		border: 1px solid #222;
+		border-radius: 4px;
+		background: $commentColor_primary-dark;
+	}
+
+	.comment.depth-2,
+	.comment.depth-4 {
+		background: $commentColor_secondary-dark;
+	}
+
+	.comment.depth-3,
+	.comment.depth-5 {
+		background: $commentColor_primary-dark;
+	}
+
+	input[name='submit'] {
+		background: #5ac8fa;
+		color: #333;
+		border-radius: 4px;
+	}
+
+	textarea {
+		background: #4a4a4d;
+		color: #fff;
+		border-radius: 4px;
+	}
+
+	.entry__content blockquote {
+		background-color: $commentColor_primary-dark;
+	}
+
+	.entry__content blockquote::before {
+		color: #fff;
+	}
+
+	.gnav {
+		background-color: #4a4a4d;
+	}
+
+	.gnav li.current-menu-item > a {
+		color: #5ac8fa;
+	}
+
+	.gnav a {
+		color: #fff;
+	}
+
+	.gnav a:hover {
+		color: #5ac8fa;
+	}
+}

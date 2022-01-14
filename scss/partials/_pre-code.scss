@@ -1,0 +1,27 @@
+pre,
+code {
+	font-family: "Source Code Pro", monospace;
+	color: #fff;
+	border-radius: 4px;
+	-webkit-font-smoothing: auto;
+	background-color: #313942;
+}
+
+pre {
+	display: block;
+	width: 96%;
+	padding: 16px;
+	word-wrap: break-word;
+	overflow: auto;
+	margin: 0 auto 18px;
+
+	code {
+		font-size: 16px;
+		padding: 0;
+	}
+}
+
+code {
+	font-size: 80%;
+	padding: 4px;
+}
