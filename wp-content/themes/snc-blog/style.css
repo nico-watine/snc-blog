@@ -52,6 +52,75 @@ h3,
 h4,
 h5,
 h6 {
+  line-height: 1.2;
+  margin: 0 0 8px;
+  padding-top: 18px; }
+
+h1 {
+  font-size: 40px; }
+
+h2 {
+  font-size: 31px; }
+
+h3 {
+  font-size: 25px; }
+
+h4 {
+  font-size: 20px; }
+
+h5 {
+  font-size: 16px;
+  font-weight: normal; }
+
+h6 {
+  font-size: 14px;
+  font-weight: normal; }
+
+@media only screen and (min-width: 640px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    padding-top: 21px; }
+  h1 {
+    font-size: 48px; }
+  h2 {
+    font-size: 40px; }
+  h3 {
+    font-size: 31px; }
+  h4 {
+    font-size: 25px; } }
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 18px;
+  color: #333; }
+
+a {
+  padding-bottom: 4px;
+  color: #1779ba;
+  text-decoration: none; }
+
+a:hover,
+a:focus {
+  color: #1468a0;
+  text-decoration: underline; }
+
+.monospace {
+  font-family: 'Source Code Pro', monospace;
+  -webkit-font-smoothing: auto;
+  text-transform: uppercase;
+  padding: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   padding: 0;
   margin: 0;
   color: inherit; }
@@ -193,75 +262,6 @@ template {
 
 [hidden] {
   display: none; }
-
-p {
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 18px;
-  color: #333; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: 1.2;
-  margin: 0 0 8px;
-  padding-top: 18px; }
-
-h1 {
-  font-size: 40px; }
-
-h2 {
-  font-size: 31px; }
-
-h3 {
-  font-size: 25px; }
-
-h4 {
-  font-size: 20px; }
-
-h5 {
-  font-size: 16px;
-  font-weight: normal; }
-
-h6 {
-  font-size: 14px;
-  font-weight: normal; }
-
-@media only screen and (min-width: 640px) {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    padding-top: 21px; }
-  h1 {
-    font-size: 48px; }
-  h2 {
-    font-size: 40px; }
-  h3 {
-    font-size: 31px; }
-  h4 {
-    font-size: 25px; } }
-
-.monospace {
-  font-family: 'Source Code Pro', monospace;
-  -webkit-font-smoothing: auto;
-  text-transform: uppercase;
-  padding: 0; }
-
-a {
-  padding-bottom: 4px;
-  color: #1779ba;
-  text-decoration: none; }
-
-a:hover,
-a:focus {
-  color: #1468a0;
-  text-decoration: underline; }
 
 pre,
 code {
