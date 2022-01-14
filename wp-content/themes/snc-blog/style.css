@@ -222,6 +222,19 @@ th {
 dd {
   margin-left: 20px; }
 
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -.25em; }
+
+sup {
+  top: -.5em; }
+
 img {
   display: inline-block;
   vertical-align: middle;
@@ -248,19 +261,6 @@ hr {
   margin: 1em auto;
   border: 0;
   border-bottom: 1px solid #cacaca; }
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline; }
-
-sub {
-  bottom: -.25em; }
-
-sup {
-  top: -.5em; }
 
 figcaption,
 figure {
