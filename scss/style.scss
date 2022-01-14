@@ -9,13 +9,14 @@ Version: 1.13.7
 @import '_var.scss';
 
 // Self-host fonts
-@import '_font-face.scss';
-
-// HTML & body
+@import '0-font-face/_font-face.scss';
+// html & body elements
 @import '1-html-body/_html-body.scss';
-
-
+// typography elements
 @import '2-typography/_typography.scss';
+
+
+
 
 // Reset
 @import 'partials/_reset.scss';
