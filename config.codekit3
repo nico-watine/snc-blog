@@ -9,6 +9,19 @@
   ],
   "creatorBuild" : "34264",
   "files" : {
+    "\/_ignores\/codekit-icon.png" : {
+      "ft" : 32768,
+      "iS" : 7056,
+      "oA" : 1,
+      "oAP" : "\/_ignores\/codekit-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/_ignores\/snc-blog.sublime-project" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1106,8 +1119,8 @@
     "creationDate" : 663870340.04088497,
     "displayValue" : "snc-blog",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-brick",
-    "iconImageWasSetByUser" : 0
+    "iconImageName" : "\/_ignores\/codekit-icon.png",
+    "iconImageWasSetByUser" : 1
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
