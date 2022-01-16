@@ -167,18 +167,18 @@
 // 	height: 0;
 // }
 
-fieldset {
-	padding: .35em .75em .625em; // Correct the padding in Firefox.
-}
+// fieldset {
+// 	padding: .35em .75em .625em; // Correct the padding in Firefox.
+// }
 
-legend {
-	box-sizing: border-box; // Correct the text wrapping in Edge and IE.
-	color: inherit; // Correct the color inheritance from `fieldset` elements in IE.
-	display: table; // Correct the text wrapping in Edge and IE.
-	max-width: 100%; // Correct the text wrapping in Edge and IE.
-	padding: 0; // Remove the padding so developers are not caught out when they zero out `fieldset` elements in all browsers.
-	white-space: normal; // Correct the text wrapping in Edge and IE.
-}
+// legend {
+// 	box-sizing: border-box; // Correct the text wrapping in Edge and IE.
+// 	color: inherit; // Correct the color inheritance from `fieldset` elements in IE.
+// 	display: table; // Correct the text wrapping in Edge and IE.
+// 	max-width: 100%; // Correct the text wrapping in Edge and IE.
+// 	padding: 0; // Remove the padding so developers are not caught out when they zero out `fieldset` elements in all browsers.
+// 	white-space: normal; // Correct the text wrapping in Edge and IE.
+// }
 
 progress {
 	vertical-align: baseline; // Add the correct vertical alignment in Chrome, Firefox, and Opera.

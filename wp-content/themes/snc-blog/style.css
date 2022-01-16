@@ -282,17 +282,6 @@ audio:not([controls]) {
   display: none;
   height: 0; }
 
-fieldset {
-  padding: .35em .75em .625em; }
-
-legend {
-  box-sizing: border-box;
-  color: inherit;
-  display: table;
-  max-width: 100%;
-  padding: 0;
-  white-space: normal; }
-
 progress {
   vertical-align: baseline; }
 
@@ -410,6 +399,17 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 3px;
   background: #fff; }
+
+fieldset {
+  padding: .35em .75em .625em; }
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal; }
 
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
