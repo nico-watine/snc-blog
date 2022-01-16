@@ -261,16 +261,19 @@ hr {
   border: 0;
   border-bottom: 1px solid #cacaca; }
 
+audio {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
 figcaption,
 figure {
   display: block; }
 
 figure {
   margin: 1em 40px; }
-
-pre {
-  font-family: monospace, monospace;
-  font-size: 1em; }
 
 abbr[title] {
   border-bottom: none;
@@ -289,13 +292,6 @@ dfn {
 mark {
   background-color: #ff0;
   color: #000; }
-
-audio {
-  display: inline-block; }
-
-audio:not([controls]) {
-  display: none;
-  height: 0; }
 
 fieldset {
   padding: .35em .75em .625em; }

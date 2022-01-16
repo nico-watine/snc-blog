@@ -99,15 +99,15 @@
 // 	vertical-align: middle; // Remove the gap between svg and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
 // }
 
-hr {
-	box-sizing: content-box; // [normalize] Add the correct box sizing in Firefox.
-	height: 0; // [normalize] Add the correct box sizing in Firefox.
-	overflow: visible; // [normalize] Show the overflow in Edge and IE.
-	clear: both; // [foundation] to ensure nothing is beside it when using clears on surrounding content
-	margin: 1em auto; // [h5bp] preferred 16/0 over [foundation] 20/0. [bootstrap] uses margin-top and margin-bottom
-	border: 0; // [h5bp & bootstrap] set the single-property border to zero, but then override it with a 1px bottom border w below line. [foundation] sets border to 0 via long hand (b-t/b-r/b-b/b-l)
-	border-bottom: 1px solid #cacaca; // [Opinionated]
-}
+// hr {
+// 	box-sizing: content-box; // [normalize] Add the correct box sizing in Firefox.
+// 	height: 0; // [normalize] Add the correct box sizing in Firefox.
+// 	overflow: visible; // [normalize] Show the overflow in Edge and IE.
+// 	clear: both; // [foundation] to ensure nothing is beside it when using clears on surrounding content
+// 	margin: 1em auto; // [h5bp] preferred 16/0 over [foundation] 20/0. [bootstrap] uses margin-top and margin-bottom
+// 	border: 0; // [h5bp & bootstrap] set the single-property border to zero, but then override it with a 1px bottom border w below line. [foundation] sets border to 0 via long hand (b-t/b-r/b-b/b-l)
+// 	border-bottom: 1px solid #cacaca; // [Opinionated]
+// }
 
 // sub,
 // sup {
@@ -137,10 +137,10 @@ figure {
 	margin: 1em 40px;
 }
 
-pre {
-	font-family: monospace, monospace;
-	font-size: 1em;
-}
+// pre {
+// 	font-family: monospace, monospace;
+// 	font-size: 1em;
+// }
 
 
 abbr[title] {
@@ -165,14 +165,14 @@ mark {
 	color: #000;
 }
 
-audio {
-	display: inline-block;
-}
+// audio {
+// 	display: inline-block;
+// }
 
-audio:not([controls]) {
-	display: none;
-	height: 0;
-}
+// audio:not([controls]) {
+// 	display: none;
+// 	height: 0;
+// }
 
 fieldset {
 	padding: .35em .75em .625em; // Correct the padding in Firefox.
