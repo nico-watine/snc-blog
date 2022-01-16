@@ -241,6 +241,12 @@ mark {
   background-color: #ff0;
   color: #000; }
 
+details {
+  display: block; }
+
+summary {
+  display: list-item; }
+
 img {
   display: inline-block;
   vertical-align: middle;
@@ -281,15 +287,6 @@ audio {
 audio:not([controls]) {
   display: none;
   height: 0; }
-
-progress {
-  vertical-align: baseline; }
-
-details {
-  display: block; }
-
-summary {
-  display: list-item; }
 
 template {
   display: none; }

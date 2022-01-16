@@ -212,6 +212,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/2-typography\/_details-summary.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_details-summary.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/2-typography\/_dfn.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -482,6 +497,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/3-media\/_template-hidden.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_template-hidden.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/3-media\/_video.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -612,6 +642,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/css\/_optgroup.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/partials\/forms\/_progress.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_progress.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
