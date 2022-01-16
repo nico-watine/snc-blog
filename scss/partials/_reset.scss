@@ -78,26 +78,26 @@
 // 	line-height: inherit;
 // }
 
-img {
-	display: inline-block;
-	vertical-align: middle; // Remove the gap between images and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
-	max-width: 100%;
-	height: auto;
-	-ms-interpolation-mode: bicubic; // For IE: http://css-tricks.com/ie-fix-bicubic-scaling-for-images
-	border-style: none; // Remove the border on images inside links in IE 10.
-}
+// img {
+// 	display: inline-block;
+// 	vertical-align: middle; // Remove the gap between images and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
+// 	max-width: 100%;
+// 	height: auto;
+// 	-ms-interpolation-mode: bicubic; // For IE: http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+// 	border-style: none; // Remove the border on images inside links in IE 10.
+// }
 
-video {
-	vertical-align: middle; // [h5bp-main-reset] Remove the gap between audio, canvas, iframes, images, videos and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
-	display: inline-block;
-	max-width: 100%;
-	height: auto;
-}
+// video {
+// 	vertical-align: middle; // [h5bp-main-reset] Remove the gap between audio, canvas, iframes, images, videos and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
+// 	display: inline-block;
+// 	max-width: 100%;
+// 	height: auto;
+// }
 
-svg {
-	overflow: hidden; // Prevent drawing shapes outside of svg rectangle boundaries in IE9
-	vertical-align: middle; // Remove the gap between svg and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
-}
+// svg {
+// 	overflow: hidden; // Prevent drawing shapes outside of svg rectangle boundaries in IE9
+// 	vertical-align: middle; // Remove the gap between svg and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
+// }
 
 hr {
 	box-sizing: content-box; // [normalize] Add the correct box sizing in Firefox.

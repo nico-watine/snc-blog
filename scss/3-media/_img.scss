@@ -1,0 +1,8 @@
+img {
+	display: inline-block;
+	vertical-align: middle; // Remove the gap between images and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
+	max-width: 100%;
+	height: auto;
+	-ms-interpolation-mode: bicubic; // For IE: http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+	border-style: none; // Remove the border on images inside links in IE 10.
+}
