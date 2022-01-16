@@ -275,13 +275,6 @@ audio:not([controls]) {
   display: none;
   height: 0; }
 
-figcaption,
-figure {
-  display: block; }
-
-figure {
-  margin: 1em 40px; }
-
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
