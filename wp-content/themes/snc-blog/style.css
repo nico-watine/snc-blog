@@ -234,6 +234,13 @@ sub {
 sup {
   top: -.5em; }
 
+dfn {
+  font-style: italic; }
+
+mark {
+  background-color: #ff0;
+  color: #000; }
+
 img {
   display: inline-block;
   vertical-align: middle;
@@ -274,24 +281,6 @@ audio {
 audio:not([controls]) {
   display: none;
   height: 0; }
-
-abbr[title] {
-  border-bottom: none;
-  text-decoration: underline;
-  text-decoration: underline dotted; }
-
-code,
-kbd,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em; }
-
-dfn {
-  font-style: italic; }
-
-mark {
-  background-color: #ff0;
-  color: #000; }
 
 fieldset {
   padding: .35em .75em .625em; }
