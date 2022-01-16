@@ -242,6 +242,13 @@ img {
   -ms-interpolation-mode: bicubic;
   border-style: none; }
 
+figcaption,
+figure {
+  display: block; }
+
+figure {
+  margin: 1em 40px; }
+
 video {
   vertical-align: middle;
   display: inline-block;

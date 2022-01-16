@@ -362,6 +362,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/3-media\/_figure.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_figure.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/3-media\/_hr.scss" : {
       "aP" : 0,
       "bl" : 0,
