@@ -527,21 +527,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/scss\/partials\/_reset.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/_reset.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/scss\/partials\/_screen-reader.scss" : {
       "aP" : 0,
       "bl" : 0,
