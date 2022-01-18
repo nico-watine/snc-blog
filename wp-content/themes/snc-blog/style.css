@@ -252,7 +252,6 @@ img {
   vertical-align: middle;
   max-width: 100%;
   height: auto;
-  -ms-interpolation-mode: bicubic;
   border-style: none; }
 
 figcaption,
