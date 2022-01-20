@@ -224,9 +224,6 @@ sub {
 sup {
   top: -.5em; }
 
-dfn {
-  font-style: italic; }
-
 mark {
   background-color: #ff0;
   color: #000; }
