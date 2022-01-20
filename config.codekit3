@@ -707,21 +707,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/scss\/partials\/theme\/_delete-these.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/_delete-these.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/scss\/partials\/theme\/_featured-img-styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -777,21 +762,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/css\/_header.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/scss\/partials\/theme\/_mdr-classes.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/_mdr-classes.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
