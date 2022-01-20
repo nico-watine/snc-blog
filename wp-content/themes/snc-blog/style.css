@@ -143,16 +143,6 @@ code {
   font-size: 80%;
   padding: 4px; }
 
-b,
-strong {
-  font-weight: bolder;
-  line-height: inherit; }
-
-i,
-em {
-  font-style: italic;
-  line-height: inherit; }
-
 ul {
   margin: 0;
   padding: 0; }
