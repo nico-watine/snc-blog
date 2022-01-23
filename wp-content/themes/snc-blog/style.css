@@ -650,18 +650,6 @@ form[role='search'] .search-submit:hover {
   border-width: 1px 1px 0 0;
   transform: rotate(45deg); }
 
-.headroom {
-  position: fixed;
-  top: 0;
-  left: 0;
-  transition: transform .3s; }
-
-.headroom--pinned {
-  transform: translate3d(0, 0, 0); }
-
-.headroom--unpinned {
-  transform: translate3d(0, -100%, 0); }
-
 .entry__content table {
   margin: 0 auto; }
 
@@ -1127,6 +1115,18 @@ figure.alignright,
 
 .custom-logo-link + .header__title {
   margin-left: 12px; }
+
+.headroom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform .3s; }
+
+.headroom--pinned {
+  transform: translate3d(0, 0, 0); }
+
+.headroom--unpinned {
+  transform: translate3d(0, -100%, 0); }
 
 .gnav {
   position: fixed;
