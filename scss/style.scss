@@ -2,31 +2,21 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.13.7
+Version: 1.13.8
 */
 
 // Variables
 @import '_var.scss';
 
 // Self-host fonts
-@import 'typography/_typography.scss';
-
-// Reset
-@import 'partials/_reset.scss';
-
-// Elements
-@import 'partials/_body.scss';
-@import 'partials/_typography.scss';
-@import 'partials/_pre-code.scss';
-@import 'partials/_address.scss';
-@import 'partials/_table.scss';
-@import 'partials/_lists.scss';
-@import 'partials/_blockquote.scss';
-@import 'partials/forms/_forms.scss';
-
-// Wordpress
-@import 'partials/_screen-reader.scss';
-@import 'partials/wordpress/_wordpress.scss';
-
-// Theme Specifics
-@import 'partials/theme/_theme.scss';
+@import '0-font-face/_font-face.scss';
+// html & body elements
+@import '1-html-body/_html-body.scss';
+// typography elements
+@import '2-typography/_typography.scss';
+// media elements
+@import "3-media/_media.scss";
+// theme elements
+@import "4-theme/_theme.scss";
+// wordpress elements
+@import "5-wordpress/_wordpress.scss";

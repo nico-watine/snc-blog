@@ -229,6 +229,10 @@
 	word-wrap: break-word;
 }
 
+h2.entry__title {
+	padding: 0;
+}
+
 .entry__thumb + .entry__info {
 	margin-top: 16px;
 }
@@ -467,21 +471,6 @@ form[role='search'] .search-submit:hover {
 	right: 0;
 	border-width: 1px 1px 0 0;
 	transform: rotate(45deg);
-}
-
-.headroom {
-	position: fixed;
-	top: 0;
-	left: 0;
-	transition: transform .3s;
-}
-
-.headroom--pinned {
-	transform: translate3d(0, 0, 0);
-}
-
-.headroom--unpinned {
-	transform: translate3d(0, -100%, 0);
 }
 
 .entry__content table {

@@ -1,0 +1,4 @@
+svg {
+	overflow: hidden; // Prevent drawing shapes outside of svg rectangle boundaries in IE9
+	vertical-align: middle; // Remove the gap between svg and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
+}
