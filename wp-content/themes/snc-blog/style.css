@@ -1126,7 +1126,8 @@ figure.alignright,
   transform: translate3d(0, 0, 0); }
 
 .headroom--unpinned {
-  transform: translate3d(0, -100%, 0); }
+  transform: translate3d(0, -100%, 0);
+  box-shadow: none !important; }
 
 .gnav {
   position: fixed;
