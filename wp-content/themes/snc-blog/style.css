@@ -448,6 +448,9 @@ template {
 .entry__title {
   word-wrap: break-word; }
 
+h2.entry__title {
+  padding: 0; }
+
 .entry__thumb + .entry__info {
   margin-top: 16px; }
 
