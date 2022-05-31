@@ -1358,7 +1358,16 @@ figure.alignright,
   .gnav a {
     color: #fff; }
   .gnav a:hover {
-    color: #5ac8fa; } }
+    color: #5ac8fa; }
+  .nav-links {
+    border-top: 1px solid rgba(255, 255, 255, 0.78);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.78); }
+  .nav-previous a {
+    border-right: 1px solid rgba(255, 255, 255, 0.78); }
+  .nav-previous a::before {
+    border-color: #5ac8fa; }
+  .nav-next a::after {
+    border-color: #5ac8fa; } }
 
 .aligncenter {
   display: block;
