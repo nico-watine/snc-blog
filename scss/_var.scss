@@ -32,19 +32,24 @@ $h6-medium: 14px;
 // --------------------------------
 // |            COLORS            |
 // --------------------------------
-$white: #fefefe;
 $black: #0a0a0a;
 $linkBlue: #1779ba;
 $linkBlue-hover: #1468a0;
 $sncBlue: #566372;
-$red: #cc4b37;
-$orange: #ffae00;
-$green: #3adb76;
-
 $commentColor_primary: #fff;
 $commentColor_secondary: #fafafa;
+
+
+// ----------------------------------------------------
+// |            COLORS - color-scheme-dark            |
+// ----------------------------------------------------
+$linkBlue_dark: #5ac8fa;
+$linkBlue_dark-hover: #5ac8fa;
 $commentColor_primary-dark: #2b2c2e;
 $commentColor_secondary-dark: #4a4a4d;
+$articleBG-dark: #4a4a4d;
+$pageBG-dark: #323233;
+
 
 
 // ----------------------------------------------

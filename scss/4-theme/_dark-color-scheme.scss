@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: dark) {
 	body {
-		background: #323233;
+		background: $pageBG-dark;
 		color: rgba(255,255,255,.78);
 		-webkit-font-smoothing: auto;
 	}
@@ -10,7 +10,7 @@
 	}
 
 	.entry {
-		background-color: #4a4a4d;
+		background-color: $articleBG-dark;
 		border: 1px solid #4e4f52;
 	}
 
@@ -35,15 +35,15 @@
 
 	.single-post .entry,
 	.page .entry {
-		background-color: #4a4a4d;
+		background-color: $articleBG-dark;
 	}
 
 	a {
-		color: #5ac8fa;
+		color: $linkBlue_dark;
 
 		&:hover,
 		&:focus {
-			color: #5ac8fa;
+			color: $linkBlue_dark-hover;
 		}
 	}
 
@@ -64,7 +64,7 @@
 	}
 
 	input[name='submit'] {
-		background: #5ac8fa;
+		background: $linkBlue_dark;
 		color: #333;
 		border-radius: 4px;
 	}
@@ -88,7 +88,7 @@
 	}
 
 	.gnav li.current-menu-item > a {
-		color: #5ac8fa;
+		color: $linkBlue_dark;
 	}
 
 	.gnav a {
@@ -96,7 +96,7 @@
 	}
 
 	.gnav a:hover {
-		color: #5ac8fa;
+		color: $linkBlue_dark;
 	}
 
 	.nav-links {
@@ -109,10 +109,10 @@
 	}
 
 	.nav-previous a::before {
-		border-color: #5ac8fa;
+		border-color: $linkBlue_dark;
 	}
 
 	.nav-next a::after {
-		border-color: #5ac8fa;
+		border-color: $linkBlue_dark;
 	}
 }
