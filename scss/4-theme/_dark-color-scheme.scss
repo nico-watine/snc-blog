@@ -10,7 +10,7 @@
 	}
 
 	.entry {
-		background-color: #4a4a4d;
+		background-color: $articleBG-dark;
 		border: 1px solid #4e4f52;
 	}
 
@@ -35,7 +35,7 @@
 
 	.single-post .entry,
 	.page .entry {
-		background-color: #4a4a4d;
+		background-color: $articleBG-dark;
 	}
 
 	a {
