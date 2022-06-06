@@ -910,20 +910,12 @@
       "oAP" : "\/TODO",
       "oF" : 1
     },
-<<<<<<< HEAD
-    "\/wp-content\/themes\/snc-blog-1.13.7.zip" : {
-=======
-    "\/wp-content\/themes\/snc-blog.zip" : {
->>>>>>> develop
+    "\/wp-content\/themes\/snc-blog-1.13.9.zip" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-<<<<<<< HEAD
-      "oAP" : "\/wp-content\/themes\/snc-blog-1.13.7.zip",
-=======
-      "oAP" : "\/wp-content\/themes\/snc-blog.zip",
->>>>>>> develop
+      "oAP" : "\/wp-content\/themes\/snc-blog-1.13.9.zip",
       "oF" : 0
     },
     "\/wp-content\/themes\/snc-blog\/404.php" : {
