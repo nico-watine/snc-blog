@@ -918,6 +918,39 @@
       "oAP" : "\/wp-content\/themes\/snc-blog-1.13.9.zip",
       "oF" : 0
     },
+    "\/wp-content\/themes\/snc-blog-child-theme\/functions.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/wp-content\/themes\/snc-blog-child-theme\/functions.php",
+      "oF" : 0
+    },
+    "\/wp-content\/themes\/snc-blog-child-theme\/screenshot.png" : {
+      "ft" : 32768,
+      "iS" : 139489,
+      "oA" : 1,
+      "oAP" : "\/wp-content\/themes\/snc-blog-child-theme\/screenshot.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/wp-content\/themes\/snc-blog-child-theme\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/wp-content\/themes\/snc-blog-child-theme\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/wp-content\/themes\/snc-blog\/404.php" : {
       "cB" : 0,
       "ft" : 8192,
