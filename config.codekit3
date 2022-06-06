@@ -918,6 +918,14 @@
       "oAP" : "\/wp-content\/themes\/snc-blog-1.13.9.zip",
       "oF" : 0
     },
+    "\/wp-content\/themes\/snc-blog-child.zip" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/wp-content\/themes\/snc-blog-child.zip",
+      "oF" : 0
+    },
     "\/wp-content\/themes\/snc-blog-child\/functions.php" : {
       "cB" : 0,
       "ft" : 8192,
