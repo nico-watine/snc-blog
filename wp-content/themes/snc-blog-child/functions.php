@@ -1,9 +1,5 @@
 <?php
-/*
- * This is the child theme for SNC Blog theme, generated with Generate Child Theme plugin by catchthemes.
- *
- * (Please see https://developer.wordpress.org/themes/advanced-topics/child-themes/#how-to-create-a-child-theme)
- */
+
 add_action( 'wp_enqueue_scripts', 'snc_blog_child_enqueue_styles' );
 function snc_blog_child_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
@@ -12,6 +8,3 @@ function snc_blog_child_enqueue_styles() {
         array('parent-style')
     );
 }
-/*
- * Your code goes below
- */
