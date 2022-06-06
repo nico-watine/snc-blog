@@ -910,20 +910,20 @@
       "oAP" : "\/TODO",
       "oF" : 1
     },
-    "\/wp-content\/themes\/snc-blog-1.13.9.zip" : {
+    "\/wp-content\/themes\/snc-blog-1.14.zip" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/wp-content\/themes\/snc-blog-1.13.9.zip",
+      "oAP" : "\/wp-content\/themes\/snc-blog-1.14.zip",
       "oF" : 0
     },
-    "\/wp-content\/themes\/snc-blog-child.zip" : {
+    "\/wp-content\/themes\/snc-blog-child-1.1.zip" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/wp-content\/themes\/snc-blog-child.zip",
+      "oAP" : "\/wp-content\/themes\/snc-blog-child-1.1.zip",
       "oF" : 0
     },
     "\/wp-content\/themes\/snc-blog-child\/functions.php" : {
