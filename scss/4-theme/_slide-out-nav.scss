@@ -1,3 +1,4 @@
+// Slide-out Nav
 .gnav {
 	position: fixed;
 	top: 0;
@@ -17,11 +18,28 @@
 		width: 300px;
 	}
 }
+// ---------------------------------------------------------------------- //
 
+// Slide-out Nav Open
 .gnav.open {
 	transform: translate3d(-100%, 0, 0);
 }
+// ---------------------------------------------------------------------- //
 
+// Slide-out Nav Main Menu
+.primary-menu {
+	width: 100%;
+	padding: 60px 0 10px;
+}
+
+@media (min-width: 640px) {
+	.primary-menu {
+		padding-top: 75px;
+	}
+}
+// ---------------------------------------------------------------------- //
+
+// Slide-out Nav Menu Item
 .gnav li {
 	display: block;
 	width: 100%;
@@ -42,18 +60,9 @@
 	color: #1468a0;
 	text-decoration: underline;
 }
+// ---------------------------------------------------------------------- //
 
-.primary-menu {
-	width: 100%;
-	padding: 60px 0 10px;
-}
-
-@media (min-width: 640px) {
-	.primary-menu {
-		padding-top: 75px;
-	}
-}
-
+// Slide-out Nav Sub-Menu Items within Main Menu
 .sub-menu {
 	display: block;
 }
@@ -63,14 +72,16 @@
 	border-bottom: none;
 }
 
-.sub-menu a {
+.sub-menu a { // indent to right
 	padding-left: 40px;
 }
 
-.sub-menu .sub-menu a {
+.sub-menu .sub-menu a { // indent to right even more
 	padding-left: 70px;
 }
+// ---------------------------------------------------------------------- //
 
+// Hamburger Toggle Icon
 .toggle-btn {
 	display: block;
 	position: relative;
@@ -159,7 +170,9 @@
 	margin: auto;
 	transform: rotate(-45deg);
 }
+// ---------------------------------------------------------------------- //
 
+// Body Overlay with Slide-out Nav Open
 .bg-ovly {
 	display: block;
 	position: fixed;
