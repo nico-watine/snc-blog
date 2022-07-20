@@ -1320,9 +1320,6 @@ figure.alignright,
     letter-spacing: 1.5px;
     font-size: 14px; }
 
-.footer a {
-  color: #fff; }
-
 @media (prefers-color-scheme: dark) {
   body {
     background: #323233;
