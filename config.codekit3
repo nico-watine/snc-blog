@@ -677,7 +677,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/scss\/4-theme\/_header.scss" : {
+    "\/scss\/4-theme\/_header-masthead.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -686,7 +686,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/css\/_header.css",
+      "oAP" : "\/css\/_header-masthead.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -909,14 +909,6 @@
       "oA" : 1,
       "oAP" : "\/TODO",
       "oF" : 1
-    },
-    "\/wp-content\/themes\/snc-blog-child-1.1.zip" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/wp-content\/themes\/snc-blog-child-1.1.zip",
-      "oF" : 0
     },
     "\/wp-content\/themes\/snc-blog-child\/functions.php" : {
       "cB" : 0,
