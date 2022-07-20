@@ -1035,24 +1035,6 @@ figure.alignright,
     margin: 0 0 0 12px;
     font-size: 12px; } }
 
-.custom-logo-link {
-  display: inline-block;
-  width: 40px;
-  margin: 0 0 0 8px;
-  padding: 0; }
-
-@media (min-width: 640px) {
-  .custom-logo-link {
-    width: 50px;
-    margin: 0 0 0 24px; } }
-
-.custom-logo-link .custom-logo {
-  width: 100%;
-  vertical-align: middle; }
-
-.custom-logo-link + .header__title {
-  margin-left: 12px; }
-
 .headroom {
   position: fixed;
   top: 0;
