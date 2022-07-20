@@ -1,7 +1,8 @@
+// <footer> at bottom of every page
+
 .footer {
 	margin-top: 80px;
 	padding: 100px 0;
-	// background-color: #566372;
 	background: linear-gradient(
 	rgba(86,99,114,.80),
 	rgba(86,99,114,.80)
@@ -9,13 +10,10 @@
 	color: #fff;
 	text-align: center;
 
+	// © STUDIO N CREATIONS
 	.colophon {
 		text-transform: uppercase;
 		letter-spacing: 1.5px;
 		font-size: 14px;
 	}
-}
-
-.footer a {
-	color: #fff;
 }

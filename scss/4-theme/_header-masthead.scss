@@ -1,3 +1,6 @@
+// Disappearing blue <header> masthead
+
+// blue <header>
 .header {
 	display: flex;
 	z-index: 5;
@@ -16,21 +19,9 @@
 	}
 }
 
-.header a {
-	color: #fff;
-	line-height: 1.2;
-	text-decoration: none;
-}
+// ---------------------------------------------------------------------- //
 
-.header a:hover {
-	color: #fff;
-	text-decoration: underline;
-}
-
-.header p {
-	color: #fff;
-}
-
+// "STUDIO N CREATIONS" <h1>
 .header__title {
 	line-height: 1.2;
 	display: inline-block;
@@ -45,8 +36,27 @@
 	}
 }
 
+// ---------------------------------------------------------------------- //
+
+// "STUDIO N CREATIONS" <h1> <a> /blog link
+.header a {
+	color: #fff;
+	line-height: 1.2;
+	text-decoration: none;
+}
+
+.header a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+// ---------------------------------------------------------------------- //
+
+// "Nico's Projects & Pro-Tips"
+// Show only for >640px
 .header__description {
 	display: none;
+	color: #fff;
 }
 
 @media (min-width: 640px) {
@@ -57,28 +67,9 @@
 	}
 }
 
-.custom-logo-link {
-	display: inline-block;
-	width: 40px;
-	margin: 0 0 0 8px;
-	padding: 0;
-}
+// ---------------------------------------------------------------------- //
 
-@media (min-width: 640px) {
-	.custom-logo-link {
-		width: 50px;
-		margin: 0 0 0 24px;
-	}
-}
 
-.custom-logo-link .custom-logo {
-	width: 100%;
-	vertical-align: middle;
-}
-
-.custom-logo-link + .header__title {
-	margin-left: 12px;
-}
 
 .headroom {
 	position: fixed;

@@ -3,7 +3,7 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.14
+Version: 1.14.2
 */
 @font-face {
   font-family: 'Lato';
@@ -371,8 +371,7 @@ template {
   margin: 0; }
 
 .entry__footer {
-  color: #999;
-  font-size: 14px; }
+  color: #999; }
 
 .entry__footer a {
   padding: 2px 4px; }
@@ -919,6 +918,75 @@ figure.alignright,
     .update-label::before {
       content: "| \00a0"; } }
 
+.nav-links {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 80px;
+  padding: 8px 0;
+  border-top: 1px solid #566372;
+  border-bottom: 1px solid #566372; }
+
+.nav-links::after {
+  content: '';
+  clear: both;
+  display: block; }
+
+.nav-links a {
+  display: block;
+  position: relative;
+  width: 100%; }
+
+.nav-previous,
+.nav-next {
+  display: flex;
+  width: 50%;
+  vertical-align: middle; }
+
+.nav-previous a,
+.nav-next a {
+  padding: 0 10px 0 15px; }
+
+.nav-previous {
+  vertical-align: middle;
+  text-align: left; }
+
+.nav-previous a {
+  border-right: 1px solid #566372; }
+
+.nav-previous a::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 16px;
+  height: 16px;
+  margin: auto;
+  border: solid #1779ba;
+  left: 0;
+  border-width: 3px 0 0 3px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
+
+.nav-next {
+  flex: 1 1 0; }
+
+.nav-next a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 16px;
+  height: 16px;
+  margin: auto;
+  border: solid #1779ba;
+  right: 0;
+  border-width: 3px 3px 0 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg); }
+
 .single-post .entry__header,
 .page .entry__header {
   display: flex;
@@ -1006,18 +1074,6 @@ figure.alignright,
   .header {
     height: 75px; } }
 
-.header a {
-  color: #fff;
-  line-height: 1.2;
-  text-decoration: none; }
-
-.header a:hover {
-  color: #fff;
-  text-decoration: underline; }
-
-.header p {
-  color: #fff; }
-
 .header__title {
   line-height: 1.2;
   display: inline-block;
@@ -1029,32 +1085,24 @@ figure.alignright,
   .header__title {
     margin: 0 0 0 24px; } }
 
+.header a {
+  color: #fff;
+  line-height: 1.2;
+  text-decoration: none; }
+
+.header a:hover {
+  color: #fff;
+  text-decoration: underline; }
+
 .header__description {
-  display: none; }
+  display: none;
+  color: #fff; }
 
 @media (min-width: 640px) {
   .header__description {
     display: inline-block;
     margin: 0 0 0 12px;
     font-size: 12px; } }
-
-.custom-logo-link {
-  display: inline-block;
-  width: 40px;
-  margin: 0 0 0 8px;
-  padding: 0; }
-
-@media (min-width: 640px) {
-  .custom-logo-link {
-    width: 50px;
-    margin: 0 0 0 24px; } }
-
-.custom-logo-link .custom-logo {
-  width: 100%;
-  vertical-align: middle; }
-
-.custom-logo-link + .header__title {
-  margin-left: 12px; }
 
 .headroom {
   position: fixed;
@@ -1095,6 +1143,14 @@ figure.alignright,
   -webkit-transform: translate3d(-100%, 0, 0);
           transform: translate3d(-100%, 0, 0); }
 
+.primary-menu {
+  width: 100%;
+  padding: 60px 0 10px; }
+
+@media (min-width: 640px) {
+  .primary-menu {
+    padding-top: 75px; } }
+
 .gnav li {
   display: block;
   width: 100%;
@@ -1111,14 +1167,6 @@ figure.alignright,
 .gnav a:hover {
   color: #1468a0;
   text-decoration: underline; }
-
-.primary-menu {
-  width: 100%;
-  padding: 60px 0 10px; }
-
-@media (min-width: 640px) {
-  .primary-menu {
-    padding-top: 75px; } }
 
 .sub-menu {
   display: block; }
@@ -1240,75 +1288,6 @@ figure.alignright,
 .bodyfixed {
   overflow: hidden; }
 
-.nav-links {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  min-height: 80px;
-  padding: 8px 0;
-  border-top: 1px solid #566372;
-  border-bottom: 1px solid #566372; }
-
-.nav-links::after {
-  content: '';
-  clear: both;
-  display: block; }
-
-.nav-links a {
-  display: block;
-  position: relative;
-  width: 100%; }
-
-.nav-previous,
-.nav-next {
-  display: flex;
-  width: 50%;
-  vertical-align: middle; }
-
-.nav-previous a,
-.nav-next a {
-  padding: 0 10px 0 15px; }
-
-.nav-previous {
-  vertical-align: middle;
-  text-align: left; }
-
-.nav-previous a {
-  border-right: 1px solid #566372; }
-
-.nav-previous a::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 16px;
-  height: 16px;
-  margin: auto;
-  border: solid #1779ba;
-  left: 0;
-  border-width: 3px 0 0 3px;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg); }
-
-.nav-next {
-  flex: 1 1 0; }
-
-.nav-next a::after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 16px;
-  height: 16px;
-  margin: auto;
-  border: solid #1779ba;
-  right: 0;
-  border-width: 3px 3px 0 0;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg); }
-
 .footer {
   margin-top: 80px;
   padding: 100px 0;
@@ -1319,9 +1298,6 @@ figure.alignright,
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-size: 14px; }
-
-.footer a {
-  color: #fff; }
 
 @media (prefers-color-scheme: dark) {
   body {
