@@ -2,6 +2,10 @@
 Theme Name: SNC Blog Child
 Author: Nico Watine
 Description: Child theme for SNC Blog
-Version: 1.1
+Version: 1.1.2
 Template: snc-blog
 */
+
+.widget.widget_block#block-3 {
+	margin-top: 20px !important;
+}
