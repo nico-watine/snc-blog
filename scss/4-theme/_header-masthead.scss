@@ -50,12 +50,13 @@
 	text-decoration: underline;
 }
 
-.header p {
-	color: #fff;
-}
+// ---------------------------------------------------------------------- //
 
+// "Nico's Projects & Pro-Tips"
+// Show only for >640px
 .header__description {
 	display: none;
+	color: #fff;
 }
 
 @media (min-width: 640px) {
@@ -65,6 +66,8 @@
 		font-size: 12px;
 	}
 }
+
+// ---------------------------------------------------------------------- //
 
 .custom-logo-link {
 	display: inline-block;

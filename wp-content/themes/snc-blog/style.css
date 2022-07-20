@@ -1025,11 +1025,9 @@ figure.alignright,
   color: #fff;
   text-decoration: underline; }
 
-.header p {
-  color: #fff; }
-
 .header__description {
-  display: none; }
+  display: none;
+  color: #fff; }
 
 @media (min-width: 640px) {
   .header__description {
