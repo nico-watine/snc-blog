@@ -827,7 +827,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/scss\/4-theme\/nulled\/_header-masthead.scss" : {
+    "\/scss\/4-theme\/nulled\/_nulled-header-masthead.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -836,7 +836,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/css\/_header-masthead.css",
+      "oAP" : "\/css\/_nulled-header-masthead.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
