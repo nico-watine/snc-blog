@@ -39,10 +39,12 @@
 	text-align: left;
 }
 
+// " | " between Previous & Next
 .nav-previous a {
 	border-right: 1px solid $sncBlue;
 }
 
+// " < " in front of Previous post
 .nav-previous a::before {
 	content: '';
 	display: block;
@@ -62,6 +64,7 @@
 	flex: 1 1 0;
 }
 
+// " > " after Next post
 .nav-next a::after {
 	content: '';
 	display: block;
