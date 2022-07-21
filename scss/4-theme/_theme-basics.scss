@@ -73,13 +73,13 @@
 	overflow: hidden;
 }
 
-@media (min-width: 768px) {
+@media #{$minWidth-768} {
 	.main-visual {
 		height: 400px;
 	}
 }
 
-@media (min-width: 1024px) {
+@media #{$minWidth-1024} {
 	.main-visual {
 		height: 500px;
 	}
