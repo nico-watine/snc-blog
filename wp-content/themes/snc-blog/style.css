@@ -493,7 +493,7 @@ h2.entry__title {
   text-align: center;
   background: rgba(0, 0, 0, 0.5); }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .single-post .entry__info,
   .page .entry__info {
     padding: 0 60px; } }
@@ -756,7 +756,7 @@ figure.alignright,
   border-radius: 4px;
   background: #fff; }
 
-@media (min-width: 640px) {
+@media only screen and (min-width: 40rem) {
   .comment {
     padding: 24px; } }
 
@@ -893,7 +893,7 @@ figure.alignright,
   margin: 80px auto 0;
   font-style: normal;
   font-size: 16px; }
-  @media only screen and (max-width : 400px) {
+  @media only screen and (max-width : 25rem) {
     .single-post .entry__content,
     .page .entry__content {
       width: auto; } }
@@ -997,12 +997,12 @@ figure.alignright,
   width: 100%;
   background-color: #666; }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .single-post .entry__header,
   .page .entry__header {
     min-height: 400px; } }
 
-@media (min-width: 1024px) {
+@media only screen and (min-width: 64rem) {
   .single-post .entry__header,
   .page .entry__header {
     min-height: 500px; } }
@@ -1070,7 +1070,7 @@ figure.alignright,
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right); }
 
-@media (min-width: 640px) {
+@media only screen and (min-width: 40rem) {
   .header {
     height: 75px; } }
 
@@ -1081,7 +1081,7 @@ figure.alignright,
   font-size: 22px;
   font-weight: 700; }
 
-@media (min-width: 1024px) {
+@media only screen and (min-width: 64rem) {
   .header__title {
     margin: 0 0 0 24px; } }
 
@@ -1098,7 +1098,7 @@ figure.alignright,
   display: none;
   color: #fff; }
 
-@media (min-width: 640px) {
+@media only screen and (min-width: 40rem) {
   .header__description {
     display: inline-block;
     margin: 0 0 0 12px;
@@ -1134,7 +1134,7 @@ figure.alignright,
           transform: translate3d(0, 0, 0);
   transition: all .4s; }
 
-@media (min-width: 640px) {
+@media only screen and (min-width: 40rem) {
   .gnav {
     right: -300px;
     width: 300px; } }
@@ -1147,7 +1147,7 @@ figure.alignright,
   width: 100%;
   padding: 60px 0 10px; }
 
-@media (min-width: 640px) {
+@media only screen and (min-width: 40rem) {
   .primary-menu {
     padding-top: 75px; } }
 
@@ -1196,7 +1196,7 @@ figure.alignright,
      -moz-appearance: button;
           appearance: button; }
 
-@media (min-width: 1024px) {
+@media only screen and (min-width: 64rem) {
   .toggle-btn {
     margin-right: 24px; } }
 

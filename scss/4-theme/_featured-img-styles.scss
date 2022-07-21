@@ -11,14 +11,14 @@
 	background-color: #666;
 }
 
-@media (min-width: 768px) {
+@media #{$minWidth-768} {
 	.single-post .entry__header,
 	.page .entry__header {
 		min-height: 400px;
 	}
 }
 
-@media (min-width: 1024px) {
+@media #{$minWidth-1024} {
 	.single-post .entry__header,
 	.page .entry__header {
 		min-height: 500px;

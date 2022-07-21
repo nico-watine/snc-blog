@@ -31,7 +31,7 @@
 	background: $commentColor_primary;
 }
 
-@media (min-width: 640px) {
+@media #{$minWidth-640} {
 	.comment {
 		padding: 24px;
 	}
