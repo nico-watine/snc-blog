@@ -901,7 +901,7 @@ figure.alignright,
 .update-label {
   display: block; }
 
-@media (min-width: 640px) {
+@media only screen and (min-width : 40rem) {
   .publised-label,
   .update-label {
     display: inline; } }
@@ -912,7 +912,7 @@ figure.alignright,
 .update-label span {
   margin-left: 4px; }
 
-@media (min-width: 640px) {
+@media only screen and (min-width : 40rem) {
   .update-label {
     margin-left: 4px; }
     .update-label::before {
