@@ -284,7 +284,7 @@ template {
   width: 100%;
   margin: 40px auto 0; }
 
-@media (min-width: 640px) {
+@media only screen and (min-width: 40rem) {
   .site-content {
     width: 96%;
     max-width: 700px; } }
@@ -294,7 +294,7 @@ template {
   margin: 0 auto;
   padding-right: 0; }
 
-@media (min-width: 640px) {
+@media only screen and (min-width: 40rem) {
   .primary {
     display: block;
     width: 100%; } }
@@ -304,7 +304,7 @@ template {
   width: 96%;
   margin: 40px auto 0; }
 
-@media (min-width: 640px) {
+@media only screen and (min-width: 40rem) {
   .secondary {
     width: 100%;
     margin: 40px auto 0; } }
@@ -438,7 +438,7 @@ template {
   background-color: #fff;
   border-radius: 12px; }
 
-@media (min-width: 640px) {
+@media only screen and (min-width: 40rem) {
   .entry {
     padding: 20px; } }
 
@@ -901,7 +901,7 @@ figure.alignright,
 .update-label {
   display: block; }
 
-@media only screen and (min-width : 40rem) {
+@media only screen and (min-width: 40rem) {
   .publised-label,
   .update-label {
     display: inline; } }
@@ -912,7 +912,7 @@ figure.alignright,
 .update-label span {
   margin-left: 4px; }
 
-@media only screen and (min-width : 40rem) {
+@media only screen and (min-width: 40rem) {
   .update-label {
     margin-left: 4px; }
     .update-label::before {
