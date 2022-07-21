@@ -3,12 +3,13 @@
 	display: block;
 }
 
-@media (min-width: 640px) {
+@media #{$minWidth-640} {
 	.publised-label,
 	.update-label {
 		display: inline;
 	}
 }
+
 
 .publised-label time,
 .publised-label span,
@@ -17,7 +18,7 @@
 	margin-left: 4px;
 }
 
-@media (min-width: 640px) {
+@media #{$minWidth-640} {
 	.update-label {
 		margin-left: 4px;
 

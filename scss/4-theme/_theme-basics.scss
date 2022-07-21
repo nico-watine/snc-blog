@@ -4,7 +4,7 @@
 	margin: 40px auto 0;
 }
 
-@media (min-width: 640px) {
+@media #{$minWidth-640} {
 	.site-content {
 		width: 96%;
 		max-width: 700px;
@@ -17,7 +17,7 @@
 	padding-right: 0;
 }
 
-@media (min-width: 640px) {
+@media #{$minWidth-640} {
 	.primary {
 		display: block;
 		width: 100%;
@@ -30,7 +30,7 @@
 	margin: 40px auto 0;
 }
 
-@media (min-width: 640px) {
+@media #{$minWidth-640} {
 	.secondary {
 		width: 100%;
 		margin: 40px auto 0;
@@ -73,13 +73,13 @@
 	overflow: hidden;
 }
 
-@media (min-width: 768px) {
+@media #{$minWidth-768} {
 	.main-visual {
 		height: 400px;
 	}
 }
 
-@media (min-width: 1024px) {
+@media #{$minWidth-1024} {
 	.main-visual {
 		height: 500px;
 	}
@@ -196,7 +196,7 @@
 	border-radius: 12px;
 }
 
-@media (min-width: 640px) {
+@media #{$minWidth-640} {
 	.entry {
 		padding: 20px;
 	}
@@ -264,7 +264,7 @@ h2.entry__title {
 	background: rgba(0, 0, 0, .5);
 }
 
-@media (min-width: 768px) {
+@media #{$minWidth-768} {
 	.single-post .entry__info,
 	.page .entry__info {
 		padding: 0 60px;

@@ -12,7 +12,7 @@
 	transition: all .4s;
 }
 
-@media (min-width: 640px) {
+@media #{$minWidth-640} {
 	.gnav {
 		right: -300px;
 		width: 300px;
@@ -34,7 +34,7 @@
 	padding: 60px 0 10px;
 }
 
-@media (min-width: 640px) {
+@media #{$minWidth-640} {
 	.primary-menu {
 		padding-top: 75px;
 	}
@@ -101,7 +101,7 @@
 	appearance: button;
 }
 
-@media (min-width: 1024px) {
+@media #{$minWidth-1024} {
 	.toggle-btn {
 		margin-right: 24px;
 	}

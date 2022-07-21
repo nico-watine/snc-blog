@@ -1,6 +1,6 @@
 a {
 	padding-bottom: 4px;
-	color: #1779ba;
+	color: $linkBlue;
 	text-decoration: none;
 	background-color: transparent;
 	line-height: inherit;
@@ -8,6 +8,6 @@ a {
 
 a:hover,
 a:focus {
-	color: #1468a0;
+	color: $linkBlue-hover;
 	text-decoration: underline;
 }

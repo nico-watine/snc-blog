@@ -13,7 +13,7 @@
 	padding-right: env(safe-area-inset-right);
 }
 
-@media (min-width: 640px) {
+@media #{$minWidth-640} {
 	.header {
 		height: 75px;
 	}
@@ -30,7 +30,7 @@
 	font-weight: 700;
 }
 
-@media (min-width: 1024px) {
+@media #{$minWidth-1024} {
 	.header__title {
 		margin: 0 0 0 24px;
 	}
@@ -59,7 +59,7 @@
 	color: #fff;
 }
 
-@media (min-width: 640px) {
+@media #{$minWidth-640} {
 	.header__description {
 		display: inline-block;
 		margin: 0 0 0 12px;
