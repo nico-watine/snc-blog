@@ -1172,24 +1172,6 @@ figure.alignright,
     color: #5ac8fa; }
     a:hover, a:focus {
       color: #5ac8fa; }
-  .comment {
-    border: 1px solid #222;
-    border-radius: 4px;
-    background: #2b2c2e; }
-  .comment.depth-2,
-  .comment.depth-4 {
-    background: #4a4a4d; }
-  .comment.depth-3,
-  .comment.depth-5 {
-    background: #2b2c2e; }
-  input[name='submit'] {
-    background: #5ac8fa;
-    color: #333;
-    border-radius: 4px; }
-  textarea {
-    background: #4a4a4d;
-    color: #fff;
-    border-radius: 4px; }
   .entry__content blockquote {
     background-color: #2b2c2e; }
   .entry__content blockquote::before {
@@ -1366,6 +1348,26 @@ figure.alignright,
 .comment-form-email label,
 .comment-form-url label {
   display: block; }
+
+@media (prefers-color-scheme: dark) {
+  .comment {
+    border: 1px solid #222;
+    border-radius: 4px;
+    background: #2b2c2e; }
+  .comment.depth-2,
+  .comment.depth-4 {
+    background: #4a4a4d; }
+  .comment.depth-3,
+  .comment.depth-5 {
+    background: #2b2c2e; }
+  input[name='submit'] {
+    background: #5ac8fa;
+    color: #333;
+    border-radius: 4px; }
+  textarea {
+    background: #4a4a4d;
+    color: #fff;
+    border-radius: 4px; } }
 
 .aligncenter {
   display: block;

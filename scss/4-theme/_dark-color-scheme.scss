@@ -47,34 +47,6 @@
 		}
 	}
 
-	.comment {
-		border: 1px solid #222;
-		border-radius: 4px;
-		background: $commentColor_primary-dark;
-	}
-
-	.comment.depth-2,
-	.comment.depth-4 {
-		background: $commentColor_secondary-dark;
-	}
-
-	.comment.depth-3,
-	.comment.depth-5 {
-		background: $commentColor_primary-dark;
-	}
-
-	input[name='submit'] {
-		background: $linkBlue_dark;
-		color: #333;
-		border-radius: 4px;
-	}
-
-	textarea {
-		background: #4a4a4d;
-		color: #fff;
-		border-radius: 4px;
-	}
-
 	.entry__content blockquote {
 		background-color: $commentColor_primary-dark;
 	}
