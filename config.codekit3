@@ -617,21 +617,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/scss\/4-theme\/_comments.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/_comments.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/scss\/4-theme\/_dark-color-scheme.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -687,6 +672,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/css\/_header-masthead.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/4-theme\/_nonJetpack-comments.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_nonJetpack-comments.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
