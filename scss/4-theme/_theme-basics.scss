@@ -207,7 +207,7 @@
 }
 
 .entry__title {
-	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 h2.entry__title {
@@ -236,7 +236,7 @@ h2.entry__title {
 .home .entry__content p,
 .archive .entry__content p,
 .search .entry__content p {
-	word-wrap: break-word;
+	overflow-wrap: break-word;
 	overflow-wrap: break-word;
 }
 
@@ -303,7 +303,6 @@ h2.entry__title {
 }
 
 .page-title {
-	word-wrap: break-word;
 	overflow-wrap: break-word;
 }
 
@@ -399,7 +398,7 @@ form[role='search'] .search-submit:hover {
 }
 
 .entry__content p {
-	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 .entry__content img {

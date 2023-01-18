@@ -4,7 +4,8 @@ Blog CSS:
 
 CSS:
 	☐  standardize all <a> styles
-	☐  Review "word-wrap:break-word" CSS styles
+	✔  Review "word-wrap:break-word" CSS styles @done (23-01-18 10:28)
+	✔	Change all word-wrap to overflow-wrap @done (23-01-18 10:30)
 	☐  what are the .mdr-column and .mdr-tile classes?
 	☐  font-size for pre code
 	☐  dark-scheme: slide out nav
