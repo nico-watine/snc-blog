@@ -465,11 +465,6 @@ h2.entry__title {
   margin: 8px 0;
   color: #fff; }
 
-.home .entry__content p,
-.archive .entry__content p,
-.search .entry__content p {
-  overflow-wrap: break-word; }
-
 .single-post .entry,
 .page .entry {
   padding: 0;
