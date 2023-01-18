@@ -468,7 +468,6 @@ h2.entry__title {
 .home .entry__content p,
 .archive .entry__content p,
 .search .entry__content p {
-  overflow-wrap: break-word;
   overflow-wrap: break-word; }
 
 .single-post .entry,
