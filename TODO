@@ -17,3 +17,6 @@ Other:
 	☐  check on jquery and jquery-migrate necessity in <head>
 	☐  just have img and not srcset on main blog roll?
 	☐  font-smoothing:antialiased for hidpi screens only?
+
+Sketch Doc:
+	☐	Define color variables by color or element?
