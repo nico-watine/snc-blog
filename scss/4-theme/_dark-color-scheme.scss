@@ -39,11 +39,11 @@
 	}
 
 	a {
-		color: $linkBlue_dark;
+		color: $linkBlue_csd;
 
 		&:hover,
 		&:focus {
-			color: $linkBlue_dark-hover;
+			color: $linkBlue_csd-hover;
 		}
 	}
 
@@ -60,7 +60,7 @@
 	}
 
 	.gnav li.current-menu-item > a {
-		color: $linkBlue_dark;
+		color: $linkBlue_csd;
 	}
 
 	.gnav a {
@@ -68,7 +68,7 @@
 	}
 
 	.gnav a:hover {
-		color: $linkBlue_dark;
+		color: $linkBlue_csd;
 	}
 
 	.nav-links {
@@ -81,10 +81,10 @@
 	}
 
 	.nav-previous a::before {
-		border-color: $linkBlue_dark;
+		border-color: $linkBlue_csd;
 	}
 
 	.nav-next a::after {
-		border-color: $linkBlue_dark;
+		border-color: $linkBlue_csd;
 	}
 }
