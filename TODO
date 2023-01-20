@@ -10,6 +10,7 @@ CSS:
 	☐  font-size for pre code
 	☐  dark-scheme: slide out nav
 	☐  <footer> img scrim multiply like index
+	☐	<article> margin-bottom to increase space between tags-links and nav.post-navigation
 
 Other:
 	☐  Review color contrast visual styles (not much difference between <body> and <entry>)
