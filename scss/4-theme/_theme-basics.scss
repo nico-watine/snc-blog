@@ -207,7 +207,7 @@
 }
 
 .entry__title {
-	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 h2.entry__title {
@@ -233,19 +233,18 @@ h2.entry__title {
 	color: #fff;
 }
 
-.home .entry__content p,
-.archive .entry__content p,
-.search .entry__content p {
-	word-wrap: break-word;
-	overflow-wrap: break-word;
-}
+// .home .entry__content p,
+// .archive .entry__content p,
+// .search .entry__content p {
+// 	overflow-wrap: break-word;
+// }
 
 .single-post .entry,
 .page .entry {
 	padding: 0;
 	box-shadow: none;
 	border: none;
-	background-color: #fafafa;
+	background-color: $articleBackground;
 }
 
 .single-post .entry__thumb + .entry__info,
@@ -303,7 +302,6 @@ h2.entry__title {
 }
 
 .page-title {
-	word-wrap: break-word;
 	overflow-wrap: break-word;
 }
 
@@ -399,7 +397,7 @@ form[role='search'] .search-submit:hover {
 }
 
 .entry__content p {
-	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 .entry__content img {

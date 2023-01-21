@@ -3,7 +3,7 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.14.3
+Version: 1.14.3a4
 */
 @font-face {
   font-family: 'Lato';
@@ -38,7 +38,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Lato', Arial, sans-serif;
-  background: #f4f4f4;
+  background: #ebebeb;
   color: #0a0a0a;
   line-height: 1.5;
   font-weight: normal;
@@ -53,8 +53,7 @@ h5,
 h6 {
   line-height: 1.2;
   margin: 0 0 8px;
-  padding-top: 18px;
-  color: inherit; }
+  padding-top: 18px; }
 
 h1 {
   font-size: 40px; }
@@ -102,7 +101,6 @@ p {
   padding: 0; }
 
 a {
-  padding-bottom: 4px;
   color: #1779ba;
   text-decoration: none;
   background-color: transparent;
@@ -446,7 +444,7 @@ template {
   margin-top: 0; }
 
 .entry__title {
-  word-wrap: break-word; }
+  overflow-wrap: break-word; }
 
 h2.entry__title {
   padding: 0; }
@@ -465,12 +463,6 @@ h2.entry__title {
 .page .entry__info .entry__meta {
   margin: 8px 0;
   color: #fff; }
-
-.home .entry__content p,
-.archive .entry__content p,
-.search .entry__content p {
-  word-wrap: break-word;
-  overflow-wrap: break-word; }
 
 .single-post .entry,
 .page .entry {
@@ -525,7 +517,6 @@ h2.entry__title {
   margin-top: 10px; }
 
 .page-title {
-  word-wrap: break-word;
   overflow-wrap: break-word; }
 
 .search .entry__content {
@@ -603,7 +594,7 @@ form[role='search'] .search-submit:hover {
   margin-left: 20px; }
 
 .entry__content p {
-  word-wrap: break-word; }
+  overflow-wrap: break-word; }
 
 .entry__content img {
   max-width: 96%;

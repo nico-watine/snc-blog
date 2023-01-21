@@ -1,16 +1,16 @@
 @media (prefers-color-scheme: dark) {
 	body {
-		background: $pageBG-dark;
-		color: rgba(255,255,255,.78);
+		background: $darkUI--bodyBackground;
+		color: $darkUI--bodyFontColor;
 		-webkit-font-smoothing: auto;
 	}
 
 	p {
-		color: rgba(255,255,255,.78);
+		color: $darkUI--pColor;
 	}
 
 	.entry {
-		background-color: $articleBG-dark;
+		background-color: $darkUI--articleBackground;
 		border: 1px solid #4e4f52;
 	}
 
@@ -26,24 +26,24 @@
 	}
 
 	.entry__meta {
-		color: rgba(255,255,255,.78);
+		color: $darkUI--bodyFontColor;
 	}
 
 	.entry__footer {
-		color: rgba(255,255,255,.78);
+		color: $darkUI--bodyFontColor;
 	}
 
 	.single-post .entry,
 	.page .entry {
-		background-color: $articleBG-dark;
+		background-color: $darkUI--articleBackground;
 	}
 
 	a {
-		color: $linkBlue_dark;
+		color: $darkUI--linkBlue;
 
 		&:hover,
 		&:focus {
-			color: $linkBlue_dark-hover;
+			color: $darkUI--linkBlue_hover;
 		}
 	}
 
@@ -56,11 +56,11 @@
 	}
 
 	.gnav {
-		background-color: $articleBG-dark;
+		background-color: $darkUI--articleBackground;
 	}
 
 	.gnav li.current-menu-item > a {
-		color: $linkBlue_dark;
+		color: $darkUI--linkBlue;
 	}
 
 	.gnav a {
@@ -68,23 +68,23 @@
 	}
 
 	.gnav a:hover {
-		color: $linkBlue_dark;
+		color: $darkUI--linkBlue;
 	}
 
 	.nav-links {
-		border-top: 1px solid rgba(255, 255, 255, .78);
-		border-bottom: 1px solid rgba(255, 255, 255, .78);
+		border-top: 1px solid $darkUI--bodyFontColor;
+		border-bottom: 1px solid $darkUI--bodyFontColor;
 	}
 
 	.nav-previous a {
-		border-right: 1px solid rgba(255, 255, 255, .78);
+		border-right: 1px solid $darkUI--bodyFontColor;
 	}
 
 	.nav-previous a::before {
-		border-color: $linkBlue_dark;
+		border-color: $darkUI--linkBlue;
 	}
 
 	.nav-next a::after {
-		border-color: $linkBlue_dark;
+		border-color: $darkUI--linkBlue;
 	}
 }

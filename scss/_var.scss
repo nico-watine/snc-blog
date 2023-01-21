@@ -32,12 +32,31 @@ $h6-medium: 14px;
 
 
 // --------------------------------
-// |            COLORS            |
+// |            Colors            |
 // --------------------------------
-$black: #0a0a0a;
+$articleBackground: #fafafa;
+$bodyBackground: #ebebeb;
+$bodyFontColor: #0a0a0a;
 $linkBlue: #1779ba;
-$linkBlue-hover: #1468a0;
+$linkBlue_hover: #1468a0;
+$pColor: #333;
 $sncBlue: #566372;
+
+
+// -----------------------------------------------------------
+// |            Global Colors - color-scheme-dark            |
+// -----------------------------------------------------------
+$darkUI--articleBackground: #4a4a4d;
+$darkUI--bodyBackground: #323233;
+$darkUI--bodyFontColor: rgba(255,255,255,.78);
+$darkUI--linkBlue: #5ac8fa;
+$darkUI--linkBlue_hover: $darkUI--linkBlue;
+$darkUI--pColor: $darkUI--bodyFontColor;
+
+
+// --------------------------------------------
+// |            Element Color Vars            |
+// --------------------------------------------
 $commentColor_primary: #fff;
 $commentColor_secondary: #fafafa;
 
@@ -45,13 +64,8 @@ $commentColor_secondary: #fafafa;
 // ----------------------------------------------------
 // |            COLORS - color-scheme-dark            |
 // ----------------------------------------------------
-$linkBlue_dark: #5ac8fa;
-$linkBlue_dark-hover: #5ac8fa;
 $commentColor_primary-dark: #2b2c2e;
 $commentColor_secondary-dark: #4a4a4d;
-$articleBG-dark: #4a4a4d;
-$pageBG-dark: #323233;
-
 
 
 // ----------------------------------------------
