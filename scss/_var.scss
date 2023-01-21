@@ -43,17 +43,13 @@ $sncBlue: #566372;
 
 // $baseWhite: #fafafa;
 
-// $darkUI-linkBlue
-// $darkUI-linkBlue_hover
-// $darkUI--linkBlue_hover
-// $darkUI--linkBlue_hover
-// $darkUI--linkBlue-hover
 
 // -----------------------------------------------------------
 // |            Global Colors - color-scheme-dark            |
 // -----------------------------------------------------------
-$linkBlue_csd: #5ac8fa;
-$linkBlue_csd-hover: #5ac8fa;
+$darkUI--bodyFontColor: rgba(255,255,255,.78);
+$darkUI--linkBlue: #5ac8fa;
+$darkUI--linkBlue_hover: $darkUI--linkBlue;
 
 
 // --------------------------------------------
