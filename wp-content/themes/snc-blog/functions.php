@@ -5,7 +5,7 @@
  * @package SNC Blog
  */
 
-if ( ! function_exists( 'modernize_setup' ) ) :
+if ( ! function_exists( 'snc_blog_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -13,7 +13,7 @@ if ( ! function_exists( 'modernize_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function modernize_setup() {
+function snc_blog_setup() {
 
   // Add default posts and comments RSS feed links to head.
   add_theme_support( 'automatic-feed-links' );
@@ -51,7 +51,7 @@ function modernize_setup() {
   ) );
 }
 endif;
-add_action( 'after_setup_theme', 'modernize_setup' );
+add_action( 'after_setup_theme', 'snc_blog_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -107,7 +107,7 @@ add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 /**
  * Enqueue scripts and styles.
  */
-function modernize_scripts() {
+function snc_blog_scripts() {
   $url = get_template_directory_uri();
   $theme   = wp_get_theme();
   $version = $theme->get( 'Version' );
@@ -125,7 +125,7 @@ function modernize_scripts() {
     wp_enqueue_script( 'comment-reply' );
   }
 }
-add_action( 'wp_enqueue_scripts', 'modernize_scripts' );
+add_action( 'wp_enqueue_scripts', 'snc_blog_scripts' );
 
 /**
  * Custom template tags for this theme.

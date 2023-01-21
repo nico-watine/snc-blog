@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Removed
 - functions.php - Removed line to prevent double import of theme's style.css
 ### Changed
-- functions.php - Changed hook label to match theme name
+- functions.php - Changed hook labels to match theme name
 
 ## [1.14.4]
 ### Removed
