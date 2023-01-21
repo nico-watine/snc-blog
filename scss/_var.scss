@@ -38,6 +38,7 @@ $bodyBackground: #ebebeb;
 $bodyFontColor: #0a0a0a;
 $linkBlue: #1779ba;
 $linkBlue_hover: #1468a0;
+$pColor: #333;
 $sncBlue: #566372;
 
 
@@ -47,7 +48,7 @@ $sncBlue: #566372;
 $darkUI--bodyFontColor: rgba(255,255,255,.78);
 $darkUI--linkBlue: #5ac8fa;
 $darkUI--linkBlue_hover: $darkUI--linkBlue;
-
+$darkUI--pColor: $darkUI--bodyFontColor;
 
 // --------------------------------------------
 // |            Element Color Vars            |
