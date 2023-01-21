@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - `color: inherit;` from headings elements
 ### Changed
 - scss variable naming conventions
+- `<body> background-color` to `#ebebeb`
 
 ## [1.14.3]
 ### Changed
