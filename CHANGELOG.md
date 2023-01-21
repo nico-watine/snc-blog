@@ -11,7 +11,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 - functions.php - Changed hook labels to match theme name
 
-
 ## [1.14.4]
 
 ### Removed
@@ -23,12 +22,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - scss variable naming conventions
 - `<body> background-color` to `#ebebeb`
 
-
 ## [1.14.3]
 
 ### Changed
 - All media-queries pertaining to the theme were changed to use new scss rem-based vars
-
 
 ## [1.14.2]
 
@@ -37,7 +34,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Added
 - Many annotations to scss partials
-
 
 ## [1.14.1]
 
