@@ -50,8 +50,10 @@ $linkBlue_csd-hover: #5ac8fa;
 // --------------------------------------------
 // |            Element Color Vars            |
 // --------------------------------------------
-$commentColor_primary: #fff;
-$commentColor_secondary: #fafafa;
+// $commentColor_primary: #fff;
+$commentColorPrimary: #fff;
+// $commentColor_secondary: #fafafa;
+$commentColorSecondary: #fafafa;
 
 
 // ----------------------------------------------------
@@ -59,6 +61,8 @@ $commentColor_secondary: #fafafa;
 // ----------------------------------------------------
 $commentColor_primary-dark: #2b2c2e;
 $commentColor_secondary-dark: #4a4a4d;
+$commentColorPrimary_csd: #2b2c2e;
+$commentColorSecondary_csd: #4a4a4d;
 $articleBG-dark: #4a4a4d;
 $pageBG-dark: #323233;
 
