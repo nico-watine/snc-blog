@@ -3,7 +3,7 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.14.3
+Version: 1.14.4
 */
 @font-face {
   font-family: 'Lato';
@@ -38,7 +38,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Lato', Arial, sans-serif;
-  background: #f4f4f4;
+  background: #ebebeb;
   color: #0a0a0a;
   line-height: 1.5;
   font-weight: normal;
@@ -53,8 +53,7 @@ h5,
 h6 {
   line-height: 1.2;
   margin: 0 0 8px;
-  padding-top: 18px;
-  color: inherit; }
+  padding-top: 18px; }
 
 h1 {
   font-size: 40px; }
@@ -76,7 +75,7 @@ h6 {
   font-size: 14px;
   font-weight: normal; }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 40rem) {
   h1,
   h2,
   h3,
@@ -102,7 +101,6 @@ p {
   padding: 0; }
 
 a {
-  padding-bottom: 4px;
   color: #1779ba;
   text-decoration: none;
   background-color: transparent;
@@ -446,7 +444,7 @@ template {
   margin-top: 0; }
 
 .entry__title {
-  word-wrap: break-word; }
+  overflow-wrap: break-word; }
 
 h2.entry__title {
   padding: 0; }
@@ -465,12 +463,6 @@ h2.entry__title {
 .page .entry__info .entry__meta {
   margin: 8px 0;
   color: #fff; }
-
-.home .entry__content p,
-.archive .entry__content p,
-.search .entry__content p {
-  word-wrap: break-word;
-  overflow-wrap: break-word; }
 
 .single-post .entry,
 .page .entry {
@@ -525,7 +517,6 @@ h2.entry__title {
   margin-top: 10px; }
 
 .page-title {
-  word-wrap: break-word;
   overflow-wrap: break-word; }
 
 .search .entry__content {
@@ -603,7 +594,7 @@ form[role='search'] .search-submit:hover {
   margin-left: 20px; }
 
 .entry__content p {
-  word-wrap: break-word; }
+  overflow-wrap: break-word; }
 
 .entry__content img {
   max-width: 96%;
@@ -728,161 +719,6 @@ figure.alignright,
 .entry__content li ul,
 .entry__content li ol {
   margin-top: 8px; }
-
-.comments {
-  display: block;
-  width: 96%;
-  max-width: 700px;
-  margin: 40px auto 0; }
-
-.comments textarea {
-  width: 100%; }
-
-.comments__title {
-  font-size: 16px; }
-
-.comments__list {
-  margin-left: 0;
-  padding: 0; }
-
-.comments__list li {
-  list-style: none; }
-
-.comment {
-  list-style: none;
-  margin-top: 20px;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background: #fff; }
-
-@media only screen and (min-width: 40rem) {
-  .comment {
-    padding: 24px; } }
-
-.comment .children {
-  padding: 0; }
-
-.comment.depth-2,
-.comment.depth-4 {
-  background: #fafafa; }
-
-.comment.depth-3,
-.comment.depth-5 {
-  background: #fff; }
-
-.comment table {
-  margin-top: 40px;
-  width: 96%;
-  margin: 0 auto;
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-.comment th,
-.comment td {
-  padding: 10px;
-  border: 1px solid #ccc; }
-
-.comment th {
-  background-color: #eee; }
-
-.comment dl {
-  margin-top: 40px;
-  font-size: 16px; }
-
-.comment dt {
-  margin-top: 20px; }
-
-.comment dd {
-  margin-left: 20px; }
-
-.comment ul {
-  margin-top: 40px;
-  padding-left: 20px; }
-
-.comment ul li {
-  margin-top: 8px;
-  list-style: disc;
-  font-size: 16px; }
-
-.comment ol {
-  margin-top: 40px;
-  padding-left: 20px; }
-
-.comment ol li {
-  margin-top: 8px;
-  list-style: decimal;
-  font-size: 16px; }
-
-.comment ol.children li {
-  list-style: none; }
-
-.comment li ul,
-.comment li ol {
-  margin-top: 8px; }
-
-.comment blockquote {
-  position: relative;
-  display: block;
-  width: 96%;
-  padding: 20px;
-  margin: 0 auto;
-  border-radius: 5px;
-  font-size: 14px;
-  margin-top: 40px;
-  background-color: #eee; }
-
-.comment blockquote::before {
-  content: '“';
-  font-size: 50px;
-  line-height: 1em;
-  font-family: sans-serif;
-  color: #fff;
-  position: absolute;
-  left: 10px;
-  top: 10px; }
-
-.comment blockquote p,
-.comment blockquote h1,
-.comment blockquote h2,
-.comment blockquote h3,
-.comment blockquote h4,
-.comment blockquote h5,
-.comment blockquote h6,
-.comment blockquote ul,
-.comment blockquote ol,
-.comment blockquote dl,
-.comment blockquote table {
-  margin: 0; }
-
-.comment pre {
-  width: 100%;
-  padding: 10px; }
-
-.comment p {
-  margin-top: 20px;
-  font-size: 16px; }
-
-.pingback {
-  margin-top: 8px; }
-
-.comment-notes {
-  margin: 20px 0 10px; }
-
-.required {
-  color: #f00; }
-
-.comment-form-comment,
-.comment-form-author,
-.comment-form-email,
-.comment-form-url {
-  margin: 20px 0 0; }
-
-.comment-form-comment label,
-.comment-form-author label,
-.comment-form-email label,
-.comment-form-url label {
-  display: block; }
 
 .single-post .entry__content,
 .page .entry__content {
@@ -1327,24 +1163,6 @@ figure.alignright,
     color: #5ac8fa; }
     a:hover, a:focus {
       color: #5ac8fa; }
-  .comment {
-    border: 1px solid #222;
-    border-radius: 4px;
-    background: #2b2c2e; }
-  .comment.depth-2,
-  .comment.depth-4 {
-    background: #4a4a4d; }
-  .comment.depth-3,
-  .comment.depth-5 {
-    background: #2b2c2e; }
-  input[name='submit'] {
-    background: #5ac8fa;
-    color: #333;
-    border-radius: 4px; }
-  textarea {
-    background: #4a4a4d;
-    color: #fff;
-    border-radius: 4px; }
   .entry__content blockquote {
     background-color: #2b2c2e; }
   .entry__content blockquote::before {
@@ -1366,6 +1184,181 @@ figure.alignright,
     border-color: #5ac8fa; }
   .nav-next a::after {
     border-color: #5ac8fa; } }
+
+.comments {
+  display: block;
+  width: 96%;
+  max-width: 700px;
+  margin: 40px auto 0; }
+
+.comments textarea {
+  width: 100%; }
+
+.comments__title {
+  font-size: 16px; }
+
+.comments__list {
+  margin-left: 0;
+  padding: 0; }
+
+.comments__list li {
+  list-style: none; }
+
+.comment {
+  list-style: none;
+  margin-top: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff; }
+
+@media only screen and (min-width: 40rem) {
+  .comment {
+    padding: 24px; } }
+
+.comment .children {
+  padding: 0; }
+
+.comment.depth-2,
+.comment.depth-4 {
+  background: #fafafa; }
+
+.comment.depth-3,
+.comment.depth-5 {
+  background: #fff; }
+
+.comment table {
+  margin-top: 40px;
+  width: 96%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.comment th,
+.comment td {
+  padding: 10px;
+  border: 1px solid #ccc; }
+
+.comment th {
+  background-color: #eee; }
+
+.comment dl {
+  margin-top: 40px;
+  font-size: 16px; }
+
+.comment dt {
+  margin-top: 20px; }
+
+.comment dd {
+  margin-left: 20px; }
+
+.comment ul {
+  margin-top: 40px;
+  padding-left: 20px; }
+
+.comment ul li {
+  margin-top: 8px;
+  list-style: disc;
+  font-size: 16px; }
+
+.comment ol {
+  margin-top: 40px;
+  padding-left: 20px; }
+
+.comment ol li {
+  margin-top: 8px;
+  list-style: decimal;
+  font-size: 16px; }
+
+.comment ol.children li {
+  list-style: none; }
+
+.comment li ul,
+.comment li ol {
+  margin-top: 8px; }
+
+.comment blockquote {
+  position: relative;
+  display: block;
+  width: 96%;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 40px;
+  background-color: #eee; }
+
+.comment blockquote::before {
+  content: '“';
+  font-size: 50px;
+  line-height: 1em;
+  font-family: sans-serif;
+  color: #fff;
+  position: absolute;
+  left: 10px;
+  top: 10px; }
+
+.comment blockquote p,
+.comment blockquote h1,
+.comment blockquote h2,
+.comment blockquote h3,
+.comment blockquote h4,
+.comment blockquote h5,
+.comment blockquote h6,
+.comment blockquote ul,
+.comment blockquote ol,
+.comment blockquote dl,
+.comment blockquote table {
+  margin: 0; }
+
+.comment pre {
+  width: 100%;
+  padding: 10px; }
+
+.comment p {
+  margin-top: 20px;
+  font-size: 16px; }
+
+.pingback {
+  margin-top: 8px; }
+
+.comment-notes {
+  margin: 20px 0 10px; }
+
+.required {
+  color: #f00; }
+
+.comment-form-comment,
+.comment-form-author,
+.comment-form-email,
+.comment-form-url {
+  margin: 20px 0 0; }
+
+.comment-form-comment label,
+.comment-form-author label,
+.comment-form-email label,
+.comment-form-url label {
+  display: block; }
+
+@media (prefers-color-scheme: dark) {
+  .comment {
+    border: 1px solid #222;
+    border-radius: 4px;
+    background: #2b2c2e; }
+  .comment.depth-2,
+  .comment.depth-4 {
+    background: #4a4a4d; }
+  .comment.depth-3,
+  .comment.depth-5 {
+    background: #2b2c2e; }
+  input[name='submit'] {
+    background: #5ac8fa;
+    color: #333;
+    border-radius: 4px; }
+  textarea {
+    background: #4a4a4d;
+    color: #fff;
+    border-radius: 4px; } }
 
 .aligncenter {
   display: block;
