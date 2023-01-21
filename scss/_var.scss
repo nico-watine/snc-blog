@@ -45,10 +45,13 @@ $sncBlue: #566372;
 // -----------------------------------------------------------
 // |            Global Colors - color-scheme-dark            |
 // -----------------------------------------------------------
+$darkUI--articleBackground: #4a4a4d;
+$darkUI--bodyBackground: #323233;
 $darkUI--bodyFontColor: rgba(255,255,255,.78);
 $darkUI--linkBlue: #5ac8fa;
 $darkUI--linkBlue_hover: $darkUI--linkBlue;
 $darkUI--pColor: $darkUI--bodyFontColor;
+
 
 // --------------------------------------------
 // |            Element Color Vars            |
@@ -66,8 +69,6 @@ $commentColor_primary-dark: #2b2c2e;
 $commentColor_secondary-dark: #4a4a4d;
 $commentColorPrimary_csd: #2b2c2e;
 $commentColorSecondary_csd: #4a4a4d;
-$articleBG-dark: #4a4a4d;
-$pageBG-dark: #323233;
 
 
 // ----------------------------------------------
