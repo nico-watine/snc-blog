@@ -114,11 +114,12 @@ function modernize_scripts() {
 
   // wp_enqueue_style( 'modernize-style', $url . '/style.css' ); // null to prevent double reference of theme's style.css
 
-  if ( is_child_theme() ) {
-    wp_enqueue_style( get_stylesheet(), get_stylesheet_uri(), array( 'modernize-style' ), $version);
-  }
+  // null unknown code
+  // if ( is_child_theme() ) {
+  //   wp_enqueue_style( get_stylesheet(), get_stylesheet_uri(), array( 'modernize-style' ), $version);
+  // }
 
-  wp_enqueue_script( 'modernize-main', $url . '/js/bundle.js', array('jquery'), $version, true );
+  wp_enqueue_script( 'snc-blog', $url . '/js/bundle.js', array('jquery'), $version, true );
 
   if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
     wp_enqueue_script( 'comment-reply' );
