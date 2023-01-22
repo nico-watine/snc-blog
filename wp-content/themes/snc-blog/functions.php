@@ -16,6 +16,7 @@ if ( ! function_exists( 'snc_blog_setup' ) ) :
 function snc_blog_setup() {
 
   // Add default posts and comments RSS feed links to head.
+  // <link rel="alternate" type="application/rss+xml" title="Studio N Creations Blog &raquo; Feed" href="https://studioncreations.com/feed/" />
   add_theme_support( 'automatic-feed-links' );
 
   /*
