@@ -8,6 +8,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 - functions.php - Changed excerpt word count from 120 to 30
 
+### Added
+- Static page templates for Index and Our-Services
+
 ## [1.15.0]
 
 ### Removed
