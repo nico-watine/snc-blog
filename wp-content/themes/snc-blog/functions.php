@@ -92,11 +92,9 @@ function theme_customize_register($wp_customize) {
   ));
 }
 
-/*
- * Register excerpt length.
- */
+// Change default excerpt word count from 55 to 30
 function custom_excerpt_length( $length ) {
-  return 120;
+  return 30;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 

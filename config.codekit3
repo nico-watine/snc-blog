@@ -1482,6 +1482,14 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/wp-content\/themes\/snc-blog\/static-front-page.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/wp-content\/themes\/snc-blog\/static-front-page.php",
+      "oF" : 0
+    },
     "\/wp-content\/themes\/snc-blog\/style.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1540,6 +1548,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/wp-content\/themes\/snc-blog\/template-parts\/no-widget.php",
+      "oF" : 0
+    },
+    "\/wp-content\/themes\/snc-blog\/web-development-template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/wp-content\/themes\/snc-blog\/web-development-template.php",
       "oF" : 0
     }
   },
