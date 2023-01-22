@@ -86,7 +86,7 @@ function theme_customize_register($wp_customize) {
   ));
 }
 
-// Change default excerpt word count from 55 to 30
+/* Change default excerpt word count from 55 to 30 */
 function custom_excerpt_length( $length ) {
   return 30;
 }
