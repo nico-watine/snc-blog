@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Changed
 - `overflow-wrap:break-word` rule on various elements
+- Changed `code` within `figcaption` from bold to normal font-weight
 
 ## [1.16.0]
 
