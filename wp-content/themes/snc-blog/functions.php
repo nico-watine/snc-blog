@@ -15,26 +15,20 @@ if ( ! function_exists( 'snc_blog_setup' ) ) :
  */
 function snc_blog_setup() {
 
-  // Add default posts and comments RSS feed links to head.
-  // <link rel="alternate" type="application/rss+xml" title="Studio N Creations Blog &raquo; Feed" href="https://studioncreations.com/feed/" />
+  /* Add default posts and comments RSS feed links to head:
+     <link rel="alternate" type="application/rss+xml" title="Studio N Creations Blog &raquo; Feed" href="https://studioncreations.com/feed/" /> */
   add_theme_support( 'automatic-feed-links' );
 
-  /*
-   * Let WordPress manage the document title.
-   * By adding theme support, we declare that this theme does not use a
-   * hard-coded <title> tag in the document head, and expect WordPress to
-   * provide it for us.
-   */
+  /* Let WordPress manage the document title.
+     By adding theme support, we declare that this theme does not use a
+     hard-coded <title> tag in the document head, and expect WordPress to
+     provide it for us. */
   add_theme_support( 'title-tag' );
 
-  /*
-   * Enable support for Post Thumbnails (via Featured Image) on posts and pages.
-   */
+  /* Enable support for Post Thumbnails (via Featured Image) on posts and pages. */
   add_theme_support( 'post-thumbnails' );
 
-  /*
-   * This theme uses wp_nav_menu() in one location.
-   */
+  /* This theme uses wp_nav_menu() in one location. */
   register_nav_menus( array(
     'primary' => esc_html__( 'Primary', 'modernize' ),
   ) );
@@ -92,7 +86,7 @@ function theme_customize_register($wp_customize) {
   ));
 }
 
-// Change default excerpt word count from 55 to 30
+/* Change default excerpt word count from 55 to 30 */
 function custom_excerpt_length( $length ) {
   return 30;
 }

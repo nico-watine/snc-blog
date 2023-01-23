@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.17.0]
+
+### Added
+- `max-width: 100%` to `.entry__info` so that `overflow-wrap:break-word` on `.entry__title` functions correctly
+
+### Changed
+- `overflow-wrap:break-word` rule on various elements
+- Changed `code` within `figcaption` from bold to normal font-weight
+
 ## [1.16.0]
 
 ### Changed

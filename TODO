@@ -11,6 +11,8 @@ CSS:
 	☐  dark-scheme: slide out nav
 	☐  <footer> img scrim multiply like index
 	☐	<article> margin-bottom to increase space between tags-links and nav.post-navigation
+	✔	<figcaption> <code> make font-weight:normal (since figcaption is bold by default) @done (23-01-23 11:39)
+	✔	move overflow-wrap:break-word from .entry__content p to .entry__content? So that <h> also inherit the rule @done (23-01-23 11:38)
 
 Other:
 	✔  Review color contrast visual styles (not much difference between <body> and <entry>) @done (23-01-22 09:52)

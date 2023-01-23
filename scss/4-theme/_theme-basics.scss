@@ -255,6 +255,7 @@ h2.entry__title {
 	vertical-align: middle;
 	text-align: center;
 	background: rgba(0, 0, 0, .5);
+	max-width: 100%;
 }
 
 @media #{$minWidth-768} {
@@ -391,7 +392,7 @@ form[role='search'] .search-submit:hover {
 }
 
 .entry__content p {
-	overflow-wrap: break-word;
+	// overflow-wrap: break-word;
 }
 
 .entry__content img {
