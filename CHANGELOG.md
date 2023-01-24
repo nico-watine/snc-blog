@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Changed
 - CSS - changed `<footer>` background scrim to multiply
+- footer.php - simplified div markup of `.colophon`
 
 ## [1.17.0]
 
