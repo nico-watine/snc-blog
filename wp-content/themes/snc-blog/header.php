@@ -21,9 +21,9 @@
 		<?php the_custom_logo(); ?>
 		<?php
 		if ( is_front_page() && is_home() ) : ?>
-			<h1 class="monospace header__title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h1 class="monospace header__title"><a href="https://studioncreations.com/blog/" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 		<?php else : ?>
-			<p class="monospace header__title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+			<p class="monospace header__title"><a href="https://studioncreations.com/blog/" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 		<?php
 		endif;
 
