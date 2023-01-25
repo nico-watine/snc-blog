@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.19.0]
+
+### Added
+- functions.php - added function to dequeue `jquery-migrate.js` from loading in `<head>`
+
 ## [1.18.0]
 
 ### Changed
