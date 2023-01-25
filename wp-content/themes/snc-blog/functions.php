@@ -92,6 +92,7 @@ function custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
+/* Set text-overflow of excerpts to ellipsis "…" */
 function wpdocs_excerpt_more( $more ) {
   return '[&hellip;]';
 }
