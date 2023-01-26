@@ -3,7 +3,7 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.21.0
+Version: 1.21.0a1
 */
 @font-face {
   font-family: 'Lato';
@@ -503,8 +503,7 @@ h2.entry__title {
 
 .single-post .entry__info a:hover,
 .page .entry__info a:hover {
-  color: #fff;
-  text-decoration: none; }
+  text-decoration-thickness: 2px; }
 
 .single-post .entry__footer,
 .page .entry__footer {

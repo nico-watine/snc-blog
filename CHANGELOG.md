@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Added
 - CSS - added `text-underline-offset` and `text-decoration-thickness` to `<a>` for better `:hover` styles
+- CSS - tweak post meta author `a:hover` styles
 
 ## [1.20.0]
 
