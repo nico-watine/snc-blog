@@ -868,8 +868,6 @@ figure.alignright,
   border-radius: 3px;
   background: #333;
   color: #fff; }
-  .entry__featured svg.icon {
-    display: none; }
 
 .single-post .entry__featured,
 .page .entry__featured {
