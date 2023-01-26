@@ -9,6 +9,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - CSS - added `text-underline-offset` and `text-decoration-thickness` to `<a>` for better `:hover` styles
 - CSS - tweak post meta author `a:hover` styles
 
+### Removed
+- `content.php` - removed the `<span>` that wraps the "Featured" tag and also the `svg` contained within
+
 ## [1.20.0]
 
 ### Changed
