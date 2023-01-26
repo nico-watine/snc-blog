@@ -212,6 +212,11 @@
 
 h2.entry__title {
 	padding: 0;
+
+	a {
+		text-decoration-thickness: auto;
+		text-underline-offset: auto;
+	}
 }
 
 .entry__thumb + .entry__info {

@@ -450,6 +450,9 @@ template {
 
 h2.entry__title {
   padding: 0; }
+  h2.entry__title a {
+    text-decoration-thickness: auto;
+    text-underline-offset: auto; }
 
 .entry__thumb + .entry__info {
   margin-top: 16px; }
