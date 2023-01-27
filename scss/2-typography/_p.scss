@@ -1,8 +1,10 @@
 p {
 	font-size: 18px;
+	font-size: rem-calc(18);
 	line-height: 1.6;
 	margin-top: 0;
 	margin-bottom: 18px;
+	margin-bottom: rem-calc(18);
 	color: $pColor;
 	padding: 0;
 }

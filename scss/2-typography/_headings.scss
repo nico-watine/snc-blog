@@ -11,27 +11,33 @@ h6 {
 
 h1 {
 	font-size: 40px;
+	font-size: rem-calc(40);
 }
 
 h2 {
 	font-size: 31px;
+	font-size: rem-calc(31);
 }
 
 h3 {
 	font-size: 25px;
+	font-size: rem-calc(25);
 }
 
 h4 {
 	font-size: 20px;
+	font-size: rem-calc(20);
 }
 
 h5 {
 	font-size: 16px;
+	font-size: rem-calc(16);
 	font-weight: normal;
 }
 
 h6 {
 	font-size: 14px;
+	font-size: rem-calc(14);
 	font-weight: normal;
 }
 
@@ -46,14 +52,18 @@ h6 {
 	}
 	h1 {
 		font-size: 48px;
+		font-size: rem-calc(48);
 	}
 	h2 {
 		font-size: 40px;
+		font-size: rem-calc(40);
 	}
 	h3 {
 		font-size: 31px;
+		font-size: rem-calc(31);
 	}
 	h4 {
 		font-size: 25px;
+		font-size: rem-calc(25);
 	}
 }
