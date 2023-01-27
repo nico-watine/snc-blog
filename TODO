@@ -3,8 +3,8 @@ Blog CSS:
 	☐  Confirm accurate styles
 
 CSS:
-	☐  standardize all <a> styles
-	☐	<a> text-underline-offset
+	✔  standardize all <a> styles @done (23-01-26 21:57)
+	✔	<a> text-underline-offset @done (23-01-26 21:57)
 	✔  Review "overflow-wrap:break-word" CSS styles @done (23-01-23 19:29)
 	✔	Change all word-wrap to overflow-wrap @done (23-01-18 10:30)
 	☐  what are the .mdr-column and .mdr-tile classes?
@@ -21,6 +21,7 @@ Other:
 	☐  just have img and not srcset on main blog roll?
 	✔  font-smoothing:antialiased for hidpi screens only? @done (23-01-23 19:29)
 	✔	Remove jquery-migrate from <head>? @done (23-01-25 11:20)
+	☐	Remove author URL bc shows login name
 
 Sketch Doc:
 	☐	Define color variables by color or element?
