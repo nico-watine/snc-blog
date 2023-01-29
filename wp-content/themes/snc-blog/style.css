@@ -777,7 +777,7 @@ figure.alignright,
 
 .nav-previous a,
 .nav-next a {
-  padding: 0 0.625rem 0 0.9375rem; }
+  padding: 0 1rem; }
 
 .nav-previous {
   vertical-align: middle;
