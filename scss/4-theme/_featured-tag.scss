@@ -3,8 +3,8 @@
 // On the main index blog roll
 .entry__featured {
 	display: inline-block;
-	padding: 2px 8px;
-	border-radius: 3px;
+	padding: rem-calc(2 8);
+	border-radius: rem-calc(4);
 	background: #333;
 	color: #fff;
 }
@@ -12,7 +12,7 @@
 // In the article hero banner of a single post page
 .single-post .entry__featured,
 .page .entry__featured {
-	margin-bottom: 16px;
+	margin-bottom: rem-calc(16);
 	background: #fff;
 	color: #000;
 }

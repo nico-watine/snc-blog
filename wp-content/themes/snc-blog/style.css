@@ -878,14 +878,14 @@ figure.alignright,
 
 .entry__featured {
   display: inline-block;
-  padding: 2px 8px;
-  border-radius: 3px;
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.25rem;
   background: #333;
   color: #fff; }
 
 .single-post .entry__featured,
 .page .entry__featured {
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   background: #fff;
   color: #000; }
 
