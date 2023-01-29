@@ -7,7 +7,7 @@
 	align-items: center;
 	width: 100%;
 	height: 60px;
-	background-color: #566372;
+	background-color: $sncBlue;
 	box-shadow: $z-1;
 	padding-left: env(safe-area-inset-left);
 	padding-right: env(safe-area-inset-right);
@@ -21,24 +21,24 @@
 
 // ---------------------------------------------------------------------- //
 
-// "STUDIO N CREATIONS" <h1>
+// "STUDIO N CREATIONS BLOG" <p>
 .header__title {
 	line-height: 1.2;
 	display: inline-block;
-	margin: 0 0 0 8px;
+	margin: 0 0 0 rem-calc(8);
 	font-size: 22px;
 	font-weight: 700;
 }
 
 @media #{$minWidth-1024} {
 	.header__title {
-		margin: 0 0 0 24px;
+		margin: 0 0 0 rem-calc(24);
 	}
 }
 
 // ---------------------------------------------------------------------- //
 
-// "STUDIO N CREATIONS" <h1> <a> /blog link
+// "STUDIO N CREATIONS BLOG" <p> <a> /blog link
 .header a {
 	color: #fff;
 	line-height: 1.2;
@@ -62,8 +62,8 @@
 @media #{$minWidth-640} {
 	.header__description {
 		display: inline-block;
-		margin: 0 0 0 12px;
-		font-size: 12px;
+		margin: 0 0 0 rem-calc(12);
+		font-size: 14px;
 	}
 }
 
