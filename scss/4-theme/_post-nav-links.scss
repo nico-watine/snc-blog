@@ -1,5 +1,17 @@
 // "< Previous | Next >" post/page navigation
 
+.posts-navigation {
+	margin-top: rem-calc(40);
+}
+
+.single-post .post-navigation,
+.page .post-navigation {
+	display: block;
+	width: 90%;
+	max-width: rem-calc(700);
+	margin: rem-calc(40) auto 0;
+}
+
 .nav-links {
 	display: flex;
 	align-items: center;
@@ -31,7 +43,7 @@
 
 .nav-previous a,
 .nav-next a {
-	padding: rem-calc(0 10 0 15);
+	padding: rem-calc(0 16);
 }
 
 .nav-previous {

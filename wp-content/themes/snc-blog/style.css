@@ -3,7 +3,7 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.22.0
+Version: 1.23.0
 */
 @font-face {
   font-family: 'Lato';
@@ -523,7 +523,8 @@ h2.entry__title {
 .single-post .entry__footer,
 .page .entry__footer {
   display: block;
-  width: 96%;
+  width: 90%;
+  padding: 0 1rem 2.5rem;
   max-width: 43.75rem;
   margin: 2.5rem auto 0; }
 
@@ -586,16 +587,6 @@ form[role='search'] .search-submit {
 
 form[role='search'] .search-submit:hover {
   cursor: pointer; }
-
-.posts-navigation {
-  margin-top: 2.5rem; }
-
-.single-post .post-navigation,
-.page .post-navigation {
-  display: block;
-  width: 96%;
-  max-width: 43.75rem;
-  margin: 2.5rem auto 0; }
 
 .entry__content table {
   margin: 0 auto; }
@@ -749,6 +740,16 @@ figure.alignright,
     .update-label::before {
       content: "| \00a0"; } }
 
+.posts-navigation {
+  margin-top: 2.5rem; }
+
+.single-post .post-navigation,
+.page .post-navigation {
+  display: block;
+  width: 90%;
+  max-width: 43.75rem;
+  margin: 2.5rem auto 0; }
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -776,7 +777,7 @@ figure.alignright,
 
 .nav-previous a,
 .nav-next a {
-  padding: 0 0.625rem 0 0.9375rem; }
+  padding: 0 1rem; }
 
 .nav-previous {
   vertical-align: middle;
