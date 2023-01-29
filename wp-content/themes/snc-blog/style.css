@@ -707,15 +707,15 @@ figure.alignright,
 .entry__content ul,
 .entry__content ol {
   padding: 0 0 0 20px;
-  margin: 1em 0; }
+  margin: 1rem 0; }
 
 .entry__content ul li,
 .entry__content ol li {
-  margin-top: 6px; }
+  margin-top: 0.375rem; }
 
 .entry__content li ul,
 .entry__content li ol {
-  margin-top: 8px; }
+  margin-top: 0.5rem; }
 
 .single-post .entry__content,
 .page .entry__content {
