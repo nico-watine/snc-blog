@@ -22,8 +22,8 @@
 	// © STUDIO N CREATIONS
 	.colophon {
 		text-transform: uppercase;
-		letter-spacing: 1.5px;
-		font-size: 14px;
+		letter-spacing: rem-calc(1.5);
+		font-size: rem-calc(15);
 		position: relative;
 		z-index: 10;
 	}

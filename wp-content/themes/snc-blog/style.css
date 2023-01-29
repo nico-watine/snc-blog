@@ -1138,8 +1138,8 @@ figure.alignright,
     mix-blend-mode: multiply; }
   .footer .colophon {
     text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-size: 14px;
+    letter-spacing: 0.09375rem;
+    font-size: 0.9375rem;
     position: relative;
     z-index: 10; }
 
