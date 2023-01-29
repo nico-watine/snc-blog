@@ -745,11 +745,11 @@ figure.alignright,
 .publised-label span,
 .update-label time,
 .update-label span {
-  margin-left: 4px; }
+  margin-left: 0.25rem; }
 
 @media only screen and (min-width: 40rem) {
   .update-label {
-    margin-left: 4px; }
+    margin-left: 0.25rem; }
     .update-label::before {
       content: "| \00a0"; } }
 
