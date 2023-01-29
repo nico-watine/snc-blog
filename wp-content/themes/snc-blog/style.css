@@ -125,8 +125,8 @@ a:hover,
 a:focus {
   color: #1468a0;
   text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px; }
+  text-decoration-thickness: 0.125rem;
+  text-underline-offset: 0.25rem; }
 
 .monospace {
   font-family: 'Source Code Pro', monospace;
