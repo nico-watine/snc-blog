@@ -907,13 +907,13 @@ figure.alignright,
 .header__title {
   line-height: 1.2;
   display: inline-block;
-  margin: 0 0 0 8px;
+  margin: 0 0 0 0.5rem;
   font-size: 22px;
   font-weight: 700; }
 
 @media only screen and (min-width: 64rem) {
   .header__title {
-    margin: 0 0 0 24px; } }
+    margin: 0 0 0 1.5rem; } }
 
 .header a {
   color: #fff;
@@ -931,7 +931,7 @@ figure.alignright,
 @media only screen and (min-width: 40rem) {
   .header__description {
     display: inline-block;
-    margin: 0 0 0 12px;
+    margin: 0 0 0 0.75rem;
     font-size: 14px; } }
 
 .headroom {

@@ -25,14 +25,14 @@
 .header__title {
 	line-height: 1.2;
 	display: inline-block;
-	margin: 0 0 0 8px;
+	margin: 0 0 0 rem-calc(8);
 	font-size: 22px;
 	font-weight: 700;
 }
 
 @media #{$minWidth-1024} {
 	.header__title {
-		margin: 0 0 0 24px;
+		margin: 0 0 0 rem-calc(24);
 	}
 }
 
@@ -62,7 +62,7 @@
 @media #{$minWidth-640} {
 	.header__description {
 		display: inline-block;
-		margin: 0 0 0 12px;
+		margin: 0 0 0 rem-calc(12);
 		font-size: 14px;
 	}
 }
