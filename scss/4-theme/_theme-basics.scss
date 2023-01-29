@@ -363,18 +363,6 @@ form[role='search'] .search-submit:hover {
 	cursor: pointer;
 }
 
-.posts-navigation {
-	margin-top: rem-calc(40);
-}
-
-.single-post .post-navigation,
-.page .post-navigation {
-	display: block;
-	width: 96%;
-	max-width: rem-calc(700);
-	margin: rem-calc(40) auto 0;
-}
-
 .entry__content table {
 	margin: 0 auto;
 }

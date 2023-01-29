@@ -588,16 +588,6 @@ form[role='search'] .search-submit {
 form[role='search'] .search-submit:hover {
   cursor: pointer; }
 
-.posts-navigation {
-  margin-top: 2.5rem; }
-
-.single-post .post-navigation,
-.page .post-navigation {
-  display: block;
-  width: 96%;
-  max-width: 43.75rem;
-  margin: 2.5rem auto 0; }
-
 .entry__content table {
   margin: 0 auto; }
 
@@ -749,6 +739,16 @@ figure.alignright,
     margin-left: 0.25rem; }
     .update-label::before {
       content: "| \00a0"; } }
+
+.posts-navigation {
+  margin-top: 2.5rem; }
+
+.single-post .post-navigation,
+.page .post-navigation {
+  display: block;
+  width: 90%;
+  max-width: 43.75rem;
+  margin: 2.5rem auto 0; }
 
 .nav-links {
   display: flex;
