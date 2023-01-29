@@ -524,7 +524,7 @@ h2.entry__title {
 .page .entry__footer {
   display: block;
   width: 90%;
-  padding: 0 1rem;
+  padding: 0 1rem 2.5rem;
   max-width: 43.75rem;
   margin: 2.5rem auto 0; }
 
