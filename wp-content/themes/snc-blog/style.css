@@ -989,9 +989,6 @@ figure.alignright,
   width: 100%;
   border-bottom: 1px solid #ccc; }
 
-.gnav li.current-menu-item > a {
-  color: #1779ba; }
-
 .gnav a {
   display: block;
   padding: 14px 10px;
@@ -1000,6 +997,9 @@ figure.alignright,
 .gnav a:hover {
   color: #1468a0;
   text-decoration: underline; }
+
+.gnav li.current-menu-item > a {
+  color: #1779ba; }
 
 .sub-menu {
   display: block; }
@@ -1031,7 +1031,7 @@ figure.alignright,
 
 @media only screen and (min-width: 64rem) {
   .toggle-btn {
-    margin-right: 24px; } }
+    margin-right: 1.5rem; } }
 
 .toggle-btn:focus {
   box-shadow: none; }

@@ -49,10 +49,7 @@
 	border-bottom: 1px solid #ccc;
 }
 
-.gnav li.current-menu-item > a {
-	color: #1779ba;
-}
-
+// About / Services / Blog Roll / Newsletter
 .gnav a {
 	display: block;
 	padding: 14px 10px;
@@ -62,6 +59,11 @@
 .gnav a:hover {
 	color: #1468a0;
 	text-decoration: underline;
+}
+
+// If Blog Roll or Newsletter is the active page, make menu item blue
+.gnav li.current-menu-item > a {
+	color: #1779ba;
 }
 
 // ---------------------------------------------------------------------- //
@@ -103,7 +105,7 @@
 
 @media #{$minWidth-1024} {
 	.toggle-btn {
-		margin-right: 24px;
+		margin-right: rem-calc(24);
 	}
 }
 
