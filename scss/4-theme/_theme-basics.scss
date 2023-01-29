@@ -7,7 +7,6 @@
 @media #{$minWidth-640} {
 	.site-content {
 		width: 96%;
-		max-width: 700px;
 		max-width: rem-calc(700);
 	}
 }
@@ -54,7 +53,7 @@
 .single-post .secondary,
 .page .secondary {
 	width: 96%;
-	max-width: 700px;
+	max-width: rem-calc(700)
 }
 
 .error404 .primary {
@@ -99,7 +98,7 @@
 .entry__footer .tags-links {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 8px;
+	margin-top: rem-calc(8);
 }
 
 .entry__footer .post-categories {
@@ -279,14 +278,14 @@ h2.entry__title {
 
 .single-post .entry__info a:hover,
 .page .entry__info a:hover {
-	text-decoration-thickness: 2px;
+	text-decoration-thickness: rem-calc(2);
 }
 
 .single-post .entry__footer,
 .page .entry__footer {
 	display: block;
 	width: 96%;
-	max-width: 700px;
+	max-width: rem-calc(700);
 	margin: rem-calc(40) auto 0;
 }
 

@@ -302,7 +302,6 @@ template {
 @media only screen and (min-width: 40rem) {
   .site-content {
     width: 96%;
-    max-width: 700px;
     max-width: 43.75rem; } }
 
 .primary {
@@ -339,7 +338,7 @@ template {
 .single-post .secondary,
 .page .secondary {
   width: 96%;
-  max-width: 700px; }
+  max-width: 43.75rem; }
 
 .error404 .primary {
   height: 350px;
@@ -376,7 +375,7 @@ template {
 .entry__footer .tags-links {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 8px; }
+  margin-top: 0.5rem; }
 
 .entry__footer .post-categories {
   display: inline-block;
@@ -519,13 +518,13 @@ h2.entry__title {
 
 .single-post .entry__info a:hover,
 .page .entry__info a:hover {
-  text-decoration-thickness: 2px; }
+  text-decoration-thickness: 0.125rem; }
 
 .single-post .entry__footer,
 .page .entry__footer {
   display: block;
   width: 96%;
-  max-width: 700px;
+  max-width: 43.75rem;
   margin: 2.5rem auto 0; }
 
 .single-post .posted-on,
