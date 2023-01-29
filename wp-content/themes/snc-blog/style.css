@@ -993,10 +993,9 @@ figure.alignright,
   display: block;
   padding: 14px 10px;
   color: #0a0a0a; }
-
-.gnav a:hover {
-  color: #1468a0;
-  text-decoration: underline; }
+  .gnav a:hover {
+    color: #1468a0;
+    text-decoration: underline; }
 
 .gnav li.current-menu-item > a {
   color: #1779ba; }
