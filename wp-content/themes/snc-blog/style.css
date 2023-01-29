@@ -523,7 +523,8 @@ h2.entry__title {
 .single-post .entry__footer,
 .page .entry__footer {
   display: block;
-  width: 96%;
+  width: 90%;
+  padding: 0 1rem;
   max-width: 43.75rem;
   margin: 2.5rem auto 0; }
 

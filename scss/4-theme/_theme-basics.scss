@@ -284,7 +284,8 @@ h2.entry__title {
 .single-post .entry__footer,
 .page .entry__footer {
 	display: block;
-	width: 96%;
+	width: 90%;
+	padding: 0 rem-calc(16);
 	max-width: rem-calc(700);
 	margin: rem-calc(40) auto 0;
 }
