@@ -9,4 +9,6 @@ a:hover,
 a:focus {
 	color: $linkBlue_hover;
 	text-decoration: underline;
+	text-decoration-thickness: rem-calc(2);
+	text-underline-offset: rem-calc(4);
 }

@@ -15,12 +15,12 @@
 .publised-label span,
 .update-label time,
 .update-label span {
-	margin-left: 4px;
+	margin-left: rem-calc(4);
 }
 
 @media #{$minWidth-640} {
 	.update-label {
-		margin-left: 4px;
+		margin-left: rem-calc(4);
 
 		&::before {
 			content: "| \00a0";

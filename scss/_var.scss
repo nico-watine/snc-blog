@@ -1,3 +1,11 @@
+// ----------------------------------------------
+// |            typography Variables            |
+// ----------------------------------------------
+$global-font-size: 100% !default;
+
+// Functions import necessary for rem-calc(X) usage:
+@import 'functions/_functions.scss';
+
 // ---------------------------------------
 // |            Media-Queries            |
 // ---------------------------------------
