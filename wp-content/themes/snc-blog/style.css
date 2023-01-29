@@ -700,7 +700,7 @@ figure.alignright,
 .entry__content figcaption {
   font-weight: bold;
   text-align: center;
-  font-size: 16px; }
+  font-size: 1rem; }
   .entry__content figcaption code {
     font-weight: normal; }
 
