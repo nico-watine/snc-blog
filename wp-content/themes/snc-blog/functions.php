@@ -54,10 +54,10 @@ add_action( 'after_setup_theme', 'snc_blog_setup' );
  * Priority 0 to make it available to lower priority callbacks.
  *
  */
-function modernize_content_width() {
-  $GLOBALS['content_width'] = apply_filters( 'modernize_content_width', 700 );
+function snc_content_width() {
+  $GLOBALS['content_width'] = apply_filters( 'snc_content_width', 700 );
 }
-add_action( 'after_setup_theme', 'modernize_content_width', 0 );
+add_action( 'after_setup_theme', 'snc_content_width', 0 );
 
 /**
  * Register widget area.
