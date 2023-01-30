@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.25.0]
+
+### Added
+- `functions.php` - add line back that was removed in v1.15.0 to enqueue style.css
+- child theme `functions.php` - tweaked line to import child CSS, but not double import of parent CSS
+
 ## [1.24.0]
 
 ### Changed

@@ -32,3 +32,18 @@ function remove_jquery_migrate( $scripts ) {
   }
 }
 add_action( 'wp_default_scripts', 'remove_jquery_migrate' );
+
+// Enqueue child style css via parent functions.php
+function snc_blog_scripts() {
+  $url = get_template_directory_uri();
+  $theme   = wp_get_theme();
+  $version = $theme->get( 'Version' );
+
+  wp_enqueue_style( 'snc-blog', $url . '/style.css' );
+
+  // This is the line that imports the child css via the parent theme functions.php
+  if ( is_child_theme() ) {
+    wp_enqueue_style( get_stylesheet(), get_stylesheet_uri(), array( 'snc-blog' ), $version);
+  }
+}
+add_action( 'wp_enqueue_scripts', 'snc_blog_scripts' );
