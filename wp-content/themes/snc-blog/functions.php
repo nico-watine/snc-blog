@@ -108,10 +108,6 @@ function snc_blog_scripts() {
 
   wp_enqueue_style( 'snc-blog', $url . '/style.css' );
 
-  // if ( is_child_theme() ) {
-  //   wp_enqueue_style( get_stylesheet(), get_stylesheet_uri(), array( 'snc-blog' ), $version);
-  // }
-
   wp_enqueue_script( 'snc-blog', $url . '/js/bundle.js', array('jquery'), $version, true );
 
   if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
