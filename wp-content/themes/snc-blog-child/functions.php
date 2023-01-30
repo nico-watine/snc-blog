@@ -1,14 +1,10 @@
 <?php
 
-add_action( 'wp_enqueue_scripts', 'snc_blog_child_enqueue_styles' );
-
 function snc_blog_child_enqueue_styles() {
-  wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-  wp_enqueue_style( 'child-style',
-    get_stylesheet_directory_uri() . '/style.css',
-    array('parent-style')
-  );
+  wp_enqueue_style( get_stylesheet(), get_stylesheet_uri(), array( 'snc-blog' ));
 }
+
+add_action( 'wp_enqueue_scripts', 'snc_blog_child_enqueue_styles' );
 
 // Remove emoji scripts and styles
 remove_action('wp_head', 'print_emoji_detection_script', 7 );
@@ -27,7 +23,8 @@ add_action('admin_head', 'custom_dashboard_css');
 function custom_dashboard_css() {
   // Hide all plugin registration notices after installing WP-Optimize Premium
   echo '<style>
-    .updated#udmupdater_not_connected {
+    .updated#udmupdater_not_connected,
+  .error.updraftmanagermessage {
       display: none !important;
       visibility: hidden !important;
     }

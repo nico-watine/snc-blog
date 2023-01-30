@@ -106,6 +106,8 @@ function snc_blog_scripts() {
   $theme   = wp_get_theme();
   $version = $theme->get( 'Version' );
 
+  wp_enqueue_style( 'snc-blog', $url . '/style.css' );
+
   wp_enqueue_script( 'snc-blog', $url . '/js/bundle.js', array('jquery'), $version, true );
 
   if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
