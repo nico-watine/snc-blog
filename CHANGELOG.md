@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.24.0]
+
+### Changed
+- CSS - `font-size` of `pre` and `code` from `px` to `rem`
+
 ## [1.23.0]
 
 ### Changed
