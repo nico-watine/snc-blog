@@ -98,9 +98,7 @@ function wpdocs_excerpt_more( $more ) {
 }
 add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 
-/**
- * Enqueue scripts and styles.
- */
+/* Load theme's CSS and JS files */
 function snc_blog_scripts() {
   $url = get_template_directory_uri();
   $theme   = wp_get_theme();
