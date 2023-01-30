@@ -1,10 +1,14 @@
 <?php
 
-function snc_blog_child_enqueue_styles() {
-  wp_enqueue_style( get_stylesheet(), get_stylesheet_uri(), array( 'snc-blog' ));
-}
-
 add_action( 'wp_enqueue_scripts', 'snc_blog_child_enqueue_styles' );
+
+function snc_blog_child_enqueue_styles() {
+  wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+  wp_enqueue_style( 'child-style',
+    get_stylesheet_directory_uri() . '/style.css',
+    array('parent-style')
+  );
+}
 
 // Remove emoji scripts and styles
 remove_action('wp_head', 'print_emoji_detection_script', 7 );
