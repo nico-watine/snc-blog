@@ -3,7 +3,7 @@
 add_action( 'wp_enqueue_scripts', 'snc_blog_child_enqueue_styles' );
 
 function snc_blog_child_enqueue_styles() {
-  wp_enqueue_style( 'child-style',
+  wp_enqueue_style( 'snc-blog-child',
     get_stylesheet_directory_uri() . '/style.css',
     array('snc-blog'),
     wp_get_theme()->get( 'Version' )
