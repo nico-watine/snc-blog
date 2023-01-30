@@ -5,7 +5,8 @@ add_action( 'wp_enqueue_scripts', 'snc_blog_child_enqueue_styles' );
 function snc_blog_child_enqueue_styles() {
   wp_enqueue_style( 'child-style',
     get_stylesheet_directory_uri() . '/style.css',
-    array('snc-blog')
+    array('snc-blog'),
+    wp_get_theme()->get( 'Version' ) // This only works if you have Version defined in the style header.
   );
 }
 
