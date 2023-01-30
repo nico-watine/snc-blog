@@ -30,7 +30,7 @@ function snc_blog_setup() {
 
   /* This theme uses wp_nav_menu() in one location. */
   register_nav_menus( array(
-    'primary' => esc_html__( 'Primary', 'modernize' ),
+    'primary' => esc_html__( 'Primary', 'snc-blog' ),
   ) );
 
   /*
@@ -54,10 +54,10 @@ add_action( 'after_setup_theme', 'snc_blog_setup' );
  * Priority 0 to make it available to lower priority callbacks.
  *
  */
-function modernize_content_width() {
-  $GLOBALS['content_width'] = apply_filters( 'modernize_content_width', 700 );
+function snc_content_width() {
+  $GLOBALS['content_width'] = apply_filters( 'snc_content_width', 700 );
 }
-add_action( 'after_setup_theme', 'modernize_content_width', 0 );
+add_action( 'after_setup_theme', 'snc_content_width', 0 );
 
 /**
  * Register widget area.
@@ -98,9 +98,7 @@ function wpdocs_excerpt_more( $more ) {
 }
 add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 
-/**
- * Enqueue scripts and styles.
- */
+/* Load theme's CSS and JS files */
 function snc_blog_scripts() {
   $url = get_template_directory_uri();
   $theme   = wp_get_theme();
