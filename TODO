@@ -7,7 +7,7 @@ CSS:
 	✔	<a> text-underline-offset @done (23-01-26 21:57)
 	✔  Review "overflow-wrap:break-word" CSS styles @done (23-01-23 19:29)
 	✔	Change all word-wrap to overflow-wrap @done (23-01-18 10:30)
-	☐  what are the .mdr-column and .mdr-tile classes?
+	✔  what are the .mdr-column and .mdr-tile classes? @done (23-01-29 18:26)
 	✔  font-size for pre code @done (23-01-29 18:10)
 	✔  dark-scheme: slide out nav @done (23-01-23 19:29)
 	✔  <footer> img scrim multiply like index @done (23-01-23 19:28)
