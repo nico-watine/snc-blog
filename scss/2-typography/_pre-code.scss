@@ -2,7 +2,7 @@ pre,
 code {
 	font-family: "Source Code Pro", monospace;
 	color: #fff;
-	border-radius: 4px;
+	border-radius: rem-calc(4);
 	-webkit-font-smoothing: auto;
 	background-color: #313942;
 }
@@ -10,18 +10,18 @@ code {
 pre {
 	display: block;
 	width: 96%;
-	padding: 16px;
+	padding: rem-calc(16);
 	word-wrap: break-word;
 	overflow: auto;
-	margin: 0 auto 18px;
+	margin: 0 auto rem-calc(18);
 
 	code {
-		font-size: 16px;
+		font-size: rem-calc(16);
 		padding: 0;
 	}
 }
 
 code {
 	font-size: 80%;
-	padding: 4px;
+	padding: rem-calc(4);
 }

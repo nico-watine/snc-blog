@@ -8,10 +8,10 @@ CSS:
 	✔  Review "overflow-wrap:break-word" CSS styles @done (23-01-23 19:29)
 	✔	Change all word-wrap to overflow-wrap @done (23-01-18 10:30)
 	☐  what are the .mdr-column and .mdr-tile classes?
-	☐  font-size for pre code
+	✔  font-size for pre code @done (23-01-29 18:10)
 	✔  dark-scheme: slide out nav @done (23-01-23 19:29)
 	✔  <footer> img scrim multiply like index @done (23-01-23 19:28)
-	☐	<article> margin-bottom to increase space between tags-links and nav.post-navigation
+	✔	<article> margin-bottom to increase space between tags-links and nav.post-navigation @done (23-01-29 18:05)
 	✔	<figcaption> <code> make font-weight:normal (since figcaption is bold by default) @done (23-01-23 11:39)
 	✔	move overflow-wrap:break-word from .entry__content p to .entry__content? So that <h> also inherit the rule @done (23-01-23 11:38)
 
