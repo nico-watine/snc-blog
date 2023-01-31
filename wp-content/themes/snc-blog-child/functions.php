@@ -1,7 +1,7 @@
 <?php
 
+/* Queue loading parent theme styles */
 add_action( 'wp_enqueue_scripts', 'snc_blog_child_enqueue_styles' );
-
 function snc_blog_child_enqueue_styles() {
   wp_enqueue_style( 'snc-blog-child',
     get_stylesheet_directory_uri() . '/style.css',
@@ -10,11 +10,10 @@ function snc_blog_child_enqueue_styles() {
   );
 }
 
-// Add Custom CSS to Admin Area
+/* Add Custom CSS to Admin Area */
 add_action('admin_head', 'custom_dashboard_css');
-
 function custom_dashboard_css() {
-  // Hide all plugin registration notices after installing WP-Optimize Premium
+  /* Hide all plugin registration notices after installing WP-Optimize Premium */
   echo '<style>
     .updated#udmupdater_not_connected,
   .error.updraftmanagermessage {
