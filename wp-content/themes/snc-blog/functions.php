@@ -48,12 +48,9 @@ function snc_blog_setup() {
 endif;
 add_action( 'after_setup_theme', 'snc_blog_setup' );
 
-/**
- * Set the content width in pixels, based on the theme's design and stylesheet.
- *
- * Priority 0 to make it available to lower priority callbacks.
- *
- */
+/* Set the content width in pixels, based on the theme's design and stylesheet.
+   Priority 0 to make it available to lower priority callbacks.
+   This is necessary for gfycat embeds to function. */
 function snc_content_width() {
   $GLOBALS['content_width'] = apply_filters( 'snc_content_width', 700 );
 }
