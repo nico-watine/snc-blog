@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.26.0]
+
+### Added
+- `functions.php` - added features from child theme functions (such as remove Wordpress Generator from head) that should really be in the parent theme
+
 ## [1.25.0]
 
 ### Added

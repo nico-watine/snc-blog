@@ -109,3 +109,21 @@ function remove_jquery_migrate( $scripts ) {
   }
 }
 add_action( 'wp_default_scripts', 'remove_jquery_migrate' );
+
+/* Remove emoji scripts and styles */
+remove_action('wp_head', 'print_emoji_detection_script', 7 );
+remove_action('admin_print_scripts', 'print_emoji_detection_script' );
+remove_action('wp_print_styles', 'print_emoji_styles' );
+remove_action('admin_print_styles', 'print_emoji_styles' );
+
+/* Remove WordPress Generator version number */
+remove_action('wp_head', 'wp_generator');
+
+/* Remove Windows Live Writer Manifest Link */
+remove_action('wp_head', 'wlwmanifest_link');
+
+/* Remove shortlink */
+remove_action('wp_head', 'wp_shortlink_wp_head', 10, 0);
+
+/* Remove various Wordpress dns-fetch */
+remove_action('wp_head', 'wp_resource_hints', 2, 99 );
