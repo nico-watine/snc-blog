@@ -13,10 +13,7 @@ function snc_blog_setup() {
      <link rel="alternate" type="application/rss+xml" title="Studio N Creations Blog &raquo; Feed" href="https://studioncreations.com/feed/" /> */
   add_theme_support( 'automatic-feed-links' );
 
-  /* Let WordPress manage the document title.
-     By adding theme support, we declare that this theme does not use a
-     hard-coded <title> tag in the document head, and expect WordPress to
-     provide it for us. */
+  /* Let WordPress manage the document title, rather than hard-coded <title> in <head>*/
   add_theme_support( 'title-tag' );
 
   /* Enable support for Post Thumbnails (via Featured Image) on posts and pages. */
