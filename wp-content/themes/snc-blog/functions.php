@@ -5,24 +5,16 @@
  * @package SNC Blog
  */
 
+add_action( 'after_setup_theme', 'snc_blog_setup' );
 if ( ! function_exists( 'snc_blog_setup' ) ) :
-/**
- * Sets up theme defaults and registers support for various WordPress features.
- *
- * Note that this function is hooked into the after_setup_theme hook, which
- * runs before the init hook. The init hook is too late for some features, such
- * as indicating support for post thumbnails.
- */
+/* Sets up theme defaults and registers support for various WordPress features */
 function snc_blog_setup() {
 
   /* Add default posts and comments RSS feed links to head:
      <link rel="alternate" type="application/rss+xml" title="Studio N Creations Blog &raquo; Feed" href="https://studioncreations.com/feed/" /> */
   add_theme_support( 'automatic-feed-links' );
 
-  /* Let WordPress manage the document title.
-     By adding theme support, we declare that this theme does not use a
-     hard-coded <title> tag in the document head, and expect WordPress to
-     provide it for us. */
+  /* Let WordPress manage the document title, rather than hard-coded <title> in <head>*/
   add_theme_support( 'title-tag' );
 
   /* Enable support for Post Thumbnails (via Featured Image) on posts and pages. */
@@ -33,10 +25,8 @@ function snc_blog_setup() {
     'primary' => esc_html__( 'Primary', 'snc-blog' ),
   ) );
 
-  /*
-   * Switch default core markup for search form, comment form, and comments
-   * to output valid HTML5.
-   */
+  /* Switch default core markup for search form, comment form, and
+     comments to output valid HTML5 */
   add_theme_support( 'html5', array(
     'search-form',
     'comment-form',
@@ -46,22 +36,17 @@ function snc_blog_setup() {
   ) );
 }
 endif;
-add_action( 'after_setup_theme', 'snc_blog_setup' );
 
-/**
- * Set the content width in pixels, based on the theme's design and stylesheet.
- *
- * Priority 0 to make it available to lower priority callbacks.
- *
- */
+/* Set the content width in pixels (700), based on the theme's design and stylesheet.
+   Priority 0 to make it available to lower priority callbacks.
+   This is necessary for gfycat embeds to function. */
+add_action( 'after_setup_theme', 'snc_content_width', 0 );
 function snc_content_width() {
   $GLOBALS['content_width'] = apply_filters( 'snc_content_width', 700 );
 }
-add_action( 'after_setup_theme', 'snc_content_width', 0 );
 
-/**
- * Register widget area.
- */
+/* Register widget area */
+add_action( 'widgets_init', 'modernize_widgets_init' );
 function modernize_widgets_init() {
   register_sidebar( array(
     'name'          => esc_html__( 'Sidebar', 'modernize' ),
@@ -73,11 +58,8 @@ function modernize_widgets_init() {
     'after_title'   => '</h2>',
   ) );
 }
-add_action( 'widgets_init', 'modernize_widgets_init' );
 
-/**
-* Register customize.
-*/
+/* Register customize */
 add_action( 'customize_register', 'theme_customize_register' );
 function theme_customize_register($wp_customize) {
   $wp_customize->add_section( 'article_column_section', array(
@@ -87,18 +69,19 @@ function theme_customize_register($wp_customize) {
 }
 
 /* Change default excerpt word count from 55 to 30 */
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 function custom_excerpt_length( $length ) {
   return 30;
 }
-add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 /* Set text-overflow of excerpts to ellipsis "…" */
+add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 function wpdocs_excerpt_more( $more ) {
   return '[&hellip;]';
 }
-add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 
 /* Load theme's CSS and JS files */
+add_action( 'wp_enqueue_scripts', 'snc_blog_scripts' );
 function snc_blog_scripts() {
   $url = get_template_directory_uri();
   $theme   = wp_get_theme();
@@ -112,14 +95,12 @@ function snc_blog_scripts() {
     wp_enqueue_script( 'comment-reply' );
   }
 }
-add_action( 'wp_enqueue_scripts', 'snc_blog_scripts' );
 
-/**
- * Custom template tags for this theme.
- */
+/* Custom template tags for this theme */
 require get_template_directory() . '/inc/template-tags.php';
 
 /* Remove JQuery migrate */
+add_action( 'wp_default_scripts', 'remove_jquery_migrate' );
 function remove_jquery_migrate( $scripts ) {
   if ( ! is_admin() && isset( $scripts->registered['jquery'] ) ) {
     $script = $scripts->registered['jquery'];
@@ -128,4 +109,21 @@ function remove_jquery_migrate( $scripts ) {
     }
   }
 }
-add_action( 'wp_default_scripts', 'remove_jquery_migrate' );
+
+/* Remove emoji scripts and styles */
+remove_action('wp_head', 'print_emoji_detection_script', 7 );
+remove_action('admin_print_scripts', 'print_emoji_detection_script' );
+remove_action('wp_print_styles', 'print_emoji_styles' );
+remove_action('admin_print_styles', 'print_emoji_styles' );
+
+/* Remove WordPress Generator version number */
+remove_action('wp_head', 'wp_generator');
+
+/* Remove Windows Live Writer Manifest Link */
+remove_action('wp_head', 'wlwmanifest_link');
+
+/* Remove shortlink */
+remove_action('wp_head', 'wp_shortlink_wp_head', 10, 0);
+
+/* Remove various Wordpress dns-fetch */
+remove_action('wp_head', 'wp_resource_hints', 2, 99 );
