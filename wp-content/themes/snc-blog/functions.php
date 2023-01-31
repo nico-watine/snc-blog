@@ -5,6 +5,7 @@
  * @package SNC Blog
  */
 
+add_action( 'after_setup_theme', 'snc_blog_setup' );
 if ( ! function_exists( 'snc_blog_setup' ) ) :
 /* Sets up theme defaults and registers support for various WordPress features */
 function snc_blog_setup() {
@@ -35,17 +36,17 @@ function snc_blog_setup() {
   ) );
 }
 endif;
-add_action( 'after_setup_theme', 'snc_blog_setup' );
 
 /* Set the content width in pixels (700), based on the theme's design and stylesheet.
    Priority 0 to make it available to lower priority callbacks.
    This is necessary for gfycat embeds to function. */
+add_action( 'after_setup_theme', 'snc_content_width', 0 );
 function snc_content_width() {
   $GLOBALS['content_width'] = apply_filters( 'snc_content_width', 700 );
 }
-add_action( 'after_setup_theme', 'snc_content_width', 0 );
 
 /* Register widget area */
+add_action( 'widgets_init', 'modernize_widgets_init' );
 function modernize_widgets_init() {
   register_sidebar( array(
     'name'          => esc_html__( 'Sidebar', 'modernize' ),
@@ -57,30 +58,30 @@ function modernize_widgets_init() {
     'after_title'   => '</h2>',
   ) );
 }
-add_action( 'widgets_init', 'modernize_widgets_init' );
 
 /* Register customize */
+add_action( 'customize_register', 'theme_customize_register' );
 function theme_customize_register($wp_customize) {
   $wp_customize->add_section( 'article_column_section', array(
     'title'          =>'Article Layout',
     'priority'       => 200,
   ));
 }
-add_action( 'customize_register', 'theme_customize_register' );
 
 /* Change default excerpt word count from 55 to 30 */
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 function custom_excerpt_length( $length ) {
   return 30;
 }
-add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 /* Set text-overflow of excerpts to ellipsis "…" */
+add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 function wpdocs_excerpt_more( $more ) {
   return '[&hellip;]';
 }
-add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 
 /* Load theme's CSS and JS files */
+add_action( 'wp_enqueue_scripts', 'snc_blog_scripts' );
 function snc_blog_scripts() {
   $url = get_template_directory_uri();
   $theme   = wp_get_theme();
@@ -94,12 +95,12 @@ function snc_blog_scripts() {
     wp_enqueue_script( 'comment-reply' );
   }
 }
-add_action( 'wp_enqueue_scripts', 'snc_blog_scripts' );
 
 /* Custom template tags for this theme */
 require get_template_directory() . '/inc/template-tags.php';
 
 /* Remove JQuery migrate */
+add_action( 'wp_default_scripts', 'remove_jquery_migrate' );
 function remove_jquery_migrate( $scripts ) {
   if ( ! is_admin() && isset( $scripts->registered['jquery'] ) ) {
     $script = $scripts->registered['jquery'];
@@ -108,7 +109,6 @@ function remove_jquery_migrate( $scripts ) {
     }
   }
 }
-add_action( 'wp_default_scripts', 'remove_jquery_migrate' );
 
 /* Remove emoji scripts and styles */
 remove_action('wp_head', 'print_emoji_detection_script', 7 );
