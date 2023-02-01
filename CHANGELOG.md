@@ -3,6 +3,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.27.0]
+
+### Removed
+- `header.php` - Removed `<meta http-equiv="x-ua-compatible" content="ie=edge">` line
+- `header.php` - Removed `<?php get_template_part('template-parts/svgpack-sprite'); ?>` since is obsolete partial and is unused
+- `header.php` - Removed function that adds obsolete `.col-` class to body content
+- `footer.php` - Removed lines regarding unused `nav.social-navigation`
+- `app.js` - Removed svg directory and social icon code reference 
+
+### Added
+- `header.php` - Added `<meta name="color-scheme" content="light dark">` line
+
+### Changed
+- `template-tags.php` & `style.css` - corrected label typo of `.publised` to `.published`
+
 ## [1.26.0]
 
 ### Added

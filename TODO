@@ -22,7 +22,7 @@ Other:
 	✔  font-smoothing:antialiased for hidpi screens only? @done (23-01-23 19:29)
 	✔	Remove jquery-migrate from <head>? @done (23-01-25 11:20)
 	☐	Remove author URL bc shows login name
-	☐	Fix ".publised-label" to ".published-label"
+	✔	Fix ".publised-label" to ".published-label" @done (23-02-01 10:49)
 
 Sketch Doc:
 	☐	Define color variables by color or element?

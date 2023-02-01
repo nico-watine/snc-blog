@@ -2,10 +2,10 @@
 <html prefix="og: http://ogp.me/ns#" lang="en-US">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<meta name="theme-color" content="#566372">
+  <meta name="color-scheme" content="light dark">
 
 	<?php wp_head(); ?>
 
@@ -13,17 +13,15 @@
 
 <body <?php body_class(); ?>>
 
-	<?php get_template_part('template-parts/svgpack-sprite'); ?>
-
 	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'modernize' ); ?></a>
 
 	<header id="header" class="header" role="banner">
 		<?php the_custom_logo(); ?>
 		<?php
 		if ( is_front_page() && is_home() ) : ?>
-			<h1 class="monospace header__title"><a href="https://studioncreations.com/blog/" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h1 class="monospace header__title"><a href="/blog/" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 		<?php else : ?>
-			<p class="monospace header__title"><a href="https://studioncreations.com/blog/" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+			<p class="monospace header__title"><a href="/blog/" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 		<?php
 		endif;
 
@@ -61,8 +59,4 @@
 		<?php endif; ?>
 	<?php endif; ?>
 
-	<?php
-		$columns = ' col-' . intval( get_theme_mod( 'article_column_options', '1' ) );
-	?>
-
-	<div id="content" class="site-content <?php echo $columns ?>">
+	<div id="content" class="site-content">

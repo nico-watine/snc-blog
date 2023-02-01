@@ -1,18 +1,18 @@
-.publised-label,
+.published-label,
 .update-label {
 	display: block;
 }
 
 @media #{$minWidth-640} {
-	.publised-label,
+	.published-label,
 	.update-label {
 		display: inline;
 	}
 }
 
 
-.publised-label time,
-.publised-label span,
+.published-label time,
+.published-label span,
 .update-label time,
 .update-label span {
 	margin-left: rem-calc(4);

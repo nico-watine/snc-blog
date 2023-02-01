@@ -12,14 +12,14 @@ if ( ! function_exists( 'modernize_posted_on' ) ) :
  * Prints HTML with meta information for the current post-date/time and author.
  */
 function modernize_posted_on() {
-	$time_string = '<span class="publised-label">Posted on<time class="entry-date published" datetime="%1$s">%2$s</time></span>';
+	$time_string = '<span class="published-label">Posted on<time class="entry-date published" datetime="%1$s">%2$s</time></span>';
 
 	$entry = get_the_date( 'Ymd' );
 	$modified = get_the_modified_date( 'Ymd' );
 
 	if ( $entry !== $modified ) {
 		$time_string = '
-		<span class="publised-label">Posted on<span>%2$s</span></span>
+		<span class="published-label">Posted on<span>%2$s</span></span>
 		<span class="update-label">Edit on<time class="updated" datetime="%3$s">%4$s</time></span>
 		';
 	}

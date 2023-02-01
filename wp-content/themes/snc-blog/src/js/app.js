@@ -23,33 +23,6 @@ $(() => {
     Drawer.close()
   }))
 
-  // sns icon
-  if ($('.social-navigation').length) {
-    const sns = [
-      '500px',
-      'codepen',
-      'dribbble',
-      'facebook',
-      'flickr',
-      'google',
-      'github',
-      'instagram',
-      'linkedin',
-      'npm',
-      'pinterest',
-      'tumblr',
-      'twitter',
-      'vimeo',
-      'wordpress',
-      'youtube',
-      'feed'
-    ]
-
-    $.each(sns, (i, sns) => {
-      $('.sns-menu li').find(`a[href*="${sns}"] use`).attr('xlink:href', `#icon-${sns}`)
-    })
-  }
-
   // search-no-results page
   if ($('.error404').length) {
     $('.secondary form[role="search"]').hide()
