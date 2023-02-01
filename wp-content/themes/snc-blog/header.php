@@ -59,8 +59,4 @@
 		<?php endif; ?>
 	<?php endif; ?>
 
-	<?php
-		$columns = ' col-' . intval( get_theme_mod( 'article_column_options', '1' ) );
-	?>
-
-	<div id="content" class="site-content <?php echo $columns ?>">
+	<div id="content" class="site-content">

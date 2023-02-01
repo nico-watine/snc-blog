@@ -704,17 +704,17 @@ figure.alignright,
     .single-post .entry__content,
     .page .entry__content {
       width: auto; } }
-.publised-label,
+.published-label,
 .update-label {
   display: block; }
 
 @media only screen and (min-width: 40rem) {
-  .publised-label,
+  .published-label,
   .update-label {
     display: inline; } }
 
-.publised-label time,
-.publised-label span,
+.published-label time,
+.published-label span,
 .update-label time,
 .update-label span {
   margin-left: 0.25rem; }
