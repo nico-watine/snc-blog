@@ -15,6 +15,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - `header.php` - Added `<meta name="color-scheme" content="light dark">` line
 
+### Changed
+- `template-tags.php` & `style.css` - corrected label typo of `.publised` to `.published`
+
 ## [1.26.0]
 
 ### Added
