@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - `header.php` - Removed `<?php get_template_part('template-parts/svgpack-sprite'); ?>` since is obsolete partial and is unused
 - `header.php` - Removed function that adds obsolete `.col-` class to body content
 - `footer.php` - Removed lines regarding unused `nav.social-navigation`
+- `app.js` - Removed svg directory and social icon code reference 
 
 ### Added
 - `header.php` - Added `<meta name="color-scheme" content="light dark">` line
