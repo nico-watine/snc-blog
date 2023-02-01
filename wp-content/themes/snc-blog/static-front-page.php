@@ -6,7 +6,6 @@
 <html prefix="og: http://ogp.me/ns#" class="no-js" lang="en-US">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<!-- <link rel="preconnect" href="" crossorigin> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Web Design &amp; Site Maintenance | Studio N Creations</title>

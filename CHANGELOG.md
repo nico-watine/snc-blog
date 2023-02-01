@@ -11,6 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - `header.php` - Removed function that adds obsolete `.col-` class to body content
 - `footer.php` - Removed lines regarding unused `nav.social-navigation`
 - `app.js` - Removed svg directory and social icon code reference 
+- `static-front-page.php` - Removed `<meta http-equiv="x-ua-compatible" content="ie=edge">`
+- `web-development-template.php` - Removed `<meta http-equiv="x-ua-compatible" content="ie=edge">`
 
 ### Added
 - `header.php` - Added `<meta name="color-scheme" content="light dark">` line
