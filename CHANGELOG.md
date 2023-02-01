@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.27.0]
+
+### Removed
+- `header.php` - Removed `<meta http-equiv="x-ua-compatible" content="ie=edge">` line
+
+### Added
+- `header.php` - Added `<meta name="color-scheme" content="light dark">` line
+
 ## [1.26.0]
 
 ### Added

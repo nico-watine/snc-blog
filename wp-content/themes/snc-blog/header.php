@@ -2,10 +2,10 @@
 <html prefix="og: http://ogp.me/ns#" lang="en-US">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<meta name="theme-color" content="#566372">
+  <meta name="color-scheme" content="light dark">
 
 	<?php wp_head(); ?>
 
