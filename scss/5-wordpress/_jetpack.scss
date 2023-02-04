@@ -1,3 +1,10 @@
 #jp-relatedposts .jp-relatedposts-items-visual .jp-relatedposts-post {
 	opacity: 1 !important;
+
+	&:hover {
+		* {
+			text-decoration-thickness: rem-calc(2) !important;
+			text-underline-offset: rem-calc(4) !important;
+		}
+	}
 }
