@@ -6,7 +6,6 @@
 <html prefix="og: http://ogp.me/ns#" class="no-js" lang="en-US">
 <head>
 	<meta charset="utf-8">
-	<!-- <link rel="preconnect" href="" crossorigin> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Web Design &amp; Site Maintenance | Studio N Creations</title>
 	<meta name="description" content="I design, brand, code and maintain mobile-optimized websites for projects of all sizes. Located in Houston, TX, available anywhere.">
