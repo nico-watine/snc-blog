@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.30.0]
+
+### Removed
+- `static-front-page.php` - Removed jquery CDN script lines
+- `web-development-template.php` - Removed jquery CDN script lines
+
+### Changed
+- `static-front-page.php` - Updated the app-min.js UTC time stamp
+- `web-development-template.php` - Updated the app-min.js UTC time stamp
+
 ## [1.29.0]
 
 ### Changed
