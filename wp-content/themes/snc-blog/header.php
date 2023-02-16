@@ -12,7 +12,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-  <script src="/js/darktoggle-check.js"></script>
+
 	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'modernize' ); ?></a>
 
 	<header id="header" class="header" role="banner">
