@@ -1,3 +1,70 @@
+// darktoggle.js
+const myDarkMode = {
+	init() {
+		this.changeListener();
+		this.tabindexListener();
+	},
+
+	/**
+	 * Change listener for dark mode toggle
+	 */
+	changeListener() {
+		const $darkToggles = document.querySelectorAll('.dark-toggle input[type="checkbox"]');
+		if ($darkToggles.length <= 0) { return; }
+
+		$darkToggles.forEach(($t) => {
+			$t.addEventListener('change', (e) => {
+				this.toggle(e.currentTarget.checked);
+			});
+		});
+	},
+
+	/**
+	 * Keyboard listener for dark mode toggle
+	 */
+	tabindexListener() {
+		const $darkSwitches = document.querySelectorAll('.dark-toggle__switch');
+
+		$darkSwitches.forEach(($s) => {
+			$s.addEventListener('keyup', (e) => {
+				if (e.key === 'Enter' || e.keyCode === 13) {
+					const $checkbox = e.currentTarget.closest('.dark-toggle').querySelector('input[type="checkbox"]');
+					$checkbox.checked = !$checkbox.checked;
+					this.toggle($checkbox.checked);
+				}
+			});
+		});
+	},
+
+	/**
+	 * Toggle the body class and cache the variable
+	 */
+	toggle(isChecked) {
+		document.querySelector('body').classList.toggle('is-dark', isChecked);
+		localStorage.setItem('darkMode', isChecked);
+	},
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+	myDarkMode.init();
+});
+
+// darktoggle-check.js
+(function() {
+	const darkMode = localStorage.darkMode === 'true';
+	if (darkMode) {
+		document.querySelector('body').classList.add('is-dark');
+
+		// activate the toggle
+		document.addEventListener('DOMContentLoaded', () => {
+			const $toggles = document.querySelectorAll('.dark-toggle input[type="checkbox"]');
+			$toggles.forEach(($t) => {
+				$t.checked = true;
+			});
+		});
+	}
+})();
+
 !function(t){function i(e){if(s[e])return s[e].exports;var o=s[e]={i:e,l:!1,exports:{}};return t[e].call(o.exports,o,o.exports,i),o.l=!0,o.exports}var s={};i.m=t,i.c=s,i.i=function(t){return t},i.d=function(t,s,e){i.o(t,s)||Object.defineProperty(t,s,{configurable:!1,enumerable:!0,get:e})},i.n=function(t){var s=t&&t.__esModule?function(){return t.default}:function(){return t};return i.d(s,"a",s),s},i.o=function(t,i){return Object.prototype.hasOwnProperty.call(t,i)},i.p="",i(i.s=6)}([function(t,i,s){"use strict";var e=s(4),o=function(t){return t&&t.__esModule?t:{default:t}}(e),n=s(3),r=window.jQuery,h=s(2);s(1),r(function(){var t=function(){var t=r("#header").outerHeight(!0);if(r("body").css({"padding-top":t+"px"}),r("#wpadminbar").length){var i=r("#wpadminbar").height();r("#header").css({top:i+"px"})}};if(t(),r(window).on("resize",(0,o.default)(200,function(){t(),a.close()})),r(".social-navigation").length){var i=["500px","codepen","dribbble","facebook","flickr","google","github","instagram","linkedin","npm","pinterest","tumblr","twitter","vimeo","wordpress","youtube","feed"];r.each(i,function(t,i){r(".sns-menu li").find('a[href*="'+i+'"] use').attr("xlink:href","#icon-"+i)})}r(".error404").length&&r('.secondary form[role="search"]').hide();var s=document.querySelector(".header");new h(s,{offset:100}).init();var e=r("#site-navigation").children().length,a=function(){function t(){r("."+l.class.toggle).on("click",function(){"false"===r("."+l.class.menu).attr("aria-hidden")?h():o()})}function i(){r(document).on("touchmove.noScroll",function(t){t.preventDefault()})}function s(){r(document).off(".noScroll")}function o(){a.enable(),i(),r("body").addClass(l.class.fixed),r("."+l.class.toggle).addClass(l.class.toggleopen).attr("aria-expanded","true"),r("."+l.class.ovly).addClass(l.class.bgshow),r("."+l.class.menu).addClass(l.class.open).attr("aria-hidden","false")}function h(){a.disable(),s(),r("body").removeClass(l.class.fixed),r("."+l.class.toggle).removeClass(l.class.toggleopen).attr("aria-expanded","false"),r("."+l.class.ovly).removeClass(l.class.bgshow),r("."+l.class.menu).removeClass(l.class.open).attr("aria-hidden","true")}if(0!==e){var a=new n("#site-navigation",{mouseWheel:!0,preventDefault:!1}),l={class:{toggle:"js-toggle",menu:"gnav",ovly:"bg-ovly",open:"open",toggleopen:"toggle-btn__open",bgshow:"bg-ovly__show",fixed:"bodyfixed"}};return function(){var t='<div class="'+l.class.ovly+" "+l.class.toggle+'"></div>';r("body").append(t),r("."+l.class.menu).find("li").length&&r("."+l.class.toggle).show()}(),{toggle:t,close:h}}}();0!==e&&a.toggle()})},function(t,i,s){"use strict";!function(){var t=navigator.userAgent.toLowerCase().indexOf("webkit")>-1,i=navigator.userAgent.toLowerCase().indexOf("opera")>-1,s=navigator.userAgent.toLowerCase().indexOf("msie")>-1;(t||i||s)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t=(void 0).hash.substring(1),i=void 0;/^[A-z0-9_-]+$/.test(t)&&(i=document.getElementById(t))&&(/^(?:a|select|input|button|textarea)$/i.test(i.tagName)||(i.tabIndex=-1),i.focus())},!1)}()},function(t,i,s){var e,o,n;/*!
  * headroom.js v0.9.3 - Give your page some headroom. Hide your header until you need it
  * Copyright (c) 2016 Nick Williams - http://wicky.nillia.ms/headroom.js
