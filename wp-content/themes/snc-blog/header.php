@@ -48,6 +48,10 @@
 				'menu_class'     => 'primary-menu',
 			 ) );
 		?>
+    <label class="dark-toggle">
+      <input type="checkbox">
+      <span>Dark Mode</span>
+    </label>
 	</nav><!-- #site-navigation -->
 	<?php endif; ?>
 
