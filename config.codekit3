@@ -283,6 +283,17 @@
       "sC" : 0,
       "tS" : 0
     },
+    "\/darkToggle\/darkToggle.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/darkToggle\/darkToggle.min-min.js",
+      "oF" : 0,
+      "sC" : 0,
+      "tS" : 0
+    },
     "\/darkToggle\/functions.php" : {
       "cB" : 0,
       "ft" : 8192,
