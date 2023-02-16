@@ -51,7 +51,7 @@
 
     <label class="dark-toggle">
       <input type="checkbox">
-      <div class="dark-toggle__switch" style="display:none;visibility:hidden;" tabindex="0"></div>
+      <div class="dark-toggle__switch" tabindex="0"></div>
       <span>Dark Mode</span>
     </label>
 

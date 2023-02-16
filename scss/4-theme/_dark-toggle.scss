@@ -1,6 +1,11 @@
 label.dark-toggle {
 	padding-left: 10px;
 
+	.dark-toggle__switch {
+		display: none;
+		visibility: hidden;
+	}
+
 	span {
 		font-family: 'Lato';
 		font-weight: 700;

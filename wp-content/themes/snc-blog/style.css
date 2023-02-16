@@ -1254,6 +1254,9 @@ body.is-dark {
 
 label.dark-toggle {
   padding-left: 10px; }
+  label.dark-toggle .dark-toggle__switch {
+    display: none;
+    visibility: hidden; }
   label.dark-toggle span {
     font-family: 'Lato';
     font-weight: 700;
