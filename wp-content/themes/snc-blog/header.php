@@ -12,7 +12,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-
+  <script src="/js/darktoggle-check.js"></script>
 	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'modernize' ); ?></a>
 
 	<header id="header" class="header" role="banner">
@@ -48,10 +48,13 @@
 				'menu_class'     => 'primary-menu',
 			 ) );
 		?>
+
     <label class="dark-toggle">
       <input type="checkbox">
+      <div class="dark-toggle__switch" style="display:none;visibility:hidden;" tabindex="0"></div>
       <span>Dark Mode</span>
     </label>
+
 	</nav><!-- #site-navigation -->
 	<?php endif; ?>
 

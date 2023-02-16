@@ -67,7 +67,8 @@ body.is-dark {
 		color: $darkUI--linkBlue;
 	}
 
-	.gnav a {
+	.gnav a,
+	.dark-toggle span {
 		color: #fff;
 	}
 
