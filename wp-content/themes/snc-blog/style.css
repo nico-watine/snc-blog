@@ -3,7 +3,7 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.30.0
+Version: 1.31.0
 */
 @font-face {
   font-family: 'Lato';
@@ -278,6 +278,161 @@ template {
 
 [hidden] {
   display: none; }
+
+.comments {
+  display: block;
+  width: 96%;
+  max-width: 43.75rem;
+  margin: 40px auto 0; }
+
+.comments textarea {
+  width: 100%; }
+
+.comments__title {
+  font-size: 1rem; }
+
+.comments__list {
+  margin-left: 0;
+  padding: 0; }
+
+.comments__list li {
+  list-style: none; }
+
+.comment {
+  list-style: none;
+  margin-top: 1.25rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  background: #fff; }
+
+@media only screen and (min-width: 40rem) {
+  .comment {
+    padding: 1.5rem; } }
+
+.comment .children {
+  padding: 0; }
+
+.comment.depth-2,
+.comment.depth-4 {
+  background: #fafafa; }
+
+.comment.depth-3,
+.comment.depth-5 {
+  background: #fff; }
+
+.comment table {
+  margin-top: 40px;
+  width: 96%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.comment th,
+.comment td {
+  padding: 10px;
+  border: 1px solid #ccc; }
+
+.comment th {
+  background-color: #eee; }
+
+.comment dl {
+  margin-top: 40px;
+  font-size: 16px; }
+
+.comment dt {
+  margin-top: 20px; }
+
+.comment dd {
+  margin-left: 20px; }
+
+.comment ul {
+  margin-top: 40px;
+  padding-left: 20px; }
+
+.comment ul li {
+  margin-top: 8px;
+  list-style: disc;
+  font-size: 16px; }
+
+.comment ol {
+  margin-top: 40px;
+  padding-left: 20px; }
+
+.comment ol li {
+  margin-top: 8px;
+  list-style: decimal;
+  font-size: 16px; }
+
+.comment ol.children li {
+  list-style: none; }
+
+.comment li ul,
+.comment li ol {
+  margin-top: 8px; }
+
+.comment blockquote {
+  position: relative;
+  display: block;
+  width: 96%;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 40px;
+  background-color: #eee; }
+
+.comment blockquote::before {
+  content: '“';
+  font-size: 50px;
+  line-height: 1em;
+  font-family: sans-serif;
+  color: #fff;
+  position: absolute;
+  left: 10px;
+  top: 10px; }
+
+.comment blockquote p,
+.comment blockquote h1,
+.comment blockquote h2,
+.comment blockquote h3,
+.comment blockquote h4,
+.comment blockquote h5,
+.comment blockquote h6,
+.comment blockquote ul,
+.comment blockquote ol,
+.comment blockquote dl,
+.comment blockquote table {
+  margin: 0; }
+
+.comment pre {
+  width: 100%;
+  padding: 10px; }
+
+.comment p {
+  margin-top: 20px;
+  font-size: 16px; }
+
+.pingback {
+  margin-top: 8px; }
+
+.comment-notes {
+  margin: 20px 0 10px; }
+
+.required {
+  color: #f00; }
+
+.comment-form-comment,
+.comment-form-author,
+.comment-form-email,
+.comment-form-url {
+  margin: 20px 0 0; }
+
+.comment-form-comment label,
+.comment-form-author label,
+.comment-form-email label,
+.comment-form-url label {
+  display: block; }
 
 .site-content {
   display: block;
@@ -1145,7 +1300,82 @@ figure.alignright,
 .sns-menu .icon {
   font-size: 30px; }
 
+body.is-dark {
+  background: #323233;
+  color: rgba(255, 255, 255, 0.78);
+  -webkit-font-smoothing: auto; }
+  body.is-dark p {
+    color: rgba(255, 255, 255, 0.78); }
+  body.is-dark .entry {
+    background-color: #4a4a4d;
+    border: 1px solid #4e4f52; }
+  body.is-dark .home .entry__content p,
+  body.is-dark .archive .entry__content p,
+  body.is-dark .search .entry__content p {
+    color: #fff; }
+  body.is-dark .entry__featured {
+    background: #fff;
+    color: #000; }
+  body.is-dark .entry__meta {
+    color: rgba(255, 255, 255, 0.78); }
+  body.is-dark .entry__footer {
+    color: rgba(255, 255, 255, 0.78); }
+  body.is-dark .single-post .entry,
+  body.is-dark .page .entry {
+    background-color: #4a4a4d; }
+  body.is-dark a {
+    color: #5ac8fa; }
+    body.is-dark a:hover, body.is-dark a:focus {
+      color: #5ac8fa; }
+  body.is-dark .header__title,
+  body.is-dark .header__title a,
+  body.is-dark .header__description {
+    color: #fff; }
+  body.is-dark .entry__content blockquote {
+    background-color: #2b2c2e; }
+  body.is-dark .entry__content blockquote::before {
+    color: #fff; }
+  body.is-dark .gnav {
+    background-color: #4a4a4d; }
+  body.is-dark .gnav li.current-menu-item > a {
+    color: #5ac8fa; }
+  body.is-dark .gnav a,
+  body.is-dark .dark-toggle span {
+    color: #fff; }
+  body.is-dark .gnav a:hover {
+    color: #5ac8fa; }
+  body.is-dark .nav-links {
+    border-top: 1px solid rgba(255, 255, 255, 0.78);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.78); }
+  body.is-dark .nav-previous a {
+    border-right: 1px solid rgba(255, 255, 255, 0.78); }
+  body.is-dark .nav-previous a::before {
+    border-color: #5ac8fa; }
+  body.is-dark .nav-next a::after {
+    border-color: #5ac8fa; }
+  body.is-dark .comment {
+    border: 1px solid #222;
+    border-radius: 4px;
+    background: #2b2c2e; }
+  body.is-dark .comment.depth-2,
+  body.is-dark .comment.depth-4 {
+    background: #4a4a4d; }
+  body.is-dark .comment.depth-3,
+  body.is-dark .comment.depth-5 {
+    background: #2b2c2e; }
+  body.is-dark input[name='submit'] {
+    background: #5ac8fa;
+    color: #333;
+    border-radius: 4px; }
+  body.is-dark textarea {
+    background: #4a4a4d;
+    color: #fff;
+    border-radius: 4px; }
+
 @media (prefers-color-scheme: dark) {
+  label.dark-toggle {
+    display: none;
+    visibility: hidden; }
   body {
     background: #323233;
     color: rgba(255, 255, 255, 0.78);
@@ -1193,164 +1423,7 @@ figure.alignright,
   .nav-previous a::before {
     border-color: #5ac8fa; }
   .nav-next a::after {
-    border-color: #5ac8fa; } }
-
-.comments {
-  display: block;
-  width: 96%;
-  max-width: 43.75rem;
-  margin: 40px auto 0; }
-
-.comments textarea {
-  width: 100%; }
-
-.comments__title {
-  font-size: 1rem; }
-
-.comments__list {
-  margin-left: 0;
-  padding: 0; }
-
-.comments__list li {
-  list-style: none; }
-
-.comment {
-  list-style: none;
-  margin-top: 1.25rem;
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 0.25rem;
-  background: #fff; }
-
-@media only screen and (min-width: 40rem) {
-  .comment {
-    padding: 1.5rem; } }
-
-.comment .children {
-  padding: 0; }
-
-.comment.depth-2,
-.comment.depth-4 {
-  background: #fafafa; }
-
-.comment.depth-3,
-.comment.depth-5 {
-  background: #fff; }
-
-.comment table {
-  margin-top: 40px;
-  width: 96%;
-  margin: 0 auto;
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-.comment th,
-.comment td {
-  padding: 10px;
-  border: 1px solid #ccc; }
-
-.comment th {
-  background-color: #eee; }
-
-.comment dl {
-  margin-top: 40px;
-  font-size: 16px; }
-
-.comment dt {
-  margin-top: 20px; }
-
-.comment dd {
-  margin-left: 20px; }
-
-.comment ul {
-  margin-top: 40px;
-  padding-left: 20px; }
-
-.comment ul li {
-  margin-top: 8px;
-  list-style: disc;
-  font-size: 16px; }
-
-.comment ol {
-  margin-top: 40px;
-  padding-left: 20px; }
-
-.comment ol li {
-  margin-top: 8px;
-  list-style: decimal;
-  font-size: 16px; }
-
-.comment ol.children li {
-  list-style: none; }
-
-.comment li ul,
-.comment li ol {
-  margin-top: 8px; }
-
-.comment blockquote {
-  position: relative;
-  display: block;
-  width: 96%;
-  padding: 20px;
-  margin: 0 auto;
-  border-radius: 5px;
-  font-size: 14px;
-  margin-top: 40px;
-  background-color: #eee; }
-
-.comment blockquote::before {
-  content: '“';
-  font-size: 50px;
-  line-height: 1em;
-  font-family: sans-serif;
-  color: #fff;
-  position: absolute;
-  left: 10px;
-  top: 10px; }
-
-.comment blockquote p,
-.comment blockquote h1,
-.comment blockquote h2,
-.comment blockquote h3,
-.comment blockquote h4,
-.comment blockquote h5,
-.comment blockquote h6,
-.comment blockquote ul,
-.comment blockquote ol,
-.comment blockquote dl,
-.comment blockquote table {
-  margin: 0; }
-
-.comment pre {
-  width: 100%;
-  padding: 10px; }
-
-.comment p {
-  margin-top: 20px;
-  font-size: 16px; }
-
-.pingback {
-  margin-top: 8px; }
-
-.comment-notes {
-  margin: 20px 0 10px; }
-
-.required {
-  color: #f00; }
-
-.comment-form-comment,
-.comment-form-author,
-.comment-form-email,
-.comment-form-url {
-  margin: 20px 0 0; }
-
-.comment-form-comment label,
-.comment-form-author label,
-.comment-form-email label,
-.comment-form-url label {
-  display: block; }
-
-@media (prefers-color-scheme: dark) {
+    border-color: #5ac8fa; }
   .comment {
     border: 1px solid #222;
     border-radius: 4px;
@@ -1369,6 +1442,16 @@ figure.alignright,
     background: #4a4a4d;
     color: #fff;
     border-radius: 4px; } }
+
+label.dark-toggle {
+  padding-left: 10px; }
+  label.dark-toggle .dark-toggle__switch {
+    display: none;
+    visibility: hidden; }
+  label.dark-toggle span {
+    font-family: 'Lato';
+    font-weight: 700;
+    text-transform: initial; }
 
 .aligncenter {
   display: block;
