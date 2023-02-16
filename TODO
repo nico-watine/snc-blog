@@ -27,3 +27,10 @@ Other:
 Sketch Doc:
 	☐	Define color variables by color or element?
 	☐	"tint-white" "shade-black" "tone-gray"
+
+Dark Mode:
+	☐	Implement css/js method of activating dark mode
+	☐	Toggle should only be present for when is light mode, and for people who want dark mode
+	☐	If OS level is set to dark, then only dark should be allowed, hence, hide the toggle
+	☐	Might be possible to offer a light version while OS is in dark mode, but right now that's out of scope
+	☐	That would entail having a "body.light" so that it can override all of the prefers-dark-mode styles
