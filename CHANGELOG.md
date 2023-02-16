@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [1.31.0]
 
 ### Added
-- Added new Dark Mode toggle. Affected files include: `style.css`,`darktoggle-check.js`, `darktoggle.js`
+- Added new Dark Mode toggle. Affected files include: `style.css`, `bundle.js`
 
 ## [1.30.0]
 
