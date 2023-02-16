@@ -94,6 +94,11 @@ body.is-dark {
 }
 
 @media (prefers-color-scheme: dark) {
+	label.dark-toggle {
+		display: none;
+		visibility: hidden;
+	}
+
 	body {
 		background: $darkUI--bodyBackground;
 		color: $darkUI--bodyFontColor;

@@ -1199,6 +1199,9 @@ body.is-dark {
     border-color: #5ac8fa; }
 
 @media (prefers-color-scheme: dark) {
+  label.dark-toggle {
+    display: none;
+    visibility: hidden; }
   body {
     background: #323233;
     color: rgba(255, 255, 255, 0.78);
