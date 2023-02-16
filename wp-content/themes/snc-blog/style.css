@@ -1172,6 +1172,10 @@ body.is-dark {
     color: #5ac8fa; }
     body.is-dark a:hover, body.is-dark a:focus {
       color: #5ac8fa; }
+  body.is-dark .header__title,
+  body.is-dark .header__title a,
+  body.is-dark .header__description {
+    color: #fff; }
   body.is-dark .entry__content blockquote {
     background-color: #2b2c2e; }
   body.is-dark .entry__content blockquote::before {

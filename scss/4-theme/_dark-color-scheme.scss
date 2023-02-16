@@ -45,6 +45,12 @@ body.is-dark {
 		}
 	}
 
+	.header__title,
+	.header__title a,
+	.header__description {
+		color: #fff;
+	}
+
 	.entry__content blockquote {
 		background-color: $commentColor_primary-dark;
 	}
