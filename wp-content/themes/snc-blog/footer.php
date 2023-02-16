@@ -11,6 +11,7 @@
 
 
 <?php wp_footer(); ?>
+
 <script src="/js/darktoggle.js"></script>
 
 </body>
