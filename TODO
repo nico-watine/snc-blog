@@ -30,7 +30,7 @@ Sketch Doc:
 
 Dark Mode:
 	☐	Implement css/js method of activating dark mode
-	☐	Toggle should only be present for when is light mode, and for people who want dark mode
-	☐	If OS level is set to dark, then only dark should be allowed, hence, hide the toggle
+	✔	Toggle should only be present for when is light mode, and for people who want dark mode @done (23-02-16 09:14)
+	✔	If OS level is set to dark, then only dark should be allowed, hence, hide the toggle @done (23-02-16 09:14)
 	☐	Might be possible to offer a light version while OS is in dark mode, but right now that's out of scope
 	☐	That would entail having a "body.light" so that it can override all of the prefers-dark-mode styles
