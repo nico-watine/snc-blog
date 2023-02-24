@@ -27,6 +27,8 @@ Other:
 Sketch Doc:
 	☐	Define color variables by color or element?
 	☐	"tint-white" "shade-black" "tone-gray"
+JS:
+	☐	is iscroll.js necessary??
 
 Dark Mode:
 	☐	Implement css/js method of activating dark mode
