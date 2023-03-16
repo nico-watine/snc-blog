@@ -113,6 +113,9 @@ a:focus {
   text-decoration-thickness: 0.125rem;
   text-underline-offset: 0.25rem; }
 
+a:active {
+  text-decoration: none; }
+
 .monospace {
   font-family: 'Source Code Pro', monospace;
   -webkit-font-smoothing: auto;
