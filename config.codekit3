@@ -250,50 +250,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/darkToggle\/darktoggle-check.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/darkToggle\/darktoggle-check-min.js",
-      "oF" : 0,
-      "sC" : 0,
-      "tS" : 0
-    },
-    "\/darkToggle\/darktoggle-main.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/darkToggle\/darktoggle-main-min.js",
-      "oF" : 0,
-      "sC" : 0,
-      "tS" : 0
-    },
-    "\/darkToggle\/darkToggle.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/darkToggle\/darkToggle.min.js",
-      "oF" : 3,
-      "sC" : 0,
-      "tS" : 0
-    },
-    "\/darkToggle\/darkToggle.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/darkToggle\/darkToggle.min-min.js",
-      "oF" : 0,
-      "sC" : 0,
-      "tS" : 0
-    },
     "\/darkToggle\/functions.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -309,6 +265,50 @@
       "oA" : 0,
       "oAP" : "\/darkToggle\/html-toggle.html",
       "oF" : 0
+    },
+    "\/darkToggle\/js\/darktoggle.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/darkToggle\/js\/darktoggle.min-min.js",
+      "oF" : 0,
+      "sC" : 0,
+      "tS" : 0
+    },
+    "\/darkToggle\/js\/src\/darktoggle-check.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/darkToggle\/js\/src\/darktoggle-check-min.js",
+      "oF" : 0,
+      "sC" : 0,
+      "tS" : 0
+    },
+    "\/darkToggle\/js\/src\/darktoggle-main.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/darkToggle\/js\/src\/darktoggle-main-min.js",
+      "oF" : 0,
+      "sC" : 0,
+      "tS" : 0
+    },
+    "\/darkToggle\/js\/src\/darktoggle.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/darkToggle\/js\/darktoggle.min.js",
+      "oF" : 3,
+      "sC" : 0,
+      "tS" : 0
     },
     "\/functions\/examples\/crunchify-example.php" : {
       "cB" : 0,

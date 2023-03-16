@@ -12,3 +12,7 @@ a:focus {
 	text-decoration-thickness: rem-calc(2);
 	text-underline-offset: rem-calc(4);
 }
+
+a:active {
+	text-decoration: none;
+}
