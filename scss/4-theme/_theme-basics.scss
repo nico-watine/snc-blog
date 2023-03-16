@@ -53,7 +53,7 @@
 .single-post .secondary,
 .page .secondary {
 	width: 96%;
-	max-width: rem-calc(700)
+	max-width: rem-calc(700);
 }
 
 .error404 .primary {
@@ -324,10 +324,14 @@ h2.entry__title {
 .entry__thumb a {
 	display: block;
 	padding-bottom: 40%;
-}
 
-.entry__thumb a:hover {
-	opacity: .8;
+	&:hover {
+		opacity: .8;
+	}
+
+	&:active {
+		opacity: 1;
+	}
 }
 
 form[role='search'] {
