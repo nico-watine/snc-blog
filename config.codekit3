@@ -266,6 +266,17 @@
       "oAP" : "\/darkToggle\/html-toggle.html",
       "oF" : 0
     },
+    "\/darkToggle\/js\/darktoggle.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/darkToggle\/js\/darktoggle.min-min.js",
+      "oF" : 0,
+      "sC" : 0,
+      "tS" : 0
+    },
     "\/darkToggle\/js\/src\/darktoggle-check.js" : {
       "bF" : 0,
       "ft" : 64,
