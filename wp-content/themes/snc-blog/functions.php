@@ -127,3 +127,29 @@ remove_action('wp_head', 'wp_shortlink_wp_head', 10, 0);
 
 /* Remove various Wordpress dns-fetch */
 remove_action('wp_head', 'wp_resource_hints', 2, 99 );
+
+/* Show favicons next to external anchor links within a Post*/
+add_action('wp_footer', 'anchorlink_favicons_js');
+function anchorlink_favicons_js() {
+  ?>
+    <script>
+    jQuery(".entry__content a[href^='https']").each(function() {
+      jQuery(this).css({
+        background: "url(https://www.google.com/s2/favicons?domain=" + this.hostname + ") left center no-repeat",
+        "padding-left": "20px"
+      });
+    });
+    </script>
+  <?php
+}
+
+/* Don't show favicons for <a><img> inside <figure> */
+add_action('wp_head', 'anchorlink_favicons_css');
+function anchorlink_favicons_css() {
+  echo '<style>
+    figure > a {
+      background: none !important;
+      padding-left: 0 !important;
+    }
+  </style>';
+}
