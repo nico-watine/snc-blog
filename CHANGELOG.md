@@ -3,7 +3,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.35.0]
+
+### Added
+- `functions.php` - Added function so Gutenberg `<video>` blocks autoplay
+
 ## [1.34.0]
+
+### Added
 - `functions.php` - Added new ability of displaying inline site Favicons for outgoing anchorlinks
 
 ## [1.33.0]
