@@ -153,3 +153,12 @@ function anchorlink_favicons_css() {
     }
   </style>';
 }
+
+/* Get local-hosted Gutenberg <video> blocks to autoplay */
+add_filter( 'render_block', 'custom_autoplay_block', 10, 2 );
+function custom_autoplay_block( $block_content, $block ) {
+  if ( $block['blockName'] === 'core/video' ) {
+    $block_content = str_replace( '<video controls', '<video autoplay loop muted playsline', $block_content );
+  }
+  return $block_content;
+}
