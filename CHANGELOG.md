@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.35.1]
+
+### Changed
+- `functions.php` - Tweaked favicon targeting method
+
 ## [1.35.0]
 
 ### Added
