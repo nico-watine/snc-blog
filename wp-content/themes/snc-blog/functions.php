@@ -133,12 +133,12 @@ add_action('wp_footer', 'anchorlink_favicons_js');
 function anchorlink_favicons_js() {
   ?>
     <script>
-    jQuery(".entry__content a[href^='https']").each(function() {
-      jQuery(this).css({
-        background: "url(https://www.google.com/s2/favicons?domain=" + this.hostname + ") left center no-repeat",
-        "padding-left": "20px"
+      jQuery('a:not([href^="https://studioncreations.com/"]):not([href^="#"]):not([href^="/"])').each(function() {
+        jQuery(this).css({
+          background: "url(https://www.google.com/s2/favicons?domain=" + this.hostname + ") left center no-repeat",
+          "padding-left": "20px"
+        });
       });
-    });
     </script>
   <?php
 }
