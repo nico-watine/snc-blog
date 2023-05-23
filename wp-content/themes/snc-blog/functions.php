@@ -144,6 +144,7 @@ function external_link_favicons_js() {
 }
 
 /* Don't show favicons for <a><img> inside <figure> */
+add_action('wp_head', 'external_link_favicons_css');
 function external_link_favicons_css() {
   echo '<style>figure > a {background: none !important;padding-left: 0 !important;}</style>';
 }
