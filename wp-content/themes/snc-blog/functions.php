@@ -129,8 +129,8 @@ remove_action('wp_head', 'wp_shortlink_wp_head', 10, 0);
 remove_action('wp_head', 'wp_resource_hints', 2, 99 );
 
 /* Show favicons next to external anchor links within a Post*/
-add_action('wp_footer', 'anchorlink_favicons_js');
-function anchorlink_favicons_js() {
+add_action('wp_footer', 'external_link_favicons_js');
+function external_link_favicons_js() {
   ?>
     <script>
       jQuery('a:not([href^="https://studioncreations.com/"]):not([href^="#"]):not([href^="/"])').each(function() {
@@ -144,8 +144,8 @@ function anchorlink_favicons_js() {
 }
 
 /* Don't show favicons for <a><img> inside <figure> */
-add_action('wp_head', 'anchorlink_favicons_css');
-function anchorlink_favicons_css() {
+add_action('wp_head', 'external_link_favicons_css');
+function external_link_favicons_css() {
   echo '<style>
     figure > a {
       background: none !important;
