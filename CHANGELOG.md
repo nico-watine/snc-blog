@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.36.0]
+
+### Changed
+- `style.css` - Change `<h5>` and `<h6>` from `font-weight:normal` to `font-weight:bold`
+
+### Added
+- `style.css` - Added new rules to address `Embed Plus YouTube WordPress Plugin` styles
+
 ## [1.35.1]
 
 ### Changed
