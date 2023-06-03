@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.35.2]
+
+### Changed
+- `style.css` - Change `<h5>` and `<h6>` from `font-weight:normal` to `font-weight:bold`
+
 ## [1.35.1]
 
 ### Changed
