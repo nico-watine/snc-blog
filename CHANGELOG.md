@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.37.0]
+
+### Changed
+- `static-front-page.php` - "About Me" prose update
+- `static-front-page.php` - `app.css` cache-bust date string updated
+- `web-development-template` - `app.css` cache-bust date string updated
+
 ## [1.36.0]
 
 ### Changed

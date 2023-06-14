@@ -33,7 +33,7 @@
 	<meta name="google-site-verification" content="KRkK5A_Jr3_V2SvGIzpyRMNi37bKOmqS_vBphvOJV7g" />
 	<meta name="p:domain_verify" content="bc4789b1440b540e061b16da850cc42a"/>
 
-	<link href="/css/app.css?=2022-10-19T21:11:34Z" rel="stylesheet">
+	<link href="/css/app.css?=2023-06-14T18:09:15Z" rel="stylesheet">
 
 </head>
 <body id="index" class="index bodyLayout-unique">
@@ -123,7 +123,7 @@
 							<div class="prose float-center" itemscope itemtype="http://schema.org/Person">
 								<h3 class="h3 ff-monospace">About Me</h3>
 								<h4 class="h4 mb-16">My name is <span itemprop="name">Nico Watine</span>, and I am the <span itemprop="affiliation">Studio&nbsp;N&nbsp;Creations</span> team. I design, code and maintain mobile-optimized websites for projects of all sizes.</h4>
-								<p>Having a professional website is key to a company’s image and success, and that’s exactly what I specialize in — strong websites for B2B and B2C small businesses. While I used to do full-stack web development full time, I now offer my services as a part-time <span itemprop="jobTitle">freelance web designer</span>. I only take on 1 or 2 projects at a time to ensure I can provide the utmost excellence in service and quality with every job, for every client.</p>
+								<p>Having a professional website is key to a company’s image and success, and that’s exactly what I specialize in — strong websites for B2B and B2C small businesses. As a <span itemprop="jobTitle">freelance web developer</span>, I only take on 1 or 2 projects at a time to ensure I can provide the utmost excellence in service and quality with every job, for every client.</p>
 								<p>I’m located in Houston, TX, and am available for hire anywhere. Let's <a data-open="contactModal">connect today</a> and see when we can get started — I’m only a message away.</p>
 							</div>
 						</div>
