@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.37.1]
+
+### Added
+- `style.css` - Added `text-align:justify` to article contents
+
 ## [1.37.0]
 
 ### Changed
