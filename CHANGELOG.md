@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.38.0]
+
+### Changed
+- `header.php` - Changed site name from hard coded "STUDIO N CREATIONS BLOG" to Wordpress variable
+- `_header-masthead.scss` - Removed improper use of `font-weight:700` for site name
+
 ## [1.37.2]
 
 ### Added
