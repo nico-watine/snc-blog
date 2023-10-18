@@ -4,7 +4,8 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [1.38.1]
-- `_page-structure.scss` - Make `<h1-6>` `text-align:left` because they don't look good with `text-align:justify` on small viewports
+- `_page-structure.scss` - Make `.wp-block-heading` `text-align:left` because they don't look good with `text-align:justify` on small viewports
+- `_embed-plus-youtube.scss` - Add `!important` to the `<h5>` `text-align` to keep it `left`
 
 ## [1.38.0]
 

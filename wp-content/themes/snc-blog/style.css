@@ -862,18 +862,8 @@ figure.alignright,
     .single-post .entry__content,
     .page .entry__content {
       width: auto; } }
-  .single-post .entry__content h1,
-  .single-post .entry__content h2,
-  .single-post .entry__content h3,
-  .single-post .entry__content h4,
-  .single-post .entry__content h5,
-  .single-post .entry__content h6,
-  .page .entry__content h1,
-  .page .entry__content h2,
-  .page .entry__content h3,
-  .page .entry__content h4,
-  .page .entry__content h5,
-  .page .entry__content h6 {
+  .single-post .entry__content .wp-block-heading,
+  .page .entry__content .wp-block-heading {
     text-align: left; }
 
 .published-label,
@@ -1491,7 +1481,7 @@ label.dark-toggle {
   margin-top: 2.5rem; }
 
 .epyt-video-wrapper + h5 {
-  text-align: center;
+  text-align: center !important;
   padding-top: 0.5rem;
   margin-bottom: 2.5rem; }
 

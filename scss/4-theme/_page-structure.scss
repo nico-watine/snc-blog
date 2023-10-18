@@ -15,12 +15,7 @@ $maxWidth-400: 'only screen and (max-width : 25rem)';
 	overflow-wrap: break-word;
 	text-align: justify;
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
+	.wp-block-heading {
 		text-align: left;
 	}
 }
