@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.39.0]
+
+### Changed
+- `functions.php` - got CSS and JS autoversioning functioning on parent theme
+
 ## [1.38.3]
 
 ### Added
