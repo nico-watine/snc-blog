@@ -15,11 +15,7 @@ function snc_blog_parent_styles() {
 /* Load child theme's CSS files */
 add_action( 'wp_enqueue_scripts', 'snc_blog_child_styles' );
 function snc_blog_child_styles() {
-  wp_enqueue_style( 'snc-blog-child',
-    get_stylesheet_directory_uri() . '/style.css',
-    array('snc-blog'),
-    wp_get_theme()->get( 'Version' )
-  );
+  wp_enqueue_style( 'snc-blog-child', get_stylesheet_directory_uri() . '/style.css', array('snc-blog'), wp_get_theme()->get( 'Version' ) );
 }
 
 /* Add Custom CSS to Admin Area */
