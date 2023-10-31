@@ -83,13 +83,13 @@ function wpdocs_excerpt_more( $more ) {
 /* Load theme's CSS files */
 add_action( 'wp_enqueue_scripts', 'snc_blog_styles' );
 function snc_blog_styles() {
-  wp_enqueue_style( 'snc-blog', get_template_directory_uri() . '/style.css', [], wp_get_theme()->parent()->get( 'Version' ) );
+  wp_enqueue_style( 'snc-blog', get_template_directory_uri() . '/style.css', [], wp_get_theme()->get( 'Version' ) );
 }
 
 /* Load theme's JS files */
 add_action( 'wp_enqueue_scripts', 'snc_blog_scripts' );
 function snc_blog_scripts() {
-  wp_enqueue_script( 'snc-blog', get_template_directory_uri() . '/js/bundle.js', array('jquery'), wp_get_theme()->parent()->get( 'Version' ) );
+  wp_enqueue_script( 'snc-blog', get_template_directory_uri() . '/js/bundle.js', array('jquery'), wp_get_theme()->get( 'Version' ) );
 
   if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
     wp_enqueue_script( 'comment-reply' );
