@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.40.0]
+
+### Changed
+- `functions.php` - revert autoversioning to self's theme number and call parent theme's version via child theme `functions.php`
+
 ## [1.39.0]
 
 ### Changed
