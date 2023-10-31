@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.38.3]
+
+### Added
+- `_headings.scss` - Make sure `<code>` inside all `<h1-h6>` is `font-weight:normal`
+
 ## [1.38.2]
 
 ### Changed
