@@ -1,6 +1,18 @@
 <?php
 
+/* Queue loading parent theme scripts */
+add_action( 'wp_enqueue_scripts', 'snc_blog_parent_enqueue_scripts' );
+function snc_blog_parent_enqueue_scripts() {
+  wp_enqueue_script( 'snc-blog', get_template_directory_uri() . '/js/bundle.js', array('jquery'), wp_get_theme()->parent()->get( 'Version' ) );
+}
+
 /* Queue loading parent theme styles */
+add_action( 'wp_enqueue_scripts', 'snc_blog_parent_enqueue_styles' );
+function snc_blog_parent_enqueue_styles() {
+  wp_enqueue_style( 'snc-blog', get_template_directory_uri() . '/style.css', [], wp_get_theme()->parent()->get( 'Version' ) );
+}
+
+/* Queue loading child theme styles */
 add_action( 'wp_enqueue_scripts', 'snc_blog_child_enqueue_styles' );
 function snc_blog_child_enqueue_styles() {
   wp_enqueue_style( 'snc-blog-child',
