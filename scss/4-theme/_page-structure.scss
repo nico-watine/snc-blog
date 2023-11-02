@@ -18,4 +18,8 @@ $maxWidth-400: 'only screen and (max-width : 25rem)';
 	.wp-block-heading {
 		text-align: left;
 	}
+
+	p {
+		hyphens: auto;
+	}
 }
