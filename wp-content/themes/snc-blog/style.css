@@ -3,7 +3,7 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.40.1
+Version: 1.41.0
 */
 @font-face {
   font-family: 'Lato';
@@ -758,46 +758,6 @@ form[role='search'] .search-submit:hover {
 .entry__content img {
   max-width: 96%;
   height: auto; }
-
-.entry__content blockquote {
-  position: relative;
-  display: block;
-  width: 96%;
-  padding: 1.25rem;
-  margin: 0 auto;
-  border-radius: 0.3125rem;
-  margin-top: 2rem;
-  background-color: #eee; }
-
-.entry__content blockquote::before {
-  content: '“';
-  font-size: 3.125rem;
-  line-height: 1em;
-  font-family: sans-serif;
-  color: #566372;
-  position: absolute;
-  left: 0.625rem;
-  top: 0.625rem; }
-
-.entry__content blockquote p,
-.entry__content blockquote h1,
-.entry__content blockquote h2,
-.entry__content blockquote h3,
-.entry__content blockquote h4,
-.entry__content blockquote h5,
-.entry__content blockquote h6,
-.entry__content blockquote ul,
-.entry__content blockquote ol,
-.entry__content blockquote dl,
-.entry__content blockquote table {
-  margin: 0; }
-
-.entry__content blockquote + figcaption {
-  width: 96%;
-  margin: 0 auto;
-  text-align: right;
-  font-weight: normal;
-  font-style: italic; }
 
 .entry__content address {
   font-size: 0.875rem; }

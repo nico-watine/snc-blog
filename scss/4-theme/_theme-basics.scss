@@ -393,50 +393,6 @@ form[role='search'] .search-submit:hover {
 	height: auto;
 }
 
-.entry__content blockquote {
-	position: relative;
-	display: block;
-	width: 96%;
-	padding: rem-calc(20);
-	margin: 0 auto;
-	border-radius: rem-calc(5);
-	margin-top: rem-calc(32);
-	background-color: #eee;
-}
-
-.entry__content blockquote::before {
-	content: '“';
-	font-size: rem-calc(50);
-	line-height: 1em;
-	font-family: sans-serif;
-	color: #566372;
-	position: absolute;
-	left: rem-calc(10);
-	top: rem-calc(10);
-}
-
-.entry__content blockquote p,
-.entry__content blockquote h1,
-.entry__content blockquote h2,
-.entry__content blockquote h3,
-.entry__content blockquote h4,
-.entry__content blockquote h5,
-.entry__content blockquote h6,
-.entry__content blockquote ul,
-.entry__content blockquote ol,
-.entry__content blockquote dl,
-.entry__content blockquote table {
-	margin: 0;
-}
-
-.entry__content blockquote + figcaption {
-	width: 96%;
-	margin: 0 auto;
-	text-align: right;
-	font-weight: normal;
-	font-style: italic;
-}
-
 .entry__content address {
 	font-size: rem-calc(14);
 }
