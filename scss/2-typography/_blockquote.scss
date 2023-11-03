@@ -3,18 +3,23 @@ blockquote {
 	display: block;
 	width: 96%;
 	padding: rem-calc(20);
-	margin: 0 auto;
+	margin: 40px auto;
 	border-radius: rem-calc(5);
 	margin-top: rem-calc(40);
-	background-color: #eee;
+	background-color: $bodyBackground;
+
+	p {
+		font-size: rem-calc(16);
+	}
 }
 
 blockquote::before {
 	content: '“';
 	font-size: 50px;
 	line-height: 1em;
-	font-family: sans-serif;
-	color: #fff;
+	font-family: 'Lato';
+	font-weight: 700;
+	color: $sncBlue;
 	position: absolute;
 	left: 10px;
 	top: 10px;

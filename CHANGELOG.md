@@ -9,6 +9,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - `_theme-basics.scss` - Removed all `blockquote`-related rules since are just copies of rules contained in `_blockquote.scss`
 - `_blockquote.scss` - Removed `margin:0` rule from all elements inside a `blockquote`
 
+### Added
+- `_blockquote.scss` - Added rule to make `p` inside `blockquote` be `font-size:1rem` (as opposed to default `p` size of `1.25rem`)
+
+### Changed
+- `_blockquote.scss` - Changed `color`, `font-family` and `font-weight` of `“` symbol inside the `blockquote`
+- `_blockquote.scss` - Changed `margin` of `blockquote` from `0 auto` to `40px auto`
+- `_blockquote.scss` - Changed `background-color` of `blockquote` to match site styles
+- `_dark-color-scheme.scss` - Changed `background-color` of `blockquote` to match site styles
+
 ## [1.40.1]
 
 ### Added

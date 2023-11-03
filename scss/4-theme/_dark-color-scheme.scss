@@ -51,12 +51,12 @@ body.is-dark {
 		color: #fff;
 	}
 
-	.entry__content blockquote {
-		background-color: $commentColor_primary-dark;
-	}
+	blockquote {
+		background-color: $darkUI--bodyBackground;
 
-	.entry__content blockquote::before {
-		color: #fff;
+		&:before {
+			color: #fff;
+		}
 	}
 
 	.gnav {
@@ -176,12 +176,12 @@ body.is-dark {
 		}
 	}
 
-	.entry__content blockquote {
-		background-color: $commentColor_primary-dark;
-	}
+	blockquote {
+		background-color: $darkUI--bodyBackground;
 
-	.entry__content blockquote::before {
-		color: #fff;
+		&:before {
+			color: #fff;
+		}
 	}
 
 	.gnav {
