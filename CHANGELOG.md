@@ -13,6 +13,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Removed
 - `_theme-basics.scss` - Removed `border-radius` on `.entry__thumb` since radius is now specified on the `img` itself
 
+### Changed
+- `_blockquote.scss` - Changed `border-radius` from `5px` to `$globalRadius` (`12px`)
+
 ## [1.41.0]
 
 ### Removed
