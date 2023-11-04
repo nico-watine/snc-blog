@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 - `_featured-img-styles.scss` - Added `border-radius:12px` to images on the index blog roll, Category blog roll or Tag blog roll
+- `_theme-basics.scss` - Added `border-radius:12px` to all `img` in a post
 
 ### Removed
 - `_theme-basics.scss` - Removed `border-radius` on `.entry__thumb` since radius is now specified on the `img` itself

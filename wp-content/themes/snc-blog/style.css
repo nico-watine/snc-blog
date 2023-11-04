@@ -746,7 +746,8 @@ form[role='search'] .search-submit:hover {
 
 .entry__content img {
   max-width: 96%;
-  height: auto; }
+  height: auto;
+  border-radius: 12px; }
 
 .entry__content address {
   font-size: 0.875rem; }
