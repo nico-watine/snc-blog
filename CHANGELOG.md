@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.42.0] - Image Styles
+
+### Added
+- `_featured-img-styles.scss` - Added `border-radius:12px` to images on the index blog roll, Category blog roll or Tag blog roll
+
+### Removed
+- `_theme-basics.scss` - Removed `border-radius` on `.entry__thumb` since radius is now specified on the `img` itself
+
 ## [1.41.0]
 
 ### Removed
