@@ -3,9 +3,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [1.42.0] - Image Styles
+## [1.42.0] - `border-radius` Styles
 
 ### Added
+- `_var.scss` - New variable for global `border-radius` of `12px`
 - `_featured-img-styles.scss` - Added `border-radius:12px` to images on the index blog roll, Category blog roll or Tag blog roll
 - `_theme-basics.scss` - Added `border-radius:12px` to all `img` in a post
 

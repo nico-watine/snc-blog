@@ -390,7 +390,7 @@ form[role='search'] .search-submit:hover {
 .entry__content img {
 	max-width: 96%;
 	height: auto;
-	border-radius: 12px;
+	border-radius: $globalRadius;
 }
 
 .entry__content address {
