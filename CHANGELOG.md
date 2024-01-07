@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.42.2]
+
+### Changed
+- `_comments.scss` - Changed border radius of comment boxes from 4px to 12px
+
 ## [1.42.1]
 
 ### Added
