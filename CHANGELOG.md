@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.44.0] Static Template Updates
+
+### Changed
+- `static-front-page.php` - Updated index template via local SNC-Avada repo static build
+- `web-development-template.php` - Updated index template via local SNC-Avada repo static build
+
 ## [1.43.0]
 
 ### Changed

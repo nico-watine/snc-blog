@@ -1,349 +1,342 @@
 <?php
-	// Template name: Static Index
-	include($_SERVER['DOCUMENT_ROOT'].'/php/autoVer.php');
+  // Template name: Static Index
 ?>
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" class="no-js" lang="en-US">
+<html class="avada-html-layout-wide avada-html-header-position-top avada-is-100-percent-template" lang="en-US">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Web Design &amp; Site Maintenance | Studio N Creations</title>
-	<meta name="description" content="I design, brand, code and maintain mobile-optimized websites for projects of all sizes. Located in Houston, TX, available anywhere.">
-	<link href="https://studioncreations.com/" rel="canonical">
-	<link href="/humans.txt" rel="author">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	<link rel="icon" href="/android-chrome-192x192.png" sizes="192x192">
-	<link rel="manifest" href="/manifest.json">
+  <title>Web design that empowers your Small Business - Studio N Creations</title>
+  <meta name="description" content="From your digital presence to your print marketing, Nico Watine has the skills to take your business to the next level">
+  <link rel="canonical" href="https://studioncreations.com/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Web design that empowers your Small Business">
+  <meta property="og:description" content="International experience paired with small business passion to boost your company">
+  <meta property="og:url" content="https://studioncreations.com/">
+  <meta property="og:site_name" content="Studio N Creations">
+  <meta property="article:modified_time" content="2024-01-08T17:52:57+00:00">
+  <meta property="og:image" content="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/12/studio-n-creations-og-image-1.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://studioncreations.com/","url":"https://studioncreations.com/","name":"Web design that empowers your Small Business - Studio N Creations","isPartOf":{"@id":"https://studioncreations.com/#website"},"about":{"@id":"https://studioncreations.com/#/schema/person/ec862d6bc5c50b52fe4cc8bb3cccae3e"},"primaryImageOfPage":{"@id":"https://studioncreations.com/#primaryimage"},"image":{"@id":"https://studioncreations.com/#primaryimage"},"thumbnailUrl":"https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/1440x810.jpg","datePublished":"2023-11-07T20:53:17+00:00","dateModified":"2024-01-08T17:52:57+00:00","description":"From your digital presence to your print marketing, Nico Watine has the skills to take your business to the next level","breadcrumb":{"@id":"https://studioncreations.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://studioncreations.com/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://studioncreations.com/#primaryimage","url":"https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/1440x810.jpg","contentUrl":"https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/1440x810.jpg","width":1440,"height":810},{"@type":"BreadcrumbList","@id":"https://studioncreations.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://studioncreations.com/#website","url":"https://studioncreations.com/","name":"Studio N Creations","description":"Web Design empowering Small Business","publisher":{"@id":"https://studioncreations.com/#/schema/person/ec862d6bc5c50b52fe4cc8bb3cccae3e"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://studioncreations.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":["Person","Organization"],"@id":"https://studioncreations.com/#/schema/person/ec862d6bc5c50b52fe4cc8bb3cccae3e","name":"Nico Watine","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://studioncreations.com/#/schema/person/image/","url":"http://0.gravatar.com/avatar/fa322b432e4b61b9c104d1f4472ed054?s=96&d=mm&r=g","contentUrl":"http://0.gravatar.com/avatar/fa322b432e4b61b9c104d1f4472ed054?s=96&d=mm&r=g","caption":"Nico Watine"},"logo":{"@id":"https://studioncreations.com/#/schema/person/image/"},"sameAs":["https://www.instagram.com/studio.n.creations/"],"jobTitle":"Freelance Web Developer","worksFor":"Studio N Creations"}]}</script>
 
-	<meta name="apple-mobile-web-app-title" content="Studio N C">
-	<meta name="application-name" content="Studio N C">
-	<meta name="format-detection" content="telephone=no">
-	<meta name="theme-color" content="#566372">
 
-	<meta property="og:locale" content="en_US">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Web Design &amp; Site Maintenance | Studio N Creations">
-	<meta property="og:description" content="I create phone-friendly websites for projects of all sizes. From the design and branding to the coding and maintenance, I&#x27;ve got your web needs covered. Located in Houston, TX, available anywhere.">
-	<meta property="og:url" content="https://studioncreations.com/">
-	<meta property="og:site_name" content="Studio N Creations">
-	<meta property="og:image" content="https://studioncreations.com/img/assets/og-images/index/studio-n-creations-og-image-1.png">
-	<meta property="fb:app_id" content="1681974038799263">
 
-	<meta name="google-site-verification" content="KRkK5A_Jr3_V2SvGIzpyRMNi37bKOmqS_vBphvOJV7g" />
-	<meta name="p:domain_verify" content="bc4789b1440b540e061b16da850cc42a"/>
 
-	<link href="/css/app.css?=2023-06-14T18:09:15Z" rel="stylesheet">
 
-</head>
-<body id="index" class="index bodyLayout-unique">
+        <link rel="stylesheet" id="child-style-css" href="https://studioncreations.com/static-avada/2024-01-08/wp-content/themes/Avada-Child-Theme/style.css?ver=6.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="fusion-dynamic-css-css" href="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/fusion-styles/4c3e4b5a8e0d525a8f1e4b288a91fc28.min.css?ver=3.11.3" type="text/css" media="all">
+<script type="text/javascript" src="https://studioncreations.com/static-avada/2024-01-08/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<style type="text/css" id="css-fb-visibility">@media screen and (max-width: 640px){.fusion-no-small-visibility{display:none !important;}body .sm-text-align-center{text-align:center !important;}body .sm-text-align-left{text-align:left !important;}body .sm-text-align-right{text-align:right !important;}body .sm-flex-align-center{justify-content:center !important;}body .sm-flex-align-flex-start{justify-content:flex-start !important;}body .sm-flex-align-flex-end{justify-content:flex-end !important;}body .sm-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .sm-ml-auto{margin-left:auto !important;}body .sm-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-small{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-small{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 641px) and (max-width: 1023px){.fusion-no-medium-visibility{display:none !important;}body .md-text-align-center{text-align:center !important;}body .md-text-align-left{text-align:left !important;}body .md-text-align-right{text-align:right !important;}body .md-flex-align-center{justify-content:center !important;}body .md-flex-align-flex-start{justify-content:flex-start !important;}body .md-flex-align-flex-end{justify-content:flex-end !important;}body .md-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .md-ml-auto{margin-left:auto !important;}body .md-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-medium{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-medium{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 1024px){.fusion-no-large-visibility{display:none !important;}body .lg-text-align-center{text-align:center !important;}body .lg-text-align-left{text-align:left !important;}body .lg-text-align-right{text-align:right !important;}body .lg-flex-align-center{justify-content:center !important;}body .lg-flex-align-flex-start{justify-content:flex-start !important;}body .lg-flex-align-flex-end{justify-content:flex-end !important;}body .lg-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .lg-ml-auto{margin-left:auto !important;}body .lg-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-large{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-large{ position: sticky; top: var(--awb-sticky-offset,0); }}</style>
+<style>.wp-block-gallery.is-cropped .blocks-gallery-item picture{height:100%;width:100%;}</style>   <script type="text/javascript">var doc = document.documentElement;
+      doc.setAttribute( 'data-useragent', navigator.userAgent );</script>
+    <style type="text/css" id="fusion-builder-page-css">.index-splash-video .tagline-wrap {
+  max-width: 580px;
+  width: 100%;
+}
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-51263970-1"></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+.webpage-collage-container .max-width-500px {
+  max-width: 500px;
+  width: 100%;
+}
+.webpage-collage-container .max-width-830px {
+  max-width: 830px;
+  width: 100%;
+}
 
-	gtag('config', 'UA-51263970-1');
-</script>
+.blog-links-section h2,
+.blog-links-section h5 {
+  text-shadow: 0 0 0.625rem #000;
+}
+.blog-links-section h5 {
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+}</style>
+  </head>
 
-<div class="off-canvas-wrapper">
+<body class="home page-template page-template-100-width page-template-100-width-php page page-id-11 awb-no-sidebars fusion-image-hovers fusion-pagination-sizing fusion-button_type-flat fusion-button_span-no fusion-button_gradient-linear avada-image-rollover-circle-yes avada-image-rollover-yes avada-image-rollover-direction-left fusion-body ltr fusion-sticky-header no-tablet-sticky-header no-mobile-sticky-header no-mobile-slidingbar no-mobile-totop fusion-sub-menu-fade mobile-logo-pos-left layout-wide-mode avada-has-boxed-modal-shadow-none layout-scroll-offset-full avada-has-zero-margin-offset-top fusion-top-header menu-text-align-center mobile-menu-design-classic fusion-show-pagination-text fusion-header-layout-v6 avada-responsive avada-footer-fx-none avada-menu-highlight-style-bar fusion-search-form-clean fusion-main-menu-search-overlay fusion-avatar-circle avada-blog-layout-large avada-blog-archive-layout-large avada-header-shadow-no avada-menu-icon-position-left avada-has-megamenu-shadow avada-has-breadcrumb-mobile-hidden avada-has-titlebar-hide avada-header-border-color-full-transparent avada-has-pagination-width_height avada-flyout-menu-direction-right avada-ec-views-v1 awb-link-decoration" data-awb-post-id="11">
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-	<div class="off-canvas position-right" id="offCanvas-menu" data-off-canvas data-position="right">
-		<button class="close-button" aria-label="Close menu" type="button" data-close>
-			<span aria-hidden="true">&times;</span>
-		</button>
-		<h1><a href="/">Studio N Creations</a></h1>
-		<ul class="vertical menu">
-			<li><a class="monospace" href="/">About</a></li>
-			<li><a class="monospace" href="/our-services/web-development">Services</a></li>
-			<li><a class="monospace" href="/blog/">Blog <span id="blog-count" class="display-inline-block text-center">1</span></a></li>
-		</ul>
-	</div>
+  <div id="boxed-wrapper">
 
-	<div class="off-canvas-content" data-off-canvas-content>
-		<div class="hide-for-medium" id="mobileNavBar-wrapper">
-			<a id="contactModal-toggle" data-open="contactModal"><img src="/img/assets/icons/profile-icon.svg" alt="Profile Icon"></a>
-			<button id="offCanvas-menu--toggle" type="button" class="button monospace" data-toggle="offCanvas-menu">Menu <i class="hamburger"></i></button>		
-		</div>
-		<nav class="show-for-medium" id="topNavBar">
-			<aside>
-				<ul class="menu" id="menu-contactLinks">
-					<li><a data-open="contactModal"><img src="/img/assets/icons/profile-icon.svg" alt="Profile Icon"></a></li>
-					<!-- <li id="phone"><span data-tooltip aria-haspopup="true" class="has-tip" tabindex="1" data-hover-delay="0" data-fade-in-duration="100" data-v-offset="14" data-template-classes="phone-tooltip" title="713-443-3761"><a id="phone"><img src="/img/assets/icons/phone.svg" alt="Phone Icon"></a></span></li> -->
-				</ul>
-			</aside>
-			<ul class="menu align-right" id="menu-pageLinks">
-				<li><button id="offCanvas-menu--toggle" type="button" class="button monospace" data-toggle="offCanvas-menu">Menu <i class="hamburger"></i></button></li>
-				<!-- <li><a href="/" class="monospace">Portfolio</a></li> -->
-			</ul>
-		</nav>
-		<header class="splash-video-header grid-x position-relative overflow-hidden">
-			<div class="grid-container fluid width-100">
-				<div class="grid-x grid-padding-x align-middle prose-grid">
-					<div class="prose-cell cell color-white large-text-center">
-						<div class="grid-container">
-							<h1>Studio N Creations</h1>
-							<h2>Web Development |&nbsp;Site&nbsp;Maintenance</h2>
-							<div data-magellan data-threshold="0">
-								<a href="#main-content-section"><img src="/img/assets/icons/arrow-circle-down.svg" alt=""></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="grid-x position-absolute backgroundVideo-container width-100 height-100">
-				<div class="cell">
-					<video playsinline autoplay muted loop preload="" poster="/img/index/website-mashup-video/studio-n-creations-website-mashup-poster.jpg" id="backgroundVideo">
-						<source src="/img/index/website-mashup-video/studio-n-creations-website-mashup.webm" type="video/webm">
-						<source src="/img/index/website-mashup-video/studio-n-creations-website-mashup.mp4" type="video/mp4">
-					</video>
-				</div>
-			</div>
-		</header>
-		
-		<main class="index-webpage-collage-container" id="main-content-section" data-magellan-target="main-content-section">
-			<section class="intro-slogan">
-				<div class="row">
-					<div class="medium-6 columns medium-text-right">
-						<h2>I create phone-friendly websites for projects of all&nbsp;sizes</h2>
-					</div>
-					<div class="medium-5 columns end">
-						<div class="prose">
-							<p class="lead">No client is too big or too small. Whether you need a single brochure-type landing page or a full featured e-commerce site, I've got you covered.</p>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="about-me">
-				<div class="row">
-					<div class="column">
-						<div class="prose-wrap float-center">
-							<div class="prose float-center" itemscope itemtype="http://schema.org/Person">
-								<h3 class="h3 ff-monospace">About Me</h3>
-								<h4 class="h4 mb-16">My name is <span itemprop="name">Nico Watine</span>, and I am the <span itemprop="affiliation">Studio&nbsp;N&nbsp;Creations</span> team. I design, code and maintain mobile-optimized websites for projects of all sizes.</h4>
-								<p>Having a professional website is key to a company’s image and success, and that’s exactly what I specialize in — strong websites for B2B and B2C small businesses. As a <span itemprop="jobTitle">freelance web developer</span>, I only take on 1 or 2 projects at a time to ensure I can provide the utmost excellence in service and quality with every job, for every client.</p>
-								<p>I’m located in Houston, TX, and am available for hire anywhere. Let's <a data-open="contactModal">connect today</a> and see when we can get started — I’m only a message away.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="small-business-banner">
-				<div class="row text-center">
-					<h2 class="mb-40">Small business is my&nbsp;specialty.</h2>
-				</div>
-				<div class="row">
-					<div class="medium-7 columns">
-						<div class="prose-wrap">
-							<p>My services include setting up Shopify stores and  Wordpress blogs, but my specialty is custom website design and development for small businesses. I have experience in setting companies up with a professional online presence that delivers success, and the most effective way of achieving that is with a bespoke website.</p>
-						</div>
-					</div>
-					<div class="medium-5 columns text-center medium-text-left">
-						<a href="/our-services/web-development" class="h4 ff-monospace web-development-button">Here’s my process</a>
-					</div>
-				</div>
-			</section>
-		</main>
-		
-		<div class="p-8" style="background: #566372;">
-			<hr>
-			<h2 class="mb-16 text-center text-white ff-monospace">Featured Businesses</h2>
-		</div>
-		
-		<section class="projectBanner overflow-hidden position-relative" id="miriam-rodriguez">
-			<div class="bg-blur position-relative">
-				<div class="row">
-					<div class="medium-6 columns text-center medium-text-left">
-						<div class="prose-wrap color-white display-inline-block text-left">
-							<h3 class="monospace text-center mb-20">Miriam Rodríguez</h3>
-							<p>International bridal couturier Miriam Rodríguez hired me to create her bilingual online portfolio so she could expand her business and capitalize on her booming <a href="https://instagram.com/realmiriamrodriguez?igshid=YmMyMTA2M2Y=" target="_blank">Instagram profile</a>.</p>
-							<div class="text-center">
-								<a href="https://miriamrodriguez.com/" class="site-link">www.miriamrodriguez.com</a>
-							</div>
-						</div>
-					</div>
-					<div class="medium-6 columns">
-						<div class="img-wrap show-for-medium">
-							<picture>
-								<source srcset="/img/projects/miriam-rodriguez/index/projectBanner/primary/miriam-rodriguez.webp, /img/projects/miriam-rodriguez/index/projectBanner/primary/miriam-rodriguez_2x.webp 2x" type="image/webp">
-								<img srcset="/img/projects/miriam-rodriguez/index/projectBanner/primary/miriam-rodriguez_2x.jpg 2x" src="/img/projects/miriam-rodriguez/index/projectBanner/primary/miriam-rodriguez.jpg" loading="lazy" alt="Screenshot of miriamrodriguez.com">
-							</picture>
-						</div>
-					</div>
-				</div>
-				<picture class="show-for-medium bg-screenshot">
-					<source srcset="/img/projects/miriam-rodriguez/index/projectBanner/secondary/miriam-rodriguez.webp, img/projects/miriam-rodriguez/index/projectBanner/secondary/miriam-rodriguez_2x.webp 2x" type="image/webp">
-					<img srcset="/img/projects/miriam-rodriguez/index/projectBanner/secondary/miriam-rodriguez_2x.jpg 2x" src="/img/projects/miriam-rodriguez/index/projectBanner/secondary/miriam-rodriguez.jpg" loading="lazy" alt="Screenshot of houstonpals.com">
-				</picture>
-			</div>
-		</section>
-		
-		<div class="py-8" style="background: #566372;">
-			<hr>
-		</div>
-		
-		<section class="projectBanner overflow-hidden position-relative" id="hpals">
-			<div class="bg-blur position-relative">
-				<div class="row">
-					<div class="medium-6 columns">
-						<div class="img-wrap float-right show-for-medium">
-							<picture>
-								<source srcset="/img/projects/houston-pals/index/projectBanner/primary/houston-pals.webp, /img/projects/houston-pals/index/projectBanner/primary/houston-pals_2x.webp 2x" type="image/webp">
-								<img srcset="/img/projects/houston-pals/index/projectBanner/primary/houston-pals_2x.jpg 2x" src="/img/projects/houston-pals/index/projectBanner/primary/houston-pals.jpg" loading="lazy" alt="Screenshot of houstonpals.com">
-							</picture>
-						</div>
-					</div>
-					<div class="medium-6 columns text-center medium-text-left">
-						<div class="prose-wrap color-white display-inline-block text-left">
-							<h3 class="monospace text-center mb-20">Houston PALS</h3>
-							<p>I worked with Bill Bickley of Houston Pet Artifical Limbs & Supports to craft a professional online presence for his specialized animal veterinary business in time for <a href="https://houstonpals.com/puppy-bowl-2019-journey">Puppy Bowl 15</a>.</p>
-							<div class="text-center">
-								<a href="https://houstonpals.com/" class="site-link">www.houstonpals.com</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<picture class="show-for-medium bg-screenshot">
-					<source srcset="/img/projects/houston-pals/index/projectBanner/secondary/houston-pals.webp, /img/projects/houston-pals/index/projectBanner/secondary/houston-pals_2x.webp 2x" type="image/webp">
-					<img srcset="/img/projects/houston-pals/index/projectBanner/secondary/houston-pals_2x.jpg 2x" src="/img/projects/houston-pals/index/projectBanner/secondary/houston-pals.jpg" loading="lazy" alt="Screenshot of houstonpals.com">
-				</picture>
-			</div>
-		</section>
-		
-		<section class="blog-roll-section">
-			<div class="row py-40 text-center">
-				<div class="column">
-					<h2 class="ff-monospace section-title"><a href="https://studioncreations.com/blog/">Studio N Creations Blog</a></h2>
-					<h4 class="color-white section-subhead">Nico’s Projects & Pro-Tips</h4>
-				</div>
-			</div>
-			<div class="row expanded collapse article-list">
-								<div class="medium-6 columns">
-					<a href="https://studioncreations.com/blog/install-windows-11-on-any-intel-macbook-pro-macbook-air-or-imac/" class="article-unit-link">
-						<div class="prose-wrap">
-							<h5 class="ff-monospace article-category">Tutorial Walkthrough</h5>
-							<h3 class="ff-sans-serif article-headline">Install Windows 11 on any Intel MacBook Pro, MacBook Air or iMac</h3>
-						</div>
-						<img src="https://studioncreations.com/wp-content/uploads/2022/10/Windows-11-Intel-Mac-Feature-Image-768x307.jpg" loading="lazy" alt="A graphic of an iMac and MacBook Pro with the Windows 11 logo">
-					</a>
-					<a href="https://studioncreations.com/blog/ifixit-pro-tech-toolkit-review/" class="article-unit-link">
-						<div class="prose-wrap">
-							<h5 class="ff-monospace article-category">Product Review</h5>
-							<h3 class="ff-sans-serif article-headline">Is the iFixit Pro Tech Toolkit worth it?</h3>
-						</div>
-						<img src="https://studioncreations.com/wp-content/uploads/2022/01/iFixit-Toolkit-Review-Feature-Image-768x307.jpg" loading="lazy" alt="A view of the iFixit Pro Toolkit opened up">
-					</a>
-				</div>
-				<div class="medium-6 columns">
-					<a href="https://studioncreations.com/blog/four-benefits-from-coding-bootcamps-to-your-career-journey/" class="article-unit-link">
-						<div class="prose-wrap">
-							<h5 class="ff-monospace article-category">Guest Post</h5>
-							<h3 class="ff-sans-serif article-headline">Four Benefits from Coding Bootcamps to your Career Journey</h3>
-						</div>
-						<img src="https://studioncreations.com/wp-content/uploads/2022/06/4-Coding-Bootcamp-Career-Benefits-Feature-image-768x307.jpg" loading="lazy" alt="A woman writing on sticky notes placed on a window">
-					</a>
-					<a href="https://studioncreations.com/blog/" class="article-unit-link">
-						<h3 class="ff-sans-serif article-headline absolute-center" id="read-more">More Articles</h3>
-						<img src="https://studioncreations.com/wp-content/uploads/2022/06/Apple-TV-Sleep-Timer-Featured-image-768x307.jpg" loading="lazy" alt="A perspective photo of the Home App on an iPhone with a picture of an Apple TV">
-					</a>
-				</div>
-			</div>
-		</section>
-		
-		<section class="graphic-branding">
-			<div class="row collapse">
-				<div class="medium-push-1 medium-11 large-4 large-push-0 columns">
-					<div class="prose">
-						<h3>Graphic Branding</h3>
-						<p>Web design means more than just a page design. Having a solid visual brand, such as through logos and colors, helps maintain design consistency, leaving a professional impression on the visitor. Here are a few of the custom logos I have created for clients.</p>
-					</div>
-				</div>
-				<div class="medium-12 large-8 columns">
-					<div class="row logos-row collapse">
-						<div class="medium-4 columns text-center column-1">
-							<div class="dynasty-sports-report-wrapper">
-								<img src="/img/projects/dynasty-sports-report/dynasty-sports-report-logo.svg" loading="lazy" alt="Dynasty Sports Report logo" title="DynastySportsReport.com website logo">
-							</div>
-							<img class="dmesa-home-img show-for-large" src="/img/projects/dmesa/dmesa-logo.svg" loading="lazy" alt="d'Mesa Home logo" title="d'Mesa Home logo">
-						</div>
-						<div class="medium-push-4 medium-3 columns hide-for-large text-center dmesa-home-wrapper column-2">
-							<img src="/img/projects/dmesa/dmesa-logo.svg" loading="lazy" alt="d'Mesa Home logo" title="d'Mesa Home logo">
-						</div>
-						<div class="medium-5 large-8 columns jardin-de-france-wrapper column-3">
-							<div class="jdf-blog-link">
-								<div class="link-wrap">
-									<a href="https://studioncreations.com/blog/new-printed-material-for-jardin-de-france-tx/">
-										<div class="prose-wrap">
-											<h4 class="h4 monospace"><span>Article</span></h4>
-											<p class="m-0"><span>Designing the Jardin de France Product&nbsp;Tags</span></p>
-										</div>
-									</a>
-								</div>
-								<img srcset="/img/projects/jardin-de-france-tx/index/graphic-design/jardin-de-france-price-tag_2x.jpg 2x" src="/img/projects/jardin-de-france-tx/index/graphic-design/jardin-de-france-price-tag.jpg" loading="lazy" alt="Jardin de France TX logo" title="Jardin de France TX product price tag design">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-				<div class="bubble-bg">
-			<section class="contact-form contact-banner">
-				<div class="row text-center section-title">
-					<h2>Have a project in mind?</h2>
-					<div class="modalTrigger">
-						<a class="monospace" data-open="contactModal">Let's talk!</a>
-					</div>
-				</div>
-			</section>
-			<footer>
-				<div class="row position-relative" style="z-index: 10;">
-					<div class="text-center medium-text-left medium-6 large-4 columns color-white mb-12">
-						<h5>&copy; Studio N Creations 2023</h5>
-					</div>
-					<div class="text-center medium-text-right large-text-center medium-6 large-4 columns color-white mb-12">
-						<h5>Coded with care in Houston,&nbsp;TX</h5>
-					</div>
-					<div class="large-4 columns color-white text-center large-text-right">
-						<ul class="meta-nav large-vertical menu h5 simple">
-							<li><a href="/">About</a></li>
-							<li><a href="/our-services/web-development">Services</a></li>
-							<li><a href="https://studioncreations.com/blog/">Blog</a></li>
-						</ul>
-						<!-- <div class="row social-icons">
-							<div class="small-4 medium-2 medium-push-3 large-4 large-push-0 text-right columns">
-								<a href="https://www.facebook.com/studio.n.creations" target="_blank"><img srcset="/img/assets/icons/facebook_2x.png 2x" src="/img/assets/icons/facebook.png" alt="Facebook Icon" title="Studio N Creations Facebook Page Link"></a>
-							</div>
-							<div class="small-4 medium-2 medium-push-3 large-4 large-push-0 text-center columns">
-								<a href="https://www.pinterest.com/studioncreation/" target="_blank"><img srcset="/img/assets/icons/pinterest_2x.png 2x" src="/img/assets/icons/pinterest.png" alt="Pinterest Icon" title="Studio N Creations Pinterest Account Link"></a>
-							</div>
-							<div class="small-4 medium-2 medium-push-3 large-4 large-push-0 end columns">
-								<a href="https://www.instagram.com/studio.n.creations/" target="_blank"><img srcset="/img/assets/icons/instagram_2x.png 2x" src="/img/assets/icons/instagram.png" alt="Instagram Icon" title="Studio N Creations Instagram Account Link"></a>
-							</div>
-						</div> -->
-					</div>
-				</div>
-			</footer>
-		</div>
-	</div>
+    <div id="wrapper" class="fusion-wrapper">
+      <div id="home" style="position:relative;top:-1px;"></div>
 
-</div> <!-- /.off-canvas-wrapper -->
 
-<div class="reveal" id="contactModal" data-reveal data-deep-link="true">
-	<div class="row">
-		<div class="columns text-center">
-			<h2>Nico Watine</h2>
-			<h4 class="font-weight-normal"><a href="mailto:nico@studioncreations.com">nico@studioncreations.com</a></h4>
-		</div>
-	</div>
-	<button class="close-button" data-close aria-label="Close modal" type="button">
-		<span aria-hidden="true">&times;</span>
-	</button>
+      <header class="fusion-header-wrapper">
+        <div class="fusion-header-v6 fusion-logo-alignment fusion-logo-left fusion-sticky-menu- fusion-sticky-logo- fusion-mobile-logo-  fusion-header-has-flyout-menu">
+          <div class="fusion-header-sticky-height"></div>
+<div class="fusion-header">
+  <div class="fusion-row">
+    <div class="fusion-header-v6-content fusion-header-has-flyout-menu-content">
+        <div class="fusion-logo" data-margin-top="28px" data-margin-bottom="20px" data-margin-left="0" data-margin-right="0">
+      <a class="fusion-logo-link" href="https://studioncreations.com/">
+
+            <!-- standard logo -->
+      <img src="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/STUDIO-N-CREATIONS.svg" srcset="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/STUDIO-N-CREATIONS.svg 1x" width="236" height="16" alt="Studio N Creations Logo" data-retina_logo_url="" class="fusion-standard-logo">
+
+
+          </a>
+    </div>
+      <div class="fusion-flyout-menu-icons">
+
+
+
+        <a class="fusion-flyout-menu-toggle" aria-hidden="true" aria-label="Toggle Menu" href="#">
+          <div class="fusion-toggle-icon-line"></div>
+          <div class="fusion-toggle-icon-line"></div>
+          <div class="fusion-toggle-icon-line"></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="fusion-main-menu fusion-flyout-menu" role="navigation" aria-label="Main Menu">
+      <ul id="menu-main-menu" class="fusion-menu">
+<li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-11 current_page_item menu-item-46" data-item-id="46"><a href="https://studioncreations.com/" class="fusion-bar-highlight"><span class="menu-text">About</span></a></li>
+<li id="menu-item-273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-273" data-item-id="273"><a href="https://studioncreations.com/our-services/web-development/" class="fusion-bar-highlight"><span class="menu-text">Web Development</span></a></li>
+<li id="menu-item-47" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47" data-item-id="47"><a href="https://studioncreations.com/blog/" class="fusion-bar-highlight"><span class="menu-text">Articles</span></a></li>
+<li id="menu-item-345" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-345 fusion-flyout-menu-item-last" data-item-id="345"><a href="#contact" class="fusion-bar-highlight"><span class="menu-text">Contact</span></a></li>
+</ul>   </div>
+
+
+    <div class="fusion-flyout-menu-bg"></div>
+  </div>
+</div>
+        </div>
+        <div class="fusion-clearfix"></div>
+      </header>
+
+              <div id="sliders-container" class="fusion-slider-visibility">
+          </div>
+
+
+
+
+            <main id="main" class="clearfix width-100">
+        <div class="fusion-row" style="max-width:100%;">
+<section id="content" class="full-width">
+          <div id="post-11" class="post-11 page type-page status-publish has-post-thumbnail hentry">
+                  <div class="post-content">
+        <div class="fusion-fullwidth fullwidth-box fusion-builder-row-1 fusion-flex-container video-background has-pattern-background has-mask-background index-splash-video nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-sizes-top:2px;--awb-border-sizes-bottom:2px;--awb-border-color:#ffffff;--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:40px;--awb-padding-bottom:40px;--awb-min-height:75vh;--awb-background-color:rgba(86,99,114,0.75);--awb-flex-wrap:wrap;">
+<div class="fullwidth-video"><video preload="auto" autoplay playsinline loop muted><source src="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/studio-n-creations-website-mashup.webm" type="video/webm"><source src="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/studio-n-creations-website-mashup.mp4" type="video/mp4"></video></div>
+<div class="fullwidth-overlay" style="background-color:rgba(86,99,114,0.75);"></div>
+<div class="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-align-content-center fusion-flex-justify-content-center fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-0 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-padding-right-medium:16px;--awb-padding-left-medium:16px;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+<div class="fusion-title title fusion-title-1 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two" style="--awb-text-color:var(--awb-color1);--awb-margin-bottom:20px;">
+<h2 class="fusion-title-heading title-heading-center" style="font-family:&quot;Source Code Pro&quot;;font-style:normal;font-weight:400;margin:0;text-transform:uppercase;line-height:1.2;text-shadow:-3px 3px 0px #000000;">International Experience <br>Small Business Passion
+</h2>
+</div>
+<div class="fusion-separator" style="align-self: center;margin-left: auto;margin-right: auto;margin-bottom:20px;width:100%;max-width:540px;"><div class="fusion-separator-border sep-single sep-solid" style="--awb-height:20px;--awb-amount:20px;--awb-sep-color:#ffffff;border-color:#ffffff;border-top-width:1px;"></div></div>
+<div class="fusion-title title fusion-title-2 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four tagline-wrap" style="--awb-text-color:var(--awb-color1);--awb-margin-right:auto;--awb-margin-left:auto;--awb-font-size:24px;"><h4 class="fusion-title-heading title-heading-center" style="font-family:&quot;Lato&quot;;font-style:normal;font-weight:400;margin:0;font-size:1em;line-height:1.4;text-shadow:-2px 2px 0px #000000;">From your digital presence to your print marketing, I have the skills and experience to help take your company to the next level</h4></div>
+<div style="text-align:center;"><a class="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-1 fusion-button-default-span fusion-button-default-type" style='--button_accent_color:var(--awb-color5);--button_border_color:var(--awb-color5);--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:var(--awb-color5);--button_border_width-top:3px;--button_border_width-right:3px;--button_border_width-bottom:3px;--button_border_width-left:3px;--button_gradient_top_color:#ffffff;--button_gradient_bottom_color:#ffffff;--button_gradient_top_color_hover:hsla(var(--awb-color5-h),calc(var(--awb-color5-s) - 5%),calc(var(--awb-color5-l) - 10%),var(--awb-color5-a));--button_gradient_bottom_color_hover:hsla(var(--awb-color5-h),calc(var(--awb-color5-s) - 5%),calc(var(--awb-color5-l) - 10%),var(--awb-color5-a));--button_text_transform:uppercase;--button_typography-font-family:"Source Code Pro";--button_typography-font-style:normal;--button_typography-font-weight:400;--button_margin-top:20px;' target="_self" data-toggle="modal" data-target=".fusion-modal.contact"><span class="fusion-button-text">Hire Nico</span></a></div>
+</div></div></div>
+</div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-2 fusion-flex-container has-pattern-background has-mask-background fusion-parallax-none webpage-collage-container nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style='--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:40px;--awb-padding-bottom:40px;--awb-background-image:url("https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/1440x810.jpg");--awb-background-size:cover;--awb-flex-wrap:wrap;'><div class="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-align-content-center fusion-flex-justify-content-center fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-1 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-padding-right-small:16px;--awb-padding-left-small:16px;--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:3.84%;--awb-width-medium:75%;--awb-order-medium:0;--awb-spacing-right-medium:2.56%;--awb-margin-bottom-medium:20px;--awb-spacing-left-medium:2.56%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-title title fusion-title-3 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two" style="--awb-text-color:var(--awb-color1);"><h2 class="fusion-title-heading title-heading-center" style="margin:0;text-shadow:-2px 3px 0px #000000;">I create phone-friendly websites for projects of all sizes</h2></div></div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-2 fusion_builder_column_1_2 1_2 fusion-flex-column max-width-500px" style="--awb-padding-right:16px;--awb-padding-right-medium:16px;--awb-padding-left-medium:16px;--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:3.84%;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:3.84%;--awb-spacing-left-medium:3.84%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-center fusion-flex-align-content-center fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-0 fusion_builder_column_inner_1_1 1_1 fusion-flex-column" style="--awb-padding-top:24px;--awb-padding-right:16px;--awb-padding-bottom:24px;--awb-padding-left:16px;--awb-overflow:hidden;--awb-bg-color:#ffffff;--awb-bg-color-hover:#ffffff;--awb-bg-size:cover;--awb-border-radius:12px 12px 12px 12px;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-1 fusion-text-no-margin" style="--awb-font-size:var(--awb-typography3-font-size);--awb-line-height:var(--awb-typography3-line-height);--awb-letter-spacing:var(--awb-typography3-letter-spacing);--awb-text-transform:var(--awb-typography3-text-transform);--awb-text-font-family:var(--awb-typography3-font-family);--awb-text-font-weight:var(--awb-typography3-font-weight);--awb-text-font-style:var(--awb-typography3-font-style);">
+<p>No client is too big or too small. Whether you need a single brochure-type landing page or a full featured ecommerce site, I&#8217;ve got you covered.</p>
+</div></div></div></div></div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-3 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-padding-right:16px;--awb-padding-left:16px;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:60px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-center fusion-flex-align-content-center fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-1 fusion_builder_column_inner_1_1 1_1 fusion-flex-column max-width-830px" style="--awb-padding-top:40px;--awb-padding-right:40px;--awb-padding-bottom:40px;--awb-padding-left:40px;--awb-padding-right-medium:32px;--awb-padding-left-medium:32px;--awb-padding-right-small:20px;--awb-padding-left-small:20px;--awb-overflow:hidden;--awb-bg-color:#ffffff;--awb-bg-color-hover:#ffffff;--awb-bg-size:cover;--awb-border-radius:24px 24px 24px 24px;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+<div class="fusion-title title fusion-title-4 fusion-sep-none fusion-title-text fusion-title-size-three"><h3 class="fusion-title-heading title-heading-left" style="font-family:&quot;Source Code Pro&quot;;font-style:normal;font-weight:400;margin:0;text-transform:uppercase;">About Me</h3></div>
+<div class="fusion-title title fusion-title-5 fusion-sep-none fusion-title-text fusion-title-size-four"><h4 class="fusion-title-heading title-heading-left" style="font-family:&quot;Lato 700&quot;;font-style:normal;font-weight:400;margin:0;">My name is Nico Watine, and I am the Studio N Creations team. I design, code and maintain mobile-optimized websites for projects of all sizes.</h4></div>
+<div class="fusion-text fusion-text-2">
+<p>Having a professional website is key to a company’s image and success, and that’s exactly what I specialize in — strong websites for B2B and B2C small businesses. As a freelance web developer, I only take on 1 or 2 projects at a time to ensure I can provide the utmost excellence in service and quality with every job, for every client.</p>
+<p>I’m located in Houston, TX, and am available for remote hire. Let&#8217;s <a href="#" data-toggle="modal" data-target=".fusion-modal.contact">connect today</a> and get started — I’m only a message away.</p>
+</div>
+</div></div></div></div></div>
+</div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-3 fusion-flex-container has-pattern-background has-mask-background fusion-parallax-none small-business-section nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:40px;--awb-padding-right:20px;--awb-padding-bottom:40px;--awb-padding-left:20px;--awb-background-image:linear-gradient(180deg, rgba(242,242,242,0.8) 0%,rgba(242,242,242,0.8) 100%),url(https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/1440x810.jpg);;--awb-background-size:cover;--awb-flex-wrap:wrap;"><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-4 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:40px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-title title fusion-title-6 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two"><h2 class="fusion-title-heading title-heading-center" style="font-family:&quot;Lato 700&quot;;font-style:normal;font-weight:400;margin:0;">Small business is my specialty.</h2></div></div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-5 fusion_builder_column_3_5 3_5 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:60%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.2%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:3.2%;--awb-width-medium:60%;--awb-order-medium:0;--awb-spacing-right-medium:3.2%;--awb-spacing-left-medium:3.2%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+<div class="fusion-text fusion-text-3 fusion-no-medium-visibility fusion-no-large-visibility" style="--awb-margin-right:auto;--awb-margin-left:auto;">
+<p style="max-width: 480px;">I have experience setting companies up with a professional online presence that delivers success, and the most effective way of achieving that is with a bespoke website tailored exactly for your business.</p>
+</div>
+<div class="fusion-text fusion-text-4 fusion-no-small-visibility">
+<p style="max-width: 480px; float: right;">I have experience setting companies up with a professional online presence that delivers success, and the most effective way of achieving that is with a bespoke website tailored exactly for your business.</p>
+</div>
+</div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-6 fusion_builder_column_2_5 2_5 fusion-flex-column" style="--awb-padding-top:20px;--awb-bg-size:cover;--awb-width-large:40%;--awb-margin-top-large:0px;--awb-spacing-right-large:4.8%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:4.8%;--awb-width-medium:40%;--awb-order-medium:0;--awb-spacing-right-medium:4.8%;--awb-spacing-left-medium:4.8%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="md-text-align-center sm-text-align-center"><a class="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-2 fusion-button-default-span fusion-button-default-type" style='--button_accent_color:var(--awb-color1);--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:var(--awb-color5);--button_gradient_top_color:var(--awb-color5);--button_gradient_bottom_color:var(--awb-color5);--button_gradient_top_color_hover:hsla(var(--awb-color5-h),calc(var(--awb-color5-s) - 5%),calc(var(--awb-color5-l) - 10%),var(--awb-color5-a));--button_gradient_bottom_color_hover:hsla(var(--awb-color5-h),calc(var(--awb-color5-s) - 5%),calc(var(--awb-color5-l) - 10%),var(--awb-color5-a));--button_text_transform:uppercase;--button_font_size:21px;--button_typography-font-family:"Source Code Pro";--button_typography-font-style:normal;--button_typography-font-weight:400;' target="_self" href="https://studioncreations.com/our-services/web-development/"><span class="fusion-button-text">Here&#8217;s My Process</span></a></div></div></div>
+</div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-4 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-background-color:var(--awb-color6);--awb-flex-wrap:wrap;"><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-7 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+<div class="fusion-separator fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-top:20px;margin-bottom:20px;width:100%;"><div class="fusion-separator-border sep-single sep-solid" style="--awb-height:20px;--awb-amount:20px;--awb-sep-color:var(--awb-color1);border-color:var(--awb-color1);border-top-width:1px;"></div></div>
+<div class="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-2 fusion_builder_column_inner_1_1 1_1 fusion-flex-column" style="--awb-padding-right:20px;--awb-padding-left:20px;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-title title fusion-title-7 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two" style="--awb-text-color:var(--awb-color1);--awb-margin-bottom:0px;"><h2 class="fusion-title-heading title-heading-center" style="font-family:&quot;Source Code Pro&quot;;font-style:normal;font-weight:400;margin:0;text-transform:uppercase;">Featured Businesses</h2></div></div></div></div>
+<div class="fusion-separator fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-top:20px;margin-bottom:20px;width:100%;"><div class="fusion-separator-border sep-single sep-solid" style="--awb-height:20px;--awb-amount:20px;--awb-sep-color:var(--awb-color1);border-color:var(--awb-color1);border-top-width:1px;"></div></div>
+</div></div></div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-5 fusion-flex-container has-pattern-background has-mask-background fusion-parallax-none hundred-percent-fullwidth non-hundred-percent-height-scrolling" style='--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-background-image:url("https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/miriam-rodriguez_2x.jpg");--awb-background-size:cover;--awb-flex-wrap:wrap;'><div class="fusion-builder-row fusion-row fusion-flex-align-items-stretch fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-8 fusion_builder_column_1_1 1_1 fusion-flex-column bg-blur" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-stretch fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
+<div class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-3 fusion_builder_column_inner_1_2 1_2 fusion-flex-column" style="--awb-padding-left:16px;--awb-padding-top-medium:20px;--awb-padding-bottom-medium:20px;--awb-padding-top-small:40px;--awb-padding-right-small:16px;--awb-padding-bottom-small:40px;--awb-padding-left-small:16px;--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:3.84%;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:3.84%;--awb-spacing-left-medium:3.84%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column">
+<div class="fusion-text fusion-text-5 fusion-no-small-visibility" style="--awb-text-color:#ffffff;">
+<div style="background: rgba(68,68,68,0.75); padding: 24px 0; border-radius: 24px; max-width: 460px; width: 100%; float: right;">
+<div style="padding: 0 20px;">
+<h3 class="ff-monospace" style="text-align: center; color: #fff;">Miriam Rodríguez</h3>
+<p>International bridal couturier Miriam Rodríguez hired me to create her bilingual online portfolio so she could expand her business and capitalize on her <a style="text-decoration: underline !important; color: #fff;" href="https://instagram.com/realmiriamrodriguez?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener">105K Instagram followers</a>.</p>
+<p></p>
+<div class="fusion-aligncenter"><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-3 fusion-button-default-span fusion-button-default-type fusion-no-small-visibility fusion-no-medium-visibility" target="_self" href="https://miriamrodriguez.com/"><span class="fusion-button-text">www.miriamrodriguez.com</span></a></div>
+<div class="fusion-aligncenter"><a class="fusion-button button-flat button-large button-default fusion-button-default button-4 fusion-button-default-span fusion-button-default-type fusion-no-large-visibility" target="_self" href="https://miriamrodriguez.com/"><span class="fusion-button-text">www.miriamrodriguez.com</span></a></div>
+</div>
+</div>
+</div>
+<div class="fusion-text fusion-text-6 fusion-no-medium-visibility fusion-no-large-visibility" style="--awb-text-color:#ffffff;">
+<div style="background: rgba(68,68,68,0.75); padding: 24px 0; border-radius: 24px; max-width: 460px; width: 100%; margin: 0 auto;">
+<div style="padding: 0 20px;">
+<h3 class="ff-monospace" style="text-align: center; color: #fff;">Miriam Rodríguez</h3>
+<p>International bridal couturier Miriam Rodríguez hired me to create her bilingual online portfolio so she could expand her business and capitalize on her <a style="text-decoration: underline !important; color: #fff;" href="https://instagram.com/realmiriamrodriguez?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener">105K Instagram followers</a>.</p>
+<p></p>
+<div class="fusion-aligncenter"><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-5 fusion-button-default-span fusion-button-default-type fusion-no-small-visibility fusion-no-medium-visibility" target="_self" href="https://miriamrodriguez.com/"><span class="fusion-button-text">www.miriamrodriguez.com</span></a></div>
+<div class="fusion-aligncenter"><a class="fusion-button button-flat button-large button-default fusion-button-default button-6 fusion-button-default-span fusion-button-default-type fusion-no-large-visibility" target="_self" href="https://miriamrodriguez.com/"><span class="fusion-button-text">www.miriamrodriguez.com</span></a></div>
+</div>
+</div>
+</div>
+</div></div>
+<div class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-4 fusion_builder_column_inner_1_2 1_2 fusion-flex-column" style="--awb-padding-top:40px;--awb-padding-right:12px;--awb-padding-left:12px;--awb-padding-right-medium:16px;--awb-padding-left-medium:16px;--awb-bg-image:url('https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2024/01/miriam-rodriguez-1.jpg');--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:3.84%;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:3.84%;--awb-spacing-left-medium:3.84%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-end fusion-content-layout-column fusion-column-has-bg-image" data-bg-url="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2024/01/miriam-rodriguez-1.jpg"><div class="fusion-image-element " style="text-align:center;--awb-max-width:400px;--awb-caption-title-font-family:var(--h2_typography-font-family);--awb-caption-title-font-weight:var(--h2_typography-font-weight);--awb-caption-title-font-style:var(--h2_typography-font-style);--awb-caption-title-size:var(--h2_typography-font-size);--awb-caption-title-transform:var(--h2_typography-text-transform);--awb-caption-title-line-height:var(--h2_typography-line-height);--awb-caption-title-letter-spacing:var(--h2_typography-letter-spacing);"><span class=" fusion-imageframe imageframe-none imageframe-1 hover-type-none box-shadow-2" style="border-radius:12px 12px 0 0;"><picture><source srcset="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/miriam-rodriguez_2x-200x211.jpg.webp 200w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/miriam-rodriguez_2x-400x422.jpg.webp 400w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/miriam-rodriguez_2x-600x633.jpg.webp 600w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/miriam-rodriguez_2x-800x844.jpg.webp 800w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/miriam-rodriguez_2x.jpg.webp 900w" sizes="(max-width: 640px) 100vw, 900px" type="image/webp"><img fetchpriority="high" decoding="async" width="900" height="950" src="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/miriam-rodriguez_2x.jpg" alt class="img-responsive wp-image-101" srcset="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/miriam-rodriguez_2x-200x211.jpg 200w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/miriam-rodriguez_2x-400x422.jpg 400w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/miriam-rodriguez_2x-600x633.jpg 600w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/miriam-rodriguez_2x-800x844.jpg 800w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/miriam-rodriguez_2x.jpg 900w" sizes="(max-width: 640px) 100vw, 900px" data-eio="p"></picture></span></div></div></div>
+</div></div></div></div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-6 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:8px;--awb-padding-bottom:8px;--awb-background-color:var(--awb-color6);--awb-flex-wrap:wrap;"><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-9 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-separator fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-top:20px;margin-bottom:20px;width:100%;"><div class="fusion-separator-border sep-single sep-solid" style="--awb-height:20px;--awb-amount:20px;--awb-sep-color:var(--awb-color1);border-color:var(--awb-color1);border-top-width:1px;"></div></div></div></div></div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-7 fusion-flex-container has-pattern-background has-mask-background fusion-parallax-none hundred-percent-fullwidth non-hundred-percent-height-scrolling" style='--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-background-image:url("https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/houston-pals_2x.jpg");--awb-background-size:cover;--awb-flex-wrap:wrap;'><div class="fusion-builder-row fusion-row fusion-flex-align-items-stretch fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-10 fusion_builder_column_1_1 1_1 fusion-flex-column bg-blur" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-stretch fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
+<div class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-5 fusion_builder_column_inner_1_2 1_2 fusion-flex-column" style="--awb-padding-top:40px;--awb-padding-right:16px;--awb-padding-left:16px;--awb-padding-right-medium:16px;--awb-padding-left-medium:16px;--awb-bg-image:url('https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/houston-pals_2x.jpg');--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:3.84%;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:3.84%;--awb-spacing-left-medium:3.84%;--awb-width-small:100%;--awb-order-small:2;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-end fusion-content-layout-column fusion-column-has-bg-image" data-bg-url="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/houston-pals_2x.jpg"><div class="fusion-image-element " style="text-align:center;--awb-max-width:400px;--awb-caption-title-font-family:var(--h2_typography-font-family);--awb-caption-title-font-weight:var(--h2_typography-font-weight);--awb-caption-title-font-style:var(--h2_typography-font-style);--awb-caption-title-size:var(--h2_typography-font-size);--awb-caption-title-transform:var(--h2_typography-text-transform);--awb-caption-title-line-height:var(--h2_typography-line-height);--awb-caption-title-letter-spacing:var(--h2_typography-letter-spacing);"><span class=" fusion-imageframe imageframe-none imageframe-2 hover-type-none box-shadow-2" style="border-radius:12px 12px 0 0;"><picture><source srcset="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/houston-pals_2x-1-200x209.jpg.webp 200w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/houston-pals_2x-1-400x417.jpg.webp 400w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/houston-pals_2x-1-600x626.jpg.webp 600w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/houston-pals_2x-1-800x835.jpg.webp 800w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/houston-pals_2x-1.jpg.webp 950w" sizes="(max-width: 640px) 100vw, 950px" type="image/webp"><img decoding="async" width="950" height="991" src="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/houston-pals_2x-1.jpg" alt class="img-responsive wp-image-130" srcset="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/houston-pals_2x-1-200x209.jpg 200w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/houston-pals_2x-1-400x417.jpg 400w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/houston-pals_2x-1-600x626.jpg 600w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/houston-pals_2x-1-800x835.jpg 800w, https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/houston-pals_2x-1.jpg 950w" sizes="(max-width: 640px) 100vw, 950px" data-eio="p"></picture></span></div></div></div>
+<div class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-6 fusion_builder_column_inner_1_2 1_2 fusion-flex-column" style="--awb-padding-right:16px;--awb-padding-top-medium:20px;--awb-padding-bottom-medium:20px;--awb-padding-top-small:40px;--awb-padding-right-small:16px;--awb-padding-bottom-small:40px;--awb-padding-left-small:16px;--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:3.84%;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:3.84%;--awb-spacing-left-medium:3.84%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column">
+<div class="fusion-text fusion-text-7 fusion-no-small-visibility" style="--awb-text-color:#ffffff;">
+<div style="background: rgba(68,68,68,0.75); padding: 24px 0; border-radius: 24px; max-width: 460px; width: 100%;">
+<div style="padding: 0 20px;">
+<h3 class="ff-monospace" style="text-align: center; color: #fff;">Houston PALS</h3>
+<p>I worked with Bill Bickley of Houston Pet Artifical Limbs &amp; Supports to craft a professional online presence for his specialized animal veterinary business in time for <a style="text-decoration: underline !important; color: #fff;" href="https://houstonpals.com/puppy-bowl-2019-journey">Puppy Bowl 15</a>.</p>
+<p></p>
+<div class="fusion-aligncenter"><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-7 fusion-button-default-span fusion-button-default-type fusion-no-small-visibility fusion-no-medium-visibility" target="_self" href="https://houstonpals.com/"><span class="fusion-button-text">www.houstonpals.com</span></a></div>
+<div class="fusion-aligncenter"><a class="fusion-button button-flat button-large button-default fusion-button-default button-8 fusion-button-default-span fusion-button-default-type fusion-no-large-visibility" target="_self" href="https://houstonpals.com/"><span class="fusion-button-text">www.houstonpals.com</span></a></div>
+</div>
+</div>
+</div>
+<div class="fusion-text fusion-text-8 fusion-no-medium-visibility fusion-no-large-visibility" style="--awb-text-color:#ffffff;">
+<div style="background: rgba(68,68,68,0.75); padding: 24px 0; border-radius: 24px; max-width: 460px; width: 100%; margin-left: auto; margin-right: auto;">
+<div style="padding: 0 20px;">
+<h3 class="ff-monospace" style="text-align: center; color: #fff;">Houston PALS</h3>
+<p>I worked with Bill Bickley of Houston Pet Artifical Limbs &amp; Supports to craft a professional online presence for his specialized animal veterinary business in time for <a style="text-decoration: underline !important; color: #fff;" href="https://houstonpals.com/puppy-bowl-2019-journey">Puppy Bowl 15</a>.</p>
+<p></p>
+<div class="fusion-aligncenter"><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-9 fusion-button-default-span fusion-button-default-type fusion-no-small-visibility fusion-no-medium-visibility" target="_self" href="https://houstonpals.com/"><span class="fusion-button-text">www.houstonpals.com</span></a></div>
+<div class="fusion-aligncenter"><a class="fusion-button button-flat button-large button-default fusion-button-default button-10 fusion-button-default-span fusion-button-default-type fusion-no-large-visibility" target="_self" href="https://houstonpals.com/"><span class="fusion-button-text">www.houstonpals.com</span></a></div>
+</div>
+</div>
+</div>
+</div></div>
+</div></div></div></div></div>
+<div id="contact" class="fusion-container-anchor"><div class="fusion-fullwidth fullwidth-box fusion-builder-row-8 fusion-flex-container has-pattern-background has-mask-background fusion-parallax-none nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style='--awb-background-position:center top;--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:60px;--awb-padding-bottom:60px;--awb-background-image:url("https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/12/footer-graphic.png");--awb-background-size:cover;--awb-flex-wrap:wrap;'><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-11 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-padding-right:20px;--awb-padding-left:20px;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+<div class="fusion-title title fusion-title-8 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two" style="--awb-text-color:#ffffff;--awb-margin-bottom:40px;--awb-margin-bottom-small:40px;"><h2 class="fusion-title-heading title-heading-center" style="margin:0;text-shadow:-2px 3px 0px #444444;">Ready to get more out of your business?</h2></div>
+<div style="text-align:center;"><a class="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-11 fusion-button-default-span fusion-button-default-type" style='--button_accent_color:var(--awb-color5);--button_border_color:var(--awb-color5);--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:var(--awb-color5);--button_border_width-top:3px;--button_border_width-right:3px;--button_border_width-bottom:3px;--button_border_width-left:3px;--button_gradient_top_color:#ffffff;--button_gradient_bottom_color:#ffffff;--button_gradient_top_color_hover:hsla(var(--awb-color5-h),calc(var(--awb-color5-s) - 5%),calc(var(--awb-color5-l) - 10%),var(--awb-color5-a));--button_gradient_bottom_color_hover:hsla(var(--awb-color5-h),calc(var(--awb-color5-s) - 5%),calc(var(--awb-color5-l) - 10%),var(--awb-color5-a));--button_text_transform:uppercase;--button_typography-font-family:"Source Code Pro";--button_typography-font-style:normal;--button_typography-font-weight:400;' target="_self" data-toggle="modal" data-target=".fusion-modal.contact"><span class="fusion-button-text">Hire Nico &amp; let&#8217;s get to it!</span></a></div>
+</div></div></div></div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-9 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-background-color:var(--awb-color6);--awb-flex-wrap:wrap;"><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-12 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+<div class="fusion-separator fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-top:20px;margin-bottom:20px;width:100%;"><div class="fusion-separator-border sep-single sep-solid" style="--awb-height:20px;--awb-amount:20px;--awb-sep-color:var(--awb-color1);border-color:var(--awb-color1);border-top-width:1px;"></div></div>
+<div class="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-7 fusion_builder_column_inner_1_1 1_1 fusion-flex-column" style="--awb-padding-right:20px;--awb-padding-left:20px;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-title title fusion-title-9 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two" style="--awb-text-color:var(--awb-color1);--awb-margin-bottom:0px;--awb-margin-right-medium:20px;--awb-margin-left-medium:20px;"><h2 class="fusion-title-heading title-heading-center" style="font-family:&quot;Source Code Pro&quot;;font-style:normal;font-weight:400;margin:0;text-transform:uppercase;">Studio N Creations Blog</h2></div></div></div></div>
+<div class="fusion-title title fusion-title-10 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four" style="--awb-text-color:#ffffff;"><h4 class="fusion-title-heading title-heading-center" style="margin:0;">Nico&#8217;s Projects &amp; Pro-Tips</h4></div>
+<div class="fusion-separator fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-top:20px;margin-bottom:20px;width:100%;"><div class="fusion-separator-border sep-single sep-solid" style="--awb-height:20px;--awb-amount:20px;--awb-sep-color:var(--awb-color1);border-color:var(--awb-color1);border-top-width:1px;"></div></div>
+</div></div></div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-10 fusion-flex-container has-pattern-background has-mask-background blog-links-section hundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-flex-wrap:wrap;"><div class="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:calc( 100% + 0px ) !important;max-width:calc( 100% + 0px ) !important;margin-left: calc(-0px / 2 );margin-right: calc(-0px / 2 );">
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-13 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-padding-top:40px;--awb-bg-color:#a1a1a1;--awb-bg-color-hover:#0079ff;--awb-bg-image:url('https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/Windows-11-Intel-Mac-Feature-Image-768x307-1.jpg');--awb-bg-position:center center;--awb-bg-blend:multiply;--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column fusion-column-has-bg-image" data-bg-url="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/Windows-11-Intel-Mac-Feature-Image-768x307-1.jpg"><div class="fusion-content-boxes content-boxes columns row fusion-columns-1 fusion-columns-total-1 fusion-content-boxes-1 content-boxes-clean-vertical content-left content-boxes-icon-on-top" style="--awb-body-color:#ffffff;--awb-title-color:#ffffff;--awb-item-margin-top:0px;--awb-item-margin-bottom:0px;--awb-margin-top:0px;--awb-margin-bottom:0px;--awb-hover-accent-color:#f1f1f1;--awb-circle-hover-accent-color:#f1f1f1;--awb-item-margin-bottom:40px;" data-animationoffset="top-into-view">
+<div style="--awb-backgroundcolor:rgba(255,255,255,0);border-color:rgba(255,255,255,0);" class="fusion-column content-box-column content-box-column content-box-column-1 col-lg-12 col-md-12 col-sm-12 fusion-content-box-hover content-box-column-last content-box-column-last-in-row"><div class="col content-box-wrapper content-wrapper link-area-link-icon link-type-button content-icon-wrapper-yes icon-hover-animation-fade" data-animationoffset="top-into-view">
+<div class="heading icon-left"><a class="heading-link" href="https://studioncreations.com/blog/install-windows-11-on-any-intel-macbook-pro-macbook-air-or-imac/" target="_self"><h2 class="content-box-heading" style="--h2_typography-font-size:34px;line-height:39px;">Install Windows 11 on any Intel MacBook Pro, MacBook Air or iMac</h2></a></div>
+<div class="fusion-clearfix"></div>
+<div class="content-container">
+<h5>Tutorial Walkthrough</h5>
+</div>
+<div class="fusion-clearfix"></div>
+<a class="fusion-read-more-button fusion-content-box-button fusion-button button-default fusion-button-default-size button- button-flat" href="https://studioncreations.com/blog/install-windows-11-on-any-intel-macbook-pro-macbook-air-or-imac/" target="_self"><span class="fusion-button-text">Learn How</span></a><div class="fusion-clearfix"></div>
+</div></div>
+<div class="fusion-clearfix"></div>
+</div></div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-14 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-padding-top:40px;--awb-bg-color:#a1a1a1;--awb-bg-color-hover:#c8dc66;--awb-bg-image:url('https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/4-Coding-Bootcamp-Career-Benefits-Feature-image-768x307-1.jpg');--awb-bg-position:center center;--awb-bg-blend:multiply;--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column fusion-column-has-bg-image" data-bg-url="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/4-Coding-Bootcamp-Career-Benefits-Feature-image-768x307-1.jpg"><div class="fusion-content-boxes content-boxes columns row fusion-columns-1 fusion-columns-total-1 fusion-content-boxes-2 content-boxes-clean-vertical content-left content-boxes-icon-on-top" style="--awb-body-color:#ffffff;--awb-title-color:#ffffff;--awb-item-margin-top:0px;--awb-item-margin-bottom:0px;--awb-margin-top:0px;--awb-margin-bottom:0px;--awb-hover-accent-color:#f1f1f1;--awb-circle-hover-accent-color:#f1f1f1;--awb-item-margin-bottom:40px;" data-animationoffset="top-into-view">
+<div style="--awb-backgroundcolor:rgba(255,255,255,0);border-color:rgba(255,255,255,0);" class="fusion-column content-box-column content-box-column content-box-column-1 col-lg-12 col-md-12 col-sm-12 fusion-content-box-hover content-box-column-last content-box-column-last-in-row"><div class="col content-box-wrapper content-wrapper link-area-link-icon link-type-button content-icon-wrapper-yes icon-hover-animation-fade" data-animationoffset="top-into-view">
+<div class="heading icon-left"><a class="heading-link" href="https://studioncreations.com/blog/four-benefits-from-coding-bootcamps-to-your-career-journey/" target="_self"><h2 class="content-box-heading" style="--h2_typography-font-size:34px;line-height:39px;">Four Benefits from Coding Bootcamps to your Career Journey</h2></a></div>
+<div class="fusion-clearfix"></div>
+<div class="content-container">
+<h5>Guest Post</h5>
+</div>
+<div class="fusion-clearfix"></div>
+<a class="fusion-read-more-button fusion-content-box-button fusion-button button-default fusion-button-default-size button- button-flat" href="https://studioncreations.com/blog/four-benefits-from-coding-bootcamps-to-your-career-journey/" target="_self"><span class="fusion-button-text">Read More</span></a><div class="fusion-clearfix"></div>
+</div></div>
+<div class="fusion-clearfix"></div>
+</div></div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-15 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-padding-top:40px;--awb-bg-color:#a1a1a1;--awb-bg-color-hover:#0a6ba0;--awb-bg-image:url('https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/iFixit-Toolkit-Review-Feature-Image-768x307-1.jpg');--awb-bg-position:center center;--awb-bg-blend:multiply;--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column fusion-column-has-bg-image" data-bg-url="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/iFixit-Toolkit-Review-Feature-Image-768x307-1.jpg"><div class="fusion-content-boxes content-boxes columns row fusion-columns-1 fusion-columns-total-1 fusion-content-boxes-3 content-boxes-clean-vertical content-left content-boxes-icon-on-top" style="--awb-body-color:#ffffff;--awb-title-color:#ffffff;--awb-item-margin-top:0px;--awb-item-margin-bottom:0px;--awb-margin-top:0px;--awb-margin-bottom:0px;--awb-hover-accent-color:#f1f1f1;--awb-circle-hover-accent-color:#f1f1f1;--awb-item-margin-bottom:40px;" data-animationoffset="top-into-view">
+<div style="--awb-backgroundcolor:rgba(255,255,255,0);border-color:rgba(255,255,255,0);" class="fusion-column content-box-column content-box-column content-box-column-1 col-lg-12 col-md-12 col-sm-12 fusion-content-box-hover content-box-column-last content-box-column-last-in-row"><div class="col content-box-wrapper content-wrapper link-area-link-icon link-type-button content-icon-wrapper-yes icon-hover-animation-fade" data-animationoffset="top-into-view">
+<div class="heading icon-left"><a class="heading-link" href="https://studioncreations.com/blog/ifixit-pro-tech-toolkit-review/" target="_self"><h2 class="content-box-heading" style="--h2_typography-font-size:34px;line-height:39px;">Is the iFixit Pro Tech Toolkit worth it?</h2></a></div>
+<div class="fusion-clearfix"></div>
+<div class="content-container">
+<h5>Product Review</h5>
+</div>
+<div class="fusion-clearfix"></div>
+<a class="fusion-read-more-button fusion-content-box-button fusion-button button-default fusion-button-default-size button- button-flat" href="https://studioncreations.com/blog/ifixit-pro-tech-toolkit-review/" target="_self"><span class="fusion-button-text">So is it?</span></a><div class="fusion-clearfix"></div>
+</div></div>
+<div class="fusion-clearfix"></div>
+</div></div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-16 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-padding-top:40px;--awb-bg-color:#a1a1a1;--awb-bg-color-hover:#f79f00;--awb-bg-image:url('https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/Apple-TV-Sleep-Timer-Featured-image-768x307-1.jpg');--awb-bg-position:center center;--awb-bg-blend:multiply;--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column fusion-column-has-bg-image" data-bg-url="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/Apple-TV-Sleep-Timer-Featured-image-768x307-1.jpg"><div class="fusion-content-boxes content-boxes columns row fusion-columns-1 fusion-columns-total-1 fusion-content-boxes-4 content-boxes-clean-vertical content-left content-boxes-icon-on-top" style="--awb-body-color:#ffffff;--awb-title-color:#ffffff;--awb-item-margin-top:0px;--awb-item-margin-bottom:0px;--awb-margin-top:0px;--awb-margin-bottom:0px;--awb-hover-accent-color:#f1f1f1;--awb-circle-hover-accent-color:#f1f1f1;--awb-item-margin-bottom:40px;" data-animationoffset="top-into-view">
+<div style="--awb-backgroundcolor:rgba(255,255,255,0);border-color:rgba(255,255,255,0);" class="fusion-column content-box-column content-box-column content-box-column-1 col-lg-12 col-md-12 col-sm-12 fusion-content-box-hover content-box-column-last content-box-column-last-in-row"><div class="col content-box-wrapper content-wrapper link-area-link-icon link-type-button content-icon-wrapper-yes icon-hover-animation-fade" data-animationoffset="top-into-view">
+<div class="heading icon-left"><a class="heading-link" href="https://studioncreations.com/blog/" target="_self"><h2 class="content-box-heading" style="--h2_typography-font-size:34px;line-height:39px;">More Articles</h2></a></div>
+<div class="fusion-clearfix"></div>
+<a class="fusion-read-more-button fusion-content-box-button fusion-button button-default fusion-button-default-size button- button-flat" href="https://studioncreations.com/blog/" target="_self"><span class="fusion-button-text">More Pro Tips</span></a><div class="fusion-clearfix"></div>
+</div></div>
+<div class="fusion-clearfix"></div>
+</div></div></div>
+</div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-11 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-flex-wrap:wrap;"><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-17 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-modal modal fade modal-1 contact" tabindex="-1" role="dialog" aria-labelledby="modal-heading-1" aria-hidden="true" style="--awb-border-color:var(--awb-color3);--awb-background:var(--awb-color1);"><div class="modal-dialog modal-sm" role="document"><div class="modal-content fusion-modal-content">
+<div class="modal-header">
+<button class="close" type="button" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button><h3 class="modal-title" id="modal-heading-1" data-dismiss="modal" aria-hidden="true"></h3>
+</div>
+<div class="modal-body fusion-clearfix">
+<h2>Nico Watine</h2>
+<p><em>Small business specialist<br>
+Freelance Web Developer</em><br>
+Houston, TX</p>
+<p><a href="mailto:nico@studioncreations.com">nico@studioncreations.com</a></p>
+</div>
+</div></div></div></div></div></div></div>
+              </div>
+                        </div>
+  </section>
+
+          </div>  <!-- fusion-row -->
+        </main>  <!-- #main -->
+
+
+
+
+    <div class="fusion-footer">
+
+
+  <footer id="footer" class="fusion-footer-copyright-area fusion-footer-copyright-center">
+    <div class="fusion-row">
+      <div class="fusion-copyright-content">
+
+        <div class="fusion-copyright-notice">
+    <div>
+    CODED WITH CARE IN HOUSTON, TX<br>
+© STUDIO N CREATIONS 2023 </div>
+</div>
+<div class="fusion-social-links-footer">
+  <div class="fusion-social-networks"><div class="fusion-social-networks-wrapper"><a class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" data-placement="top" data-title="Instagram" data-toggle="tooltip" title="Instagram" href="https://instagram.com/studio.n.creations" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Instagram</span></a></div></div>
 </div>
 
-<script src="/js/app-min.js?=2023-02-14T18:00:24Z"></script>
+      </div> <!-- fusion-fusion-copyright-content -->
+    </div> <!-- fusion-row -->
+  </footer> <!-- #footer -->
+    </div> <!-- fusion-footer -->
 
-</body>
+
+
+                        </div> <!-- wrapper -->
+    </div> <!-- #boxed-wrapper -->
+        <a class="fusion-one-page-text-link fusion-page-load-link" tabindex="-1" href="#" aria-hidden="true">Page load link</a>
+
+    <div class="avada-footer-scripts">
+      <script type="text/javascript">var fusionNavIsCollapsed=function(e){var t,n;window.innerWidth<=e.getAttribute("data-breakpoint")?(e.classList.add("collapse-enabled"),e.classList.remove("awb-menu_desktop"),e.classList.contains("expanded")||(e.setAttribute("aria-expanded","false"),window.dispatchEvent(new Event("fusion-mobile-menu-collapsed",{bubbles:!0,cancelable:!0}))),(n=e.querySelectorAll(".menu-item-has-children.expanded")).length&&n.forEach(function(e){e.querySelector(".awb-menu__open-nav-submenu_mobile").setAttribute("aria-expanded","false")})):(null!==e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click")&&e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click").click(),e.classList.remove("collapse-enabled"),e.classList.add("awb-menu_desktop"),e.setAttribute("aria-expanded","true"),null!==e.querySelector(".awb-menu__main-ul")&&e.querySelector(".awb-menu__main-ul").removeAttribute("style")),e.classList.add("no-wrapper-transition"),clearTimeout(t),t=setTimeout(()=>{e.classList.remove("no-wrapper-transition")},400),e.classList.remove("loading")},fusionRunNavIsCollapsed=function(){var e,t=document.querySelectorAll(".awb-menu");for(e=0;e<t.length;e++)fusionNavIsCollapsed(t[e])};function avadaGetScrollBarWidth(){var e,t,n,l=document.createElement("p");return l.style.width="100%",l.style.height="200px",(e=document.createElement("div")).style.position="absolute",e.style.top="0px",e.style.left="0px",e.style.visibility="hidden",e.style.width="200px",e.style.height="150px",e.style.overflow="hidden",e.appendChild(l),document.body.appendChild(e),t=l.offsetWidth,e.style.overflow="scroll",t==(n=l.offsetWidth)&&(n=e.clientWidth),document.body.removeChild(e),jQuery("html").hasClass("awb-scroll")&&10<t-n?10:t-n}fusionRunNavIsCollapsed(),window.addEventListener("fusion-resize-horizontal",fusionRunNavIsCollapsed);</script><script type="text/javascript" src="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/fusion-scripts/d7926bf459cb49ccef00b6d6cdc0b20f.min.js?ver=3.11.3" id="fusion-scripts-js"></script>
+            </div>
+
+      <section class="to-top-container to-top-right" aria-labelledby="awb-to-top-label">
+    <a href="#" id="toTop" class="fusion-top-top-link">
+      <span id="awb-to-top-label" class="screen-reader-text">Go to Top</span>
+    </a>
+  </section>
+    </body>
 </html>

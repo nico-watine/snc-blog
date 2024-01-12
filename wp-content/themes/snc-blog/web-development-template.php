@@ -1,249 +1,338 @@
 <?php
-	// Template name: Web Development Template
-	include($_SERVER['DOCUMENT_ROOT'].'/php/autoVer.php');
+  // Template name: Web Development Template
 ?>
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" class="no-js" lang="en-US">
+<html class="avada-html-layout-wide avada-html-header-position-top avada-is-100-percent-template" lang="en-US">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Web Design &amp; Development Services | Studio N Creations</title>
-	<meta name="description" content="One of the key services I offer is website design &amp; development.">
-	<link href="https://studioncreations.com/our-services/web-development" rel="canonical">
-	<link href="/humans.txt" rel="author">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	<link rel="icon" href="/android-chrome-192x192.png" sizes="192x192">
-	<link rel="manifest" href="/manifest.json">
+  <title>Small Business Web Development Services - Studio N Creations</title>
+  <meta name="description" content="I offer a personalized website design and creation experience for Houston, TX, small businesses. My project workflow consists of 4 steps.">
+  <link rel="canonical" href="https://studioncreations.com/our-services/web-development/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Small Business Web Development Services">
+  <meta property="og:description" content="I offer a personalized website design and creation experience for Houston, TX, small businesses. My project workflow consists of 4 steps.">
+  <meta property="og:url" content="https://studioncreations.com/our-services/web-development/">
+  <meta property="og:site_name" content="Studio N Creations">
+  <meta property="article:modified_time" content="2024-01-08T17:55:54+00:00">
+  <meta property="og:image" content="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/design-phase.jpg">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="533">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:label1" content="Est. reading time">
+  <meta name="twitter:data1" content="4 minutes">
+  <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://studioncreations.com/our-services/web-development/","url":"https://studioncreations.com/our-services/web-development/","name":"Small Business Web Development Services - Studio N Creations","isPartOf":{"@id":"https://studioncreations.com/#website"},"primaryImageOfPage":{"@id":"https://studioncreations.com/our-services/web-development/#primaryimage"},"image":{"@id":"https://studioncreations.com/our-services/web-development/#primaryimage"},"thumbnailUrl":"https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/design-phase.jpg","datePublished":"2023-11-17T02:55:12+00:00","dateModified":"2024-01-08T17:55:54+00:00","description":"I offer a personalized website design and creation experience for Houston, TX, small businesses. My project workflow consists of 4 steps.","breadcrumb":{"@id":"https://studioncreations.com/our-services/web-development/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://studioncreations.com/our-services/web-development/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://studioncreations.com/our-services/web-development/#primaryimage","url":"https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/design-phase.jpg","contentUrl":"https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/design-phase.jpg","width":800,"height":533},{"@type":"BreadcrumbList","@id":"https://studioncreations.com/our-services/web-development/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://studioncreations.com/"},{"@type":"ListItem","position":2,"name":"Our Services","item":"https://studioncreations.com/our-services/"},{"@type":"ListItem","position":3,"name":"Small Business Web Development Services"}]},{"@type":"WebSite","@id":"https://studioncreations.com/#website","url":"https://studioncreations.com/","name":"Studio N Creations","description":"Web Design empowering Small Business","publisher":{"@id":"https://studioncreations.com/#/schema/person/ec862d6bc5c50b52fe4cc8bb3cccae3e"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://studioncreations.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":["Person","Organization"],"@id":"https://studioncreations.com/#/schema/person/ec862d6bc5c50b52fe4cc8bb3cccae3e","name":"Nico Watine","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://studioncreations.com/#/schema/person/image/","url":"http://0.gravatar.com/avatar/fa322b432e4b61b9c104d1f4472ed054?s=96&d=mm&r=g","contentUrl":"http://0.gravatar.com/avatar/fa322b432e4b61b9c104d1f4472ed054?s=96&d=mm&r=g","caption":"Nico Watine"},"logo":{"@id":"https://studioncreations.com/#/schema/person/image/"},"sameAs":["https://www.instagram.com/studio.n.creations/"],"jobTitle":"Freelance Web Developer","worksFor":"Studio N Creations"}]}</script>
 
-	<meta name="apple-mobile-web-app-title" content="Studio N C">
-	<meta name="application-name" content="Studio N C">
-	<meta name="format-detection" content="telephone=no">
-	<meta name="theme-color" content="#566372">
 
-	<meta property="og:locale" content="en_US">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Web Design &amp; Development Services">
-	<meta property="og:description" content="One of the key services I offer is website design, code development and a unique project experience.">
-	<meta property="og:url" content="https://studioncreations.com/our-services/web-development">
-	<meta property="og:site_name" content="Studio N Creations">
-	<meta property="og:image" content="https://studioncreations.com/img/assets/og-images/index/studio-n-creations-og-image-1.png">
-	<meta property="fb:app_id" content="1681974038799263">
 
-	<meta name="google-site-verification" content="KRkK5A_Jr3_V2SvGIzpyRMNi37bKOmqS_vBphvOJV7g" />
-	<meta name="p:domain_verify" content="bc4789b1440b540e061b16da850cc42a"/>
 
-	<link href="/css/app.css?=2023-06-14T18:09:15Z" rel="stylesheet">
 
-</head>
-<body id="index" class="">
+        <link rel="stylesheet" id="child-style-css" href="https://studioncreations.com/static-avada/2024-01-08/wp-content/themes/Avada-Child-Theme/style.css?ver=6.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="fusion-dynamic-css-css" href="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/fusion-styles/4c3e4b5a8e0d525a8f1e4b288a91fc28.min.css?ver=3.11.3" type="text/css" media="all">
+<script type="text/javascript" src="https://studioncreations.com/static-avada/2024-01-08/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<style type="text/css" id="css-fb-visibility">@media screen and (max-width: 640px){.fusion-no-small-visibility{display:none !important;}body .sm-text-align-center{text-align:center !important;}body .sm-text-align-left{text-align:left !important;}body .sm-text-align-right{text-align:right !important;}body .sm-flex-align-center{justify-content:center !important;}body .sm-flex-align-flex-start{justify-content:flex-start !important;}body .sm-flex-align-flex-end{justify-content:flex-end !important;}body .sm-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .sm-ml-auto{margin-left:auto !important;}body .sm-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-small{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-small{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 641px) and (max-width: 1023px){.fusion-no-medium-visibility{display:none !important;}body .md-text-align-center{text-align:center !important;}body .md-text-align-left{text-align:left !important;}body .md-text-align-right{text-align:right !important;}body .md-flex-align-center{justify-content:center !important;}body .md-flex-align-flex-start{justify-content:flex-start !important;}body .md-flex-align-flex-end{justify-content:flex-end !important;}body .md-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .md-ml-auto{margin-left:auto !important;}body .md-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-medium{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-medium{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 1024px){.fusion-no-large-visibility{display:none !important;}body .lg-text-align-center{text-align:center !important;}body .lg-text-align-left{text-align:left !important;}body .lg-text-align-right{text-align:right !important;}body .lg-flex-align-center{justify-content:center !important;}body .lg-flex-align-flex-start{justify-content:flex-start !important;}body .lg-flex-align-flex-end{justify-content:flex-end !important;}body .lg-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .lg-ml-auto{margin-left:auto !important;}body .lg-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-large{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-large{ position: sticky; top: var(--awb-sticky-offset,0); }}</style>
+<style>.wp-block-gallery.is-cropped .blocks-gallery-item picture{height:100%;width:100%;}</style>   <script type="text/javascript">var doc = document.documentElement;
+      doc.setAttribute( 'data-useragent', navigator.userAgent );</script>
+    <style type="text/css" id="fusion-builder-page-css">.max-width-420px {
+  max-width: 420px;
+  width: 100%;
+}
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-51263970-1"></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+.max-width-600px {
+  max-width: 600px;
+  width: 100%;
+}
 
-	gtag('config', 'UA-51263970-1');
-</script>
+.max-width-460px {
+  max-width: 460px;
+  width: 100%;
+}
 
-<div class="off-canvas-wrapper">
+.blog-links-section h2,
+.blog-links-section h5 {
+  text-shadow: 0 0 0.625rem #000;
+}
+.blog-links-section h5 {
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+}</style>
+  </head>
 
-	<div class="off-canvas position-right" id="offCanvas-menu" data-off-canvas data-position="right">
-		<button class="close-button" aria-label="Close menu" type="button" data-close>
-			<span aria-hidden="true">&times;</span>
-		</button>
-		<h1><a href="/">Studio N Creations</a></h1>
-		<ul class="vertical menu">
-			<li><a class="monospace" href="/">About</a></li>
-			<li><a class="monospace" href="/our-services/web-development">Services</a></li>
-			<li><a class="monospace" href="/blog/">Blog <span id="blog-count" class="display-inline-block text-center">1</span></a></li>
-		</ul>
-	</div>
+<body class="page-template page-template-100-width page-template-100-width-php page page-id-152 page-child parent-pageid-330 awb-no-sidebars fusion-image-hovers fusion-pagination-sizing fusion-button_type-flat fusion-button_span-no fusion-button_gradient-linear avada-image-rollover-circle-yes avada-image-rollover-yes avada-image-rollover-direction-left fusion-body ltr fusion-sticky-header no-tablet-sticky-header no-mobile-sticky-header no-mobile-slidingbar no-mobile-totop fusion-sub-menu-fade mobile-logo-pos-left layout-wide-mode avada-has-boxed-modal-shadow-none layout-scroll-offset-full avada-has-zero-margin-offset-top fusion-top-header menu-text-align-center mobile-menu-design-classic fusion-show-pagination-text fusion-header-layout-v6 avada-responsive avada-footer-fx-none avada-menu-highlight-style-bar fusion-search-form-clean fusion-main-menu-search-overlay fusion-avatar-circle avada-blog-layout-large avada-blog-archive-layout-large avada-header-shadow-no avada-menu-icon-position-left avada-has-megamenu-shadow avada-has-breadcrumb-mobile-hidden avada-has-titlebar-hide avada-header-border-color-full-transparent avada-has-pagination-width_height avada-flyout-menu-direction-right avada-ec-views-v1 awb-link-decoration" data-awb-post-id="152">
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-	<div class="off-canvas-content" data-off-canvas-content>
-		<div class="hide-for-medium" id="mobileNavBar-wrapper">
-			<a id="contactModal-toggle" data-open="contactModal"><img src="/img/assets/icons/profile-icon.svg" alt="Profile Icon"></a>
-			<button id="offCanvas-menu--toggle" type="button" class="button monospace" data-toggle="offCanvas-menu">Menu <i class="hamburger"></i></button>		
-		</div>
-		<nav class="show-for-medium" id="topNavBar">
-			<aside>
-				<ul class="menu" id="menu-contactLinks">
-					<li><a data-open="contactModal"><img src="/img/assets/icons/profile-icon.svg" alt="Profile Icon"></a></li>
-					<!-- <li id="phone"><span data-tooltip aria-haspopup="true" class="has-tip" tabindex="1" data-hover-delay="0" data-fade-in-duration="100" data-v-offset="14" data-template-classes="phone-tooltip" title="713-443-3761"><a id="phone"><img src="/img/assets/icons/phone.svg" alt="Phone Icon"></a></span></li> -->
-				</ul>
-			</aside>
-			<ul class="menu align-right" id="menu-pageLinks">
-				<li><button id="offCanvas-menu--toggle" type="button" class="button monospace" data-toggle="offCanvas-menu">Menu <i class="hamburger"></i></button></li>
-				<!-- <li><a href="/" class="monospace">Portfolio</a></li> -->
-			</ul>
-		</nav>
-		<header class="web-development-header">
-			<div class="grid-container">
-				<div class="grid-x grid-padding-x align-middle content-wrap">
-					<div class="cell">
-						<div class="prose-wrap">
-							<h1 class="h1 heading ff-monospace">Web Development <span class="h2">Services</span></h1>
-							<h4 class="subhead m-0">I offer a personalized website design and creation experience. My workflow for any new web project consists of 4 steps.</h4>
-							<div class="pt-16" data-magellan data-threshold="60">
-								<a href="#main-content-section"><img src="/img/assets/icons/arrow-circle-down.svg" alt=""></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-		
-		<section class="web-development-steps-1-2-3-4" id="main-content-section" data-magellan-target="main-content-section">
-			<div class="grid-x align-middle step-wrap step-1">
-				<div class="cell medium-6 show-for-medium text-right">
-					<img src="/img/our-services/web-development/project-mapping.jpg" loading="lazy" alt="Close-up of a white board with journey map wireframes">
-				</div>
-				<div class="cell medium-6">
-					<div class="prose-wrap">
-						<h2 class="h3 ff-monospace mb-16"><span class="h5 display-block">Step 1</span> Project Mapping</h2>
-						<img class="hide-for-medium" src="/img/our-services/web-development/project-mapping.jpg" loading="lazy" alt="Close-up of a white board with journey map wireframes">
-						<p class="lead">First we establish your project goals and how to achieve them with a well-crafted content strategy.</p>
-					</div>
-				</div>
-			</div>
-			<div class="grid-x align-middle step-wrap step-2">
-				<div class="cell medium-6">
-					<div class="prose-wrap float-right">
-						<h2 class="h3 ff-monospace mb-16"><span class="h5 display-block">Step 2</span> Design Phase</h2>
-						<img class="hide-for-medium" src="/img/our-services/web-development/design-phase.jpg" loading="lazy" alt="People collaborating over website UI graphic styles">
-						<p class="lead">Next comes the design process, during which the site’s graphics are visualized and prose is written. After our close consultation, I'll provide mockups and a style guide.</p>
-					</div>
-				</div>
-				<div class="cell show-for-medium medium-6">
-					<img src="/img/our-services/web-development/design-phase.jpg" loading="lazy" alt="People collaborating over website UI graphic styles">
-				</div>
-			</div>
-			<div class="grid-x align-middle step-wrap step-3">
-				<div class="cell show-for-medium medium-6 text-right">
-					<img src="/img/our-services/web-development/code-close-up.jpg" loading="lazy" alt="Close-up view of HTML code">
-				</div>
-				<div class="cell medium-6">
-					<div class="prose-wrap">
-						<h2 class="h3 ff-monospace mb-16"><span class="h5 display-block">Step 3</span> Development Stage</h2>
-						<img src="/img/our-services/web-development/code-close-up.jpg" loading="lazy" alt="Close-up view of HTML code" class="hide-for-medium">
-						<p class="lead">With the content established and a solid user experience defined, the project gets developed into a functioning website. I utilize the industry’s latest technologies to ensure optimal performance on all device platforms and screen sizes.</p>
-					</div>
-				</div>
-			</div>
-			<div class="step-4">
-				<div class="section-title-wrap float-center">
-					<h2 class="display-inline-block h3 ff-monospace mb-20"><span class="h5 display-block">Step 4</span> Post-Production Actions</h2>
-				</div>
-				<div class="row">
-					<div class="large-6 columns hosting-info">
-						<div class="float-wrap" id="hosting-info">
-							<div class="icon-wrap">
-								<img src="/img/our-services/web-development/new-project-workflow/server.svg" loading="lazy" alt="Hosting Server Icon" title="Hosting Server Icon">
-							</div>
-							<div class="prose-wrap">
-								<h4>Hosting</h4>
-								<p>After local project development is complete, I then host the website on secure, high-performance servers and publish the site online.</p>
-							</div>
-						</div>
-					</div>
-					<div class="large-6 columns maintenance-info">
-						<div class="float-wrap">
-							<div class="icon-wrap">
-								<img src="/img/our-services/web-development/new-project-workflow/wrench.svg" loading="lazy" alt="Maintenance Wrench Icon" title="Maintenance Wrench Icon">
-							</div>
-							<div class="prose-wrap">
-								<h4>Maintenance</h4>
-								<p>Once the site is live, we’ll go over project upkeep. I provide hassle-free maintenace options so you can focus on your business and not your website’s performance and reliability.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<section class="blog-roll-section">
-			<div class="row py-40 text-center">
-				<div class="column">
-					<h2 class="h3 ff-monospace section-title"><a href="https://studioncreations.com/blog/">From the Blog</a></h2>
-					<h4 class="color-white section-subhead">Nico’s Projects & Pro-Tips</h4>
-				</div>
-			</div>
-			<div class="row expanded collapse article-list">
-				<div class="medium-6 columns">
-					<a href="https://studioncreations.com/blog/increasing-wordpress-8mb-limit-with-mamp-pro/" class="article-unit-link">
-						<div class="prose-wrap">
-							<h5 class="ff-monospace article-category">Pro Tips</h5>
-							<h3 class="ff-sans-serif article-headline">Increasing WordPress’ 8MB limit with MAMP Pro</h3>
-						</div>
-						<img src="https://studioncreations.com/wp-content/uploads/2018/08/wordpress-mamp-feature-image-768x307.png" loading="lazy" alt="A collage of the Wordpress, MAMP and PHP logos">
-					</a>
-				</div>
-				<div class="medium-6 columns">
-					<a href="https://studioncreations.com/blog/" class="article-unit-link">
-						<h3 class="ff-sans-serif article-headline absolute-center" id="read-more">More Articles</h3>
-						<img src="https://studioncreations.com/wp-content/uploads/2022/06/Apple-TV-Sleep-Timer-Featured-image-768x307.jpg" loading="lazy" alt="A perspective photo of the Home App on an iPhone with a picture of an Apple TV">
-					</a>
-				</div>
-			</div>
-		</section>
-		
-		<div class="bubble-bg">
-			<section class="contact-form contact-banner">
-				<div class="row text-center section-title">
-					<h2>Have a project in mind?</h2>
-					<div class="modalTrigger">
-						<a class="monospace" data-open="contactModal">Let's talk!</a>
-					</div>
-				</div>
-			</section>
-			<footer>
-				<div class="row position-relative" style="z-index: 10;">
-					<div class="text-center medium-text-left medium-6 large-4 columns color-white mb-12">
-						<h5>&copy; Studio N Creations 2023</h5>
-					</div>
-					<div class="text-center medium-text-right large-text-center medium-6 large-4 columns color-white mb-12">
-						<h5>Coded with care in Houston,&nbsp;TX</h5>
-					</div>
-					<div class="large-4 columns color-white text-center large-text-right">
-						<ul class="meta-nav large-vertical menu h5 simple">
-							<li><a href="/">About</a></li>
-							<li><a href="/our-services/web-development">Services</a></li>
-							<li><a href="https://studioncreations.com/blog/">Blog</a></li>
-						</ul>
-						<!-- <div class="row social-icons">
-							<div class="small-4 medium-2 medium-push-3 large-4 large-push-0 text-right columns">
-								<a href="https://www.facebook.com/studio.n.creations" target="_blank"><img srcset="/img/assets/icons/facebook_2x.png 2x" src="/img/assets/icons/facebook.png" alt="Facebook Icon" title="Studio N Creations Facebook Page Link"></a>
-							</div>
-							<div class="small-4 medium-2 medium-push-3 large-4 large-push-0 text-center columns">
-								<a href="https://www.pinterest.com/studioncreation/" target="_blank"><img srcset="/img/assets/icons/pinterest_2x.png 2x" src="/img/assets/icons/pinterest.png" alt="Pinterest Icon" title="Studio N Creations Pinterest Account Link"></a>
-							</div>
-							<div class="small-4 medium-2 medium-push-3 large-4 large-push-0 end columns">
-								<a href="https://www.instagram.com/studio.n.creations/" target="_blank"><img srcset="/img/assets/icons/instagram_2x.png 2x" src="/img/assets/icons/instagram.png" alt="Instagram Icon" title="Studio N Creations Instagram Account Link"></a>
-							</div>
-						</div> -->
-					</div>
-				</div>
-			</footer>
-		</div>
-	</div>
+  <div id="boxed-wrapper">
 
-</div> <!-- /.off-canvas-wrapper -->
+    <div id="wrapper" class="fusion-wrapper">
+      <div id="home" style="position:relative;top:-1px;"></div>
 
-<div class="reveal" id="contactModal" data-reveal data-deep-link="true">
-	<div class="row">
-		<div class="columns text-center">
-			<h2>Nico Watine</h2>
-			<h4 class="font-weight-normal"><a href="mailto:nico@studioncreations.com">nico@studioncreations.com</a></h4>
-		</div>
-	</div>
-	<button class="close-button" data-close aria-label="Close modal" type="button">
-		<span aria-hidden="true">&times;</span>
-	</button>
+
+      <header class="fusion-header-wrapper">
+        <div class="fusion-header-v6 fusion-logo-alignment fusion-logo-left fusion-sticky-menu- fusion-sticky-logo- fusion-mobile-logo-  fusion-header-has-flyout-menu">
+          <div class="fusion-header-sticky-height"></div>
+<div class="fusion-header">
+  <div class="fusion-row">
+    <div class="fusion-header-v6-content fusion-header-has-flyout-menu-content">
+        <div class="fusion-logo" data-margin-top="28px" data-margin-bottom="20px" data-margin-left="0" data-margin-right="0">
+      <a class="fusion-logo-link" href="https://studioncreations.com/">
+
+            <!-- standard logo -->
+      <img src="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/STUDIO-N-CREATIONS.svg" srcset="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/STUDIO-N-CREATIONS.svg 1x" width="236" height="16" alt="Studio N Creations Logo" data-retina_logo_url="" class="fusion-standard-logo">
+
+
+          </a>
+    </div>
+      <div class="fusion-flyout-menu-icons">
+
+
+
+        <a class="fusion-flyout-menu-toggle" aria-hidden="true" aria-label="Toggle Menu" href="#">
+          <div class="fusion-toggle-icon-line"></div>
+          <div class="fusion-toggle-icon-line"></div>
+          <div class="fusion-toggle-icon-line"></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="fusion-main-menu fusion-flyout-menu" role="navigation" aria-label="Main Menu">
+      <ul id="menu-main-menu" class="fusion-menu">
+<li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-46" data-item-id="46"><a href="https://studioncreations.com/" class="fusion-bar-highlight"><span class="menu-text">About</span></a></li>
+<li id="menu-item-273" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-152 current_page_item menu-item-273" data-item-id="273"><a href="https://studioncreations.com/our-services/web-development/" class="fusion-bar-highlight"><span class="menu-text">Web Development</span></a></li>
+<li id="menu-item-47" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47" data-item-id="47"><a href="https://studioncreations.com/blog/" class="fusion-bar-highlight"><span class="menu-text">Articles</span></a></li>
+<li id="menu-item-345" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-345 fusion-flyout-menu-item-last" data-item-id="345"><a href="#contact" class="fusion-bar-highlight"><span class="menu-text">Contact</span></a></li>
+</ul>   </div>
+
+
+    <div class="fusion-flyout-menu-bg"></div>
+  </div>
+</div>
+        </div>
+        <div class="fusion-clearfix"></div>
+      </header>
+
+              <div id="sliders-container" class="fusion-slider-visibility">
+          </div>
+
+
+
+
+            <main id="main" class="clearfix width-100">
+        <div class="fusion-row" style="max-width:100%;">
+<section id="content" class="full-width">
+          <div id="post-152" class="post-152 page type-page status-publish has-post-thumbnail hentry">
+                  <div class="post-content">
+        <div class="fusion-fullwidth fullwidth-box fusion-builder-row-1 fusion-flex-container has-pattern-background has-mask-background fusion-parallax-none nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style='--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:40px;--awb-padding-bottom:40px;--awb-padding-top-medium:40px;--awb-padding-bottom-medium:40px;--awb-padding-top-small:40px;--awb-padding-bottom-small:40px;--awb-margin-bottom:60px;--awb-min-height:75vh;--awb-background-image:url("https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/1440x810.jpg");--awb-background-size:cover;--awb-flex-wrap:wrap;'><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-align-content-center fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-0 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-padding-right:24px;--awb-padding-left:24px;--awb-padding-right-small:12px;--awb-padding-left-small:12px;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+<div class="fusion-title title fusion-title-1 fusion-no-small-visibility fusion-sep-none fusion-title-text fusion-title-size-two" style="--awb-text-color:#ffffff;"><h2 class="fusion-title-heading title-heading-left" style="font-family:&quot;Lato 700&quot;;font-style:normal;font-weight:400;margin:0;text-shadow:0px 0px 10px #000000;">Services</h2></div>
+<div class="fusion-title title fusion-title-2 fusion-no-small-visibility fusion-sep-none fusion-title-text fusion-title-size-one" style="--awb-text-color:#ffffff;--awb-font-size:64px;">
+<h1 class="fusion-title-heading title-heading-left" style="font-family:&quot;Source Code Pro&quot;;font-style:normal;font-weight:400;margin:0;font-size:1em;text-transform:uppercase;line-height:var(--awb-typography1-line-height);text-shadow:0px 0px 10px #000000;">Small Business<br>
+Web Development</h1>
+</div>
+<div class="fusion-title title fusion-title-3 fusion-no-small-visibility fusion-sep-none fusion-title-text fusion-title-size-four max-width-600px" style="--awb-text-color:#ffffff;"><h4 class="fusion-title-heading title-heading-left" style="font-family:&quot;Lato 700&quot;;font-style:normal;font-weight:400;margin:0;text-shadow:0px 0px 10px #000000;">I offer a personalized website design and creation experience. My workflow for any new web project consists of 4 steps.</h4></div>
+<div class="fusion-title title fusion-title-4 fusion-no-medium-visibility fusion-no-large-visibility fusion-sep-none fusion-title-text fusion-title-size-two" style="--awb-text-color:#ffffff;--awb-font-size:32px;"><h2 class="fusion-title-heading title-heading-left" style="font-family:&quot;Lato 700&quot;;font-style:normal;font-weight:400;margin:0;font-size:1em;text-shadow:0px 0px 10px #000000;">Services</h2></div>
+<div class="fusion-title title fusion-title-5 fusion-no-medium-visibility fusion-no-large-visibility fusion-sep-none fusion-title-text fusion-title-size-one" style="--awb-text-color:#ffffff;--awb-font-size:44px;"><h1 class="fusion-title-heading title-heading-left" style="font-family:&quot;Source Code Pro&quot;;font-style:normal;font-weight:400;margin:0;font-size:1em;text-transform:uppercase;line-height:var(--awb-typography1-line-height);text-shadow:0px 0px 10px #000000;">Small Business<br>
+Web Development</h1></div>
+<div class="fusion-title title fusion-title-6 fusion-no-medium-visibility fusion-no-large-visibility fusion-sep-none fusion-title-text fusion-title-size-four max-width-420px" style="--awb-text-color:#ffffff;"><h4 class="fusion-title-heading title-heading-left" style="font-family:&quot;Lato 700&quot;;font-style:normal;font-weight:400;margin:0;text-shadow:0px 0px 10px #000000;">I offer a personalized website design and creation experience. My workflow for any new web project consists of 4 steps.</h4></div>
+<div style="text-align:left;"><a class="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-1 fusion-button-default-span fusion-button-default-type" style='--button_accent_color:var(--awb-color5);--button_border_color:var(--awb-color5);--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:var(--awb-color5);--button_border_width-top:3px;--button_border_width-right:3px;--button_border_width-bottom:3px;--button_border_width-left:3px;--button_gradient_top_color:#ffffff;--button_gradient_bottom_color:#ffffff;--button_gradient_top_color_hover:hsla(var(--awb-color5-h),calc(var(--awb-color5-s) - 5%),calc(var(--awb-color5-l) - 10%),var(--awb-color5-a));--button_gradient_bottom_color_hover:hsla(var(--awb-color5-h),calc(var(--awb-color5-s) - 5%),calc(var(--awb-color5-l) - 10%),var(--awb-color5-a));--button_text_transform:uppercase;--button_typography-font-family:"Source Code Pro";--button_typography-font-style:normal;--button_typography-font-weight:400;--button_margin-top:20px;' target="_self" data-toggle="modal" data-target=".fusion-modal.contact"><span class="fusion-button-text">Hire Nico</span></a></div>
+</div></div></div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-2 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-no-medium-visibility fusion-no-large-visibility" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-margin-bottom:60px;--awb-flex-wrap:wrap;"><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="width:calc( 100% + 0px ) !important;max-width:calc( 100% + 0px ) !important;margin-left: calc(-0px / 2 );margin-right: calc(-0px / 2 );">
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-1 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-padding-right:12px;--awb-padding-left:12px;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"><div class="fusion-text fusion-text-1" style="--awb-font-size:var(--awb-typography3-font-size);--awb-line-height:var(--awb-typography3-line-height);--awb-text-transform:var(--awb-typography3-text-transform);--awb-text-font-family:var(--awb-typography3-font-family);--awb-text-font-weight:var(--awb-typography3-font-weight);--awb-text-font-style:var(--awb-typography3-font-style);">
+<h5>Step 1</h5>
+<h3 class="ff-monospace">Project Mapping</h3>
+</div></div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-2 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-padding-top:80px;--awb-padding-right:12px;--awb-padding-bottom:80px;--awb-padding-left:12px;--awb-bg-color-small:#777777;--awb-bg-image:linear-gradient(180deg, rgba(68,68,68,0.6) 0%,rgba(68,68,68,0.6) 100%),url(https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/project-mapping.jpg);;--awb-bg-position:center center;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-column-has-bg-image" data-bg-url="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/project-mapping.jpg"><div class="fusion-text fusion-text-2" style="--awb-font-size:var(--awb-typography3-font-size);--awb-line-height:var(--awb-typography3-line-height);--awb-text-transform:var(--awb-typography3-text-transform);--awb-text-color:#ffffff;--awb-text-font-family:var(--awb-typography3-font-family);--awb-text-font-weight:var(--awb-typography3-font-weight);--awb-text-font-style:var(--awb-typography3-font-style);">
+<div style="max-width: 440px; text-shadow: 0 0 5px #000;">First we establish your project goals and how to achieve them with a well-crafted content strategy.</div>
+</div></div></div>
+</div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-3 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-no-small-visibility" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-margin-bottom:60px;--awb-min-height:480px;--awb-flex-wrap:wrap;"><div class="fusion-builder-row fusion-row fusion-flex-align-items-stretch fusion-flex-content-wrap" style="width:calc( 100% + 0px ) !important;max-width:calc( 100% + 0px ) !important;margin-left: calc(-0px / 2 );margin-right: calc(-0px / 2 );">
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-3 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-overflow:hidden;--awb-bg-color-small:#777777;--awb-bg-image:url('https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/project-mapping.jpg');--awb-bg-position:center center;--awb-bg-size:cover;--awb-border-radius:0px 32px 32px 0px;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image" data-bg-url="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/project-mapping.jpg"><img decoding="async" class="fusion-empty-dims-img-placeholder fusion-no-large-visibility fusion-no-medium-visibility" src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27800%27%20height%3D%27533%27%20viewBox%3D%270%200%20800%20533%27%3E%3Crect%20width%3D%27800%27%20height%3D%27533%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"></div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-4 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-padding-top:32px;--awb-padding-right:24px;--awb-padding-bottom:32px;--awb-padding-left:24px;--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"><div class="fusion-text fusion-text-3" style="--awb-font-size:var(--awb-typography3-font-size);--awb-line-height:var(--awb-typography3-line-height);--awb-text-transform:var(--awb-typography3-text-transform);--awb-text-font-family:var(--awb-typography3-font-family);--awb-text-font-weight:var(--awb-typography3-font-weight);--awb-text-font-style:var(--awb-typography3-font-style);">
+<div style="max-width: 440px;">
+<h5>Step 1</h5>
+<h3 class="ff-monospace">Project Mapping</h3>
+<p>First we establish your project goals and how to achieve them with a well-crafted content strategy.</p>
+</div>
+</div></div></div>
+</div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-4 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-no-medium-visibility fusion-no-large-visibility" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-margin-bottom:60px;--awb-flex-wrap:wrap;"><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="width:calc( 100% + 0px ) !important;max-width:calc( 100% + 0px ) !important;margin-left: calc(-0px / 2 );margin-right: calc(-0px / 2 );">
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-5 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-padding-right:12px;--awb-padding-left:12px;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"><div class="fusion-text fusion-text-4" style="--awb-font-size:var(--awb-typography3-font-size);--awb-line-height:var(--awb-typography3-line-height);--awb-text-transform:var(--awb-typography3-text-transform);--awb-text-font-family:var(--awb-typography3-font-family);--awb-text-font-weight:var(--awb-typography3-font-weight);--awb-text-font-style:var(--awb-typography3-font-style);">
+<h5>Step 2</h5>
+<h3 class="ff-monospace">Design Phase</h3>
+</div></div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-6 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-padding-top:80px;--awb-padding-right:12px;--awb-padding-bottom:80px;--awb-padding-left:12px;--awb-bg-image:linear-gradient(180deg, rgba(68,68,68,0.6) 0%,rgba(68,68,68,0.6) 100%),url(https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/design-phase.jpg);;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column fusion-column-has-bg-image" data-bg-url="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/design-phase.jpg"><div class="fusion-text fusion-text-5" style="--awb-font-size:var(--awb-typography3-font-size);--awb-line-height:var(--awb-typography3-line-height);--awb-text-transform:var(--awb-typography3-text-transform);--awb-text-color:#ffffff;--awb-text-font-family:var(--awb-typography3-font-family);--awb-text-font-weight:var(--awb-typography3-font-weight);--awb-text-font-style:var(--awb-typography3-font-style);">
+<div style="max-width: 440px; text-shadow: 0 0 5px #000;">Next comes the design process, during which the site’s graphics are visualized and prose is written. After our close consultation, I&#8217;ll provide mockups and a style guide.</div>
+</div></div></div>
+</div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-5 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-no-small-visibility" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-margin-bottom:60px;--awb-min-height:480px;--awb-flex-wrap:wrap;"><div class="fusion-builder-row fusion-row fusion-flex-align-items-stretch fusion-flex-content-wrap" style="width:calc( 100% + 0px ) !important;max-width:calc( 100% + 0px ) !important;margin-left: calc(-0px / 2 );margin-right: calc(-0px / 2 );">
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-7 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-padding-top:32px;--awb-padding-right:24px;--awb-padding-bottom:32px;--awb-padding-left:24px;--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"><div class="fusion-text fusion-text-6" style="--awb-font-size:var(--awb-typography3-font-size);--awb-line-height:var(--awb-typography3-line-height);--awb-text-transform:var(--awb-typography3-text-transform);--awb-text-font-family:var(--awb-typography3-font-family);--awb-text-font-weight:var(--awb-typography3-font-weight);--awb-text-font-style:var(--awb-typography3-font-style);">
+<div style="max-width: 440px; float: right;">
+<h5>Step 2</h5>
+<h3 class="ff-monospace">Design Phase</h3>
+<p>Next comes the design process, during which the site’s graphics are visualized and prose is written. After our close consultation, I&#8217;ll provide mockups and a style guide.</p>
+</div>
+</div></div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-8 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-overflow:hidden;--awb-bg-image:url('https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/design-phase.jpg');--awb-bg-position:center center;--awb-bg-size:cover;--awb-border-radius:32px 0px 0px 32px;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image" data-bg-url="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/design-phase.jpg"><img decoding="async" class="fusion-empty-dims-img-placeholder fusion-no-large-visibility fusion-no-medium-visibility" src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27800%27%20height%3D%27533%27%20viewBox%3D%270%200%20800%20533%27%3E%3Crect%20width%3D%27800%27%20height%3D%27533%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"></div></div>
+</div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-6 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-no-medium-visibility fusion-no-large-visibility" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-margin-bottom:60px;--awb-flex-wrap:wrap;"><div class="fusion-builder-row fusion-row fusion-flex-align-items-stretch fusion-flex-content-wrap" style="width:calc( 100% + 0px ) !important;max-width:calc( 100% + 0px ) !important;margin-left: calc(-0px / 2 );margin-right: calc(-0px / 2 );">
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-9 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-padding-right:12px;--awb-padding-left:12px;--awb-overflow:hidden;--awb-bg-position:center center;--awb-bg-size:cover;--awb-border-radius:0px 32px 32px 0px;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-7" style="--awb-font-size:var(--awb-typography3-font-size);--awb-line-height:var(--awb-typography3-line-height);--awb-text-transform:var(--awb-typography3-text-transform);--awb-text-font-family:var(--awb-typography3-font-family);--awb-text-font-weight:var(--awb-typography3-font-weight);--awb-text-font-style:var(--awb-typography3-font-style);">
+<h5>Step 3</h5>
+<h3 class="ff-monospace">Development Stage</h3>
+</div></div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-10 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-padding-top:80px;--awb-padding-right:12px;--awb-padding-bottom:80px;--awb-padding-left:12px;--awb-bg-image:linear-gradient(180deg, rgba(68,68,68,0.6) 0%,rgba(68,68,68,0.6) 100%),url(https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/12/code-close-up.jpg);;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column fusion-column-has-bg-image" data-bg-url="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/12/code-close-up.jpg"><div class="fusion-text fusion-text-8" style="--awb-font-size:var(--awb-typography3-font-size);--awb-line-height:var(--awb-typography3-line-height);--awb-text-transform:var(--awb-typography3-text-transform);--awb-text-color:#ffffff;--awb-text-font-family:var(--awb-typography3-font-family);--awb-text-font-weight:var(--awb-typography3-font-weight);--awb-text-font-style:var(--awb-typography3-font-style);">
+<div style="max-width: 440px; text-shadow: 0 0 5px #000;">With the content established and a solid user experience defined, the project gets developed into a functioning website. I utilize the industry’s latest technologies to ensure optimal performance on all device platforms and screen sizes.</div>
+</div></div></div>
+</div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-7 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-no-small-visibility" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-margin-bottom:60px;--awb-min-height:480px;--awb-flex-wrap:wrap;"><div class="fusion-builder-row fusion-row fusion-flex-align-items-stretch fusion-flex-content-wrap" style="width:calc( 100% + 0px ) !important;max-width:calc( 100% + 0px ) !important;margin-left: calc(-0px / 2 );margin-right: calc(-0px / 2 );">
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-11 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-overflow:hidden;--awb-bg-image:url('https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/12/code-close-up.jpg');--awb-bg-position:center center;--awb-bg-size:cover;--awb-border-radius:0px 32px 32px 0px;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image" data-bg-url="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/12/code-close-up.jpg"><img decoding="async" class="fusion-empty-dims-img-placeholder fusion-no-large-visibility fusion-no-medium-visibility" src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27800%27%20height%3D%27600%27%20viewBox%3D%270%200%20800%20600%27%3E%3Crect%20width%3D%27800%27%20height%3D%27600%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"></div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-12 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-padding-top:32px;--awb-padding-right:24px;--awb-padding-bottom:32px;--awb-padding-left:24px;--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"><div class="fusion-text fusion-text-9" style="--awb-font-size:var(--awb-typography3-font-size);--awb-line-height:var(--awb-typography3-line-height);--awb-text-transform:var(--awb-typography3-text-transform);--awb-text-font-family:var(--awb-typography3-font-family);--awb-text-font-weight:var(--awb-typography3-font-weight);--awb-text-font-style:var(--awb-typography3-font-style);">
+<div style="max-width: 440px;">
+<h5>Step 3</h5>
+<h3 class="ff-monospace">Development Stage</h3>
+<p>With the content established and a solid user experience defined, the project gets developed into a functioning website. I utilize the industry’s latest technologies to ensure optimal performance on all device platforms and screen sizes.</p>
+</div>
+</div></div></div>
+</div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-8 fusion-flex-container has-pattern-background has-mask-background fusion-parallax-none nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style='--awb-background-blend-mode:multiply;--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:80px;--awb-padding-right:20px;--awb-padding-bottom:80px;--awb-padding-left:20px;--awb-margin-bottom:60px;--awb-background-color:#999999;--awb-background-image:url("https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/12/server-stack.jpg");--awb-background-size:cover;--awb-flex-wrap:wrap;'><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-13 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:32px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+<div class="fusion-title title fusion-title-7 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-five" style="--awb-text-color:#ffffff;"><h5 class="fusion-title-heading title-heading-center" style="font-family:&quot;Lato 700&quot;;font-style:normal;font-weight:400;margin:0;text-transform:uppercase;">Step 4</h5></div>
+<div class="fusion-title title fusion-title-8 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-three" style="--awb-text-color:#ffffff;"><h3 class="fusion-title-heading title-heading-center" style="font-family:&quot;Source Code Pro&quot;;font-style:normal;font-weight:400;margin:0;text-transform:uppercase;">Post-Production Actions</h3></div>
+</div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-14 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:3.84%;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:3.84%;--awb-spacing-left-medium:3.84%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+<div class="fusion-text fusion-text-10 fusion-no-small-visibility" style="--awb-text-color:#ffffff;">
+<div id="hosting-info" class="float-wrap" style="max-width: 470px; float: right;">
+<div class="icon-wrap" style="float: left; padding-top: 30px;"><img decoding="async" title="Hosting Server Icon" src="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/12/server.svg" alt="Hosting Server Icon"></div>
+<div class="prose-wrap" style="max-width: 370px; margin-left: 80px;">
+<h4 style="color: #fff;">Hosting</h4>
+<p>After local project development is complete, I then host the website on secure, high-performance servers and publish the site online.</p>
+</div>
+</div>
+</div>
+<div class="fusion-text fusion-text-11 fusion-no-medium-visibility fusion-no-large-visibility" style="--awb-text-color:#ffffff;">
+<div id="hosting-info" class="float-wrap" style="max-width: 470px; margin: 0 auto;">
+<div class="icon-wrap" style="float: left; padding-top: 30px;"><img decoding="async" title="Hosting Server Icon" src="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/12/server.svg" alt="Hosting Server Icon"></div>
+<div class="prose-wrap" style="max-width: 370px; margin-left: 80px;">
+<h4 style="color: #fff;">Hosting</h4>
+<p>After local project development is complete, I then host the website on secure, high-performance servers and publish the site online.</p>
+</div>
+</div>
+</div>
+</div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-15 fusion_builder_column_1_2 1_2 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.84%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:3.84%;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:3.84%;--awb-spacing-left-medium:3.84%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+<div class="fusion-text fusion-text-12 fusion-no-small-visibility" style="--awb-text-color:#ffffff;">
+<div id="hosting-info" class="float-wrap" style="max-width: 470px;">
+<div class="icon-wrap" style="float: left; padding-top: 30px;"><img decoding="async" class="alignnone size-full wp-image-311" src="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/12/wrench.svg" alt=""></div>
+<div class="prose-wrap" style="max-width: 370px; margin-left: 80px;">
+<h4 style="color: #fff;">Maintenance</h4>
+<p>Once the site is live, we’ll go over project upkeep. I provide hassle-free maintenace options so you can focus on your business and not your website’s performance and reliability.</p>
+</div>
+</div>
+</div>
+<div class="fusion-text fusion-text-13 fusion-no-medium-visibility fusion-no-large-visibility" style="--awb-text-color:#ffffff;">
+<div id="hosting-info" class="float-wrap" style="max-width: 470px; margin: 0 auto;">
+<div class="icon-wrap" style="float: left; padding-top: 30px;"><img decoding="async" class="alignnone size-full wp-image-311" src="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/12/wrench.svg" alt=""></div>
+<div class="prose-wrap" style="max-width: 370px; margin-left: 80px;">
+<h4 style="color: #fff;">Maintenance</h4>
+<p>Once the site is live, we’ll go over project upkeep. I provide hassle-free maintenace options so you can focus on your business and not your website’s performance and reliability.</p>
+</div>
+</div>
+</div>
+</div></div>
+</div></div>
+<div id="contact" class="fusion-container-anchor"><div class="fusion-fullwidth fullwidth-box fusion-builder-row-9 fusion-flex-container has-pattern-background has-mask-background fusion-parallax-none nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style='--awb-background-position:center top;--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:60px;--awb-padding-bottom:60px;--awb-background-image:url("https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/12/footer-graphic.png");--awb-background-size:cover;--awb-flex-wrap:wrap;'><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-16 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-padding-right:20px;--awb-padding-left:20px;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+<div class="fusion-title title fusion-title-9 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two" style="--awb-text-color:#ffffff;--awb-margin-bottom:40px;--awb-margin-bottom-small:40px;"><h2 class="fusion-title-heading title-heading-center" style="margin:0;text-shadow:-2px 3px 0px #444444;">Ready to get more out of your business?</h2></div>
+<div style="text-align:center;"><a class="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-2 fusion-button-default-span fusion-button-default-type" style='--button_accent_color:var(--awb-color5);--button_border_color:var(--awb-color5);--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:var(--awb-color5);--button_border_width-top:3px;--button_border_width-right:3px;--button_border_width-bottom:3px;--button_border_width-left:3px;--button_gradient_top_color:#ffffff;--button_gradient_bottom_color:#ffffff;--button_gradient_top_color_hover:hsla(var(--awb-color5-h),calc(var(--awb-color5-s) - 5%),calc(var(--awb-color5-l) - 10%),var(--awb-color5-a));--button_gradient_bottom_color_hover:hsla(var(--awb-color5-h),calc(var(--awb-color5-s) - 5%),calc(var(--awb-color5-l) - 10%),var(--awb-color5-a));--button_text_transform:uppercase;--button_typography-font-family:"Source Code Pro";--button_typography-font-style:normal;--button_typography-font-weight:400;' target="_self" data-toggle="modal" data-target=".fusion-modal.contact"><span class="fusion-button-text">Hire Nico &amp; let&#8217;s get to it!</span></a></div>
+</div></div></div></div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-10 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-background-color:var(--awb-color6);--awb-flex-wrap:wrap;"><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-17 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+<div class="fusion-separator fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-top:20px;margin-bottom:20px;width:100%;"><div class="fusion-separator-border sep-single sep-solid" style="--awb-height:20px;--awb-amount:20px;--awb-sep-color:var(--awb-color1);border-color:var(--awb-color1);border-top-width:1px;"></div></div>
+<div class="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-0 fusion_builder_column_inner_1_1 1_1 fusion-flex-column" style="--awb-padding-right:20px;--awb-padding-left:20px;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-title title fusion-title-10 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two" style="--awb-text-color:var(--awb-color1);--awb-margin-bottom:0px;--awb-margin-right-medium:20px;--awb-margin-left-medium:20px;"><h2 class="fusion-title-heading title-heading-center" style="font-family:&quot;Source Code Pro&quot;;font-style:normal;font-weight:400;margin:0;text-transform:uppercase;">From the Blog</h2></div></div></div></div>
+<div class="fusion-title title fusion-title-11 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four" style="--awb-text-color:#ffffff;"><h4 class="fusion-title-heading title-heading-center" style="margin:0;">Nico&#8217;s Projects &amp; Pro-Tips</h4></div>
+<div class="fusion-separator fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-top:20px;margin-bottom:20px;width:100%;"><div class="fusion-separator-border sep-single sep-solid" style="--awb-height:20px;--awb-amount:20px;--awb-sep-color:var(--awb-color1);border-color:var(--awb-color1);border-top-width:1px;"></div></div>
+</div></div></div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-11 fusion-flex-container has-pattern-background has-mask-background blog-links-section hundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-flex-wrap:wrap;"><div class="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-justify-content-center fusion-flex-content-wrap" style="width:calc( 100% + 0px ) !important;max-width:calc( 100% + 0px ) !important;margin-left: calc(-0px / 2 );margin-right: calc(-0px / 2 );">
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-18 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-padding-top:40px;--awb-bg-color:#a1a1a1;--awb-bg-color-hover:#484c89;--awb-bg-image:url('https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/12/Wordpress-MAMP.png');--awb-bg-position:center center;--awb-bg-blend:multiply;--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column fusion-column-has-bg-image" data-bg-url="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/12/Wordpress-MAMP.png"><div class="fusion-content-boxes content-boxes columns row fusion-columns-1 fusion-columns-total-1 fusion-content-boxes-1 content-boxes-clean-vertical content-left content-boxes-icon-on-top" style="--awb-body-color:#ffffff;--awb-title-color:#ffffff;--awb-item-margin-top:0px;--awb-item-margin-bottom:0px;--awb-margin-top:0px;--awb-margin-bottom:0px;--awb-hover-accent-color:#f1f1f1;--awb-circle-hover-accent-color:#f1f1f1;--awb-item-margin-bottom:40px;" data-animationoffset="top-into-view">
+<div style="--awb-backgroundcolor:rgba(255,255,255,0);border-color:rgba(255,255,255,0);" class="fusion-column content-box-column content-box-column content-box-column-1 col-lg-12 col-md-12 col-sm-12 fusion-content-box-hover content-box-column-last content-box-column-last-in-row"><div class="col content-box-wrapper content-wrapper link-area-link-icon link-type-button content-icon-wrapper-yes icon-hover-animation-fade" data-animationoffset="top-into-view">
+<div class="heading icon-left"><a class="heading-link" href="https://studioncreations.com/blog/increasing-wordpress-8mb-limit-with-mamp-pro/" target="_self"><h2 class="content-box-heading" style="--h2_typography-font-size:34px;line-height:39px;">Increasing WordPress’ 8MB limit with MAMP Pro</h2></a></div>
+<div class="fusion-clearfix"></div>
+<div class="content-container">
+<h5>Pro Tips</h5>
+</div>
+<div class="fusion-clearfix"></div>
+<a class="fusion-read-more-button fusion-content-box-button fusion-button button-default fusion-button-default-size button- button-flat" href="https://studioncreations.com/blog/increasing-wordpress-8mb-limit-with-mamp-pro/" target="_self"><span class="fusion-button-text">Learn How</span></a><div class="fusion-clearfix"></div>
+</div></div>
+<div class="fusion-clearfix"></div>
+</div></div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-19 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-padding-top:40px;--awb-bg-color:#a1a1a1;--awb-bg-color-hover:#f79f00;--awb-bg-image:url('https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/Apple-TV-Sleep-Timer-Featured-image-768x307-1.jpg');--awb-bg-position:center center;--awb-bg-blend:multiply;--awb-bg-size:cover;--awb-width-large:50%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:0px;--awb-spacing-left-large:0;--awb-width-medium:50%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:0;--awb-spacing-left-small:0;" data-motion-effects="[{&quot;type&quot;:&quot;&quot;,&quot;scroll_type&quot;:&quot;transition&quot;,&quot;scroll_direction&quot;:&quot;up&quot;,&quot;transition_speed&quot;:&quot;1&quot;,&quot;fade_type&quot;:&quot;in&quot;,&quot;scale_type&quot;:&quot;up&quot;,&quot;initial_scale&quot;:&quot;1&quot;,&quot;max_scale&quot;:&quot;1.5&quot;,&quot;min_scale&quot;:&quot;0.5&quot;,&quot;initial_rotate&quot;:&quot;0&quot;,&quot;end_rotate&quot;:&quot;30&quot;,&quot;initial_blur&quot;:&quot;0&quot;,&quot;end_blur&quot;:&quot;3&quot;,&quot;start_element&quot;:&quot;top&quot;,&quot;start_viewport&quot;:&quot;bottom&quot;,&quot;end_element&quot;:&quot;bottom&quot;,&quot;end_viewport&quot;:&quot;top&quot;,&quot;mouse_effect&quot;:&quot;track&quot;,&quot;mouse_effect_direction&quot;:&quot;opposite&quot;,&quot;mouse_effect_speed&quot;:&quot;2&quot;,&quot;infinite_animation&quot;:&quot;float&quot;,&quot;infinite_animation_speed&quot;:&quot;2&quot;}]" data-scroll-devices="small-visibility,medium-visibility,large-visibility"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column fusion-column-has-bg-image" data-bg-url="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/2023/11/Apple-TV-Sleep-Timer-Featured-image-768x307-1.jpg"><div class="fusion-content-boxes content-boxes columns row fusion-columns-1 fusion-columns-total-1 fusion-content-boxes-2 content-boxes-clean-vertical content-left content-boxes-icon-on-top" style="--awb-body-color:#ffffff;--awb-title-color:#ffffff;--awb-item-margin-top:0px;--awb-item-margin-bottom:0px;--awb-margin-top:0px;--awb-margin-bottom:0px;--awb-hover-accent-color:#f1f1f1;--awb-circle-hover-accent-color:#f1f1f1;--awb-item-margin-bottom:40px;" data-animationoffset="top-into-view">
+<div style="--awb-backgroundcolor:rgba(255,255,255,0);border-color:rgba(255,255,255,0);" class="fusion-column content-box-column content-box-column content-box-column-1 col-lg-12 col-md-12 col-sm-12 fusion-content-box-hover content-box-column-last content-box-column-last-in-row"><div class="col content-box-wrapper content-wrapper link-area-link-icon link-type-button content-icon-wrapper-yes icon-hover-animation-fade" data-animationoffset="top-into-view">
+<div class="heading icon-left"><a class="heading-link" href="https://studioncreations.com/blog/" target="_self"><h2 class="content-box-heading" style="--h2_typography-font-size:34px;line-height:39px;">More Articles</h2></a></div>
+<div class="fusion-clearfix"></div>
+<a class="fusion-read-more-button fusion-content-box-button fusion-button button-default fusion-button-default-size button- button-flat" href="https://studioncreations.com/blog/" target="_self"><span class="fusion-button-text">More Pro Tips</span></a><div class="fusion-clearfix"></div>
+</div></div>
+<div class="fusion-clearfix"></div>
+</div></div></div>
+</div></div>
+<div class="fusion-fullwidth fullwidth-box fusion-builder-row-12 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-flex-wrap:wrap;"><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-20 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-modal modal fade modal-1 contact" tabindex="-1" role="dialog" aria-labelledby="modal-heading-1" aria-hidden="true" style="--awb-border-color:var(--awb-color3);--awb-background:var(--awb-color1);"><div class="modal-dialog modal-sm" role="document"><div class="modal-content fusion-modal-content">
+<div class="modal-header">
+<button class="close" type="button" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button><h3 class="modal-title" id="modal-heading-1" data-dismiss="modal" aria-hidden="true"></h3>
+</div>
+<div class="modal-body fusion-clearfix">
+<h2>Nico Watine</h2>
+<p><em>Small business specialist<br>
+Freelance Web Developer</em><br>
+Houston, TX</p>
+<p><a href="mailto:nico@studioncreations.com">nico@studioncreations.com</a></p>
+</div>
+</div></div></div></div></div></div></div>
+              </div>
+                        </div>
+  </section>
+
+          </div>  <!-- fusion-row -->
+        </main>  <!-- #main -->
+
+
+
+
+    <div class="fusion-footer">
+
+
+  <footer id="footer" class="fusion-footer-copyright-area fusion-footer-copyright-center">
+    <div class="fusion-row">
+      <div class="fusion-copyright-content">
+
+        <div class="fusion-copyright-notice">
+    <div>
+    CODED WITH CARE IN HOUSTON, TX<br>
+© STUDIO N CREATIONS 2023 </div>
+</div>
+<div class="fusion-social-links-footer">
+  <div class="fusion-social-networks"><div class="fusion-social-networks-wrapper"><a class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" data-placement="top" data-title="Instagram" data-toggle="tooltip" title="Instagram" href="https://instagram.com/studio.n.creations" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Instagram</span></a></div></div>
 </div>
 
-<script src="/js/app-min.js?=2023-02-14T18:00:24Z"></script>
+      </div> <!-- fusion-fusion-copyright-content -->
+    </div> <!-- fusion-row -->
+  </footer> <!-- #footer -->
+    </div> <!-- fusion-footer -->
 
-</body>
+
+
+                        </div> <!-- wrapper -->
+    </div> <!-- #boxed-wrapper -->
+        <a class="fusion-one-page-text-link fusion-page-load-link" tabindex="-1" href="#" aria-hidden="true">Page load link</a>
+
+    <div class="avada-footer-scripts">
+      <script type="text/javascript">var fusionNavIsCollapsed=function(e){var t,n;window.innerWidth<=e.getAttribute("data-breakpoint")?(e.classList.add("collapse-enabled"),e.classList.remove("awb-menu_desktop"),e.classList.contains("expanded")||(e.setAttribute("aria-expanded","false"),window.dispatchEvent(new Event("fusion-mobile-menu-collapsed",{bubbles:!0,cancelable:!0}))),(n=e.querySelectorAll(".menu-item-has-children.expanded")).length&&n.forEach(function(e){e.querySelector(".awb-menu__open-nav-submenu_mobile").setAttribute("aria-expanded","false")})):(null!==e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click")&&e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click").click(),e.classList.remove("collapse-enabled"),e.classList.add("awb-menu_desktop"),e.setAttribute("aria-expanded","true"),null!==e.querySelector(".awb-menu__main-ul")&&e.querySelector(".awb-menu__main-ul").removeAttribute("style")),e.classList.add("no-wrapper-transition"),clearTimeout(t),t=setTimeout(()=>{e.classList.remove("no-wrapper-transition")},400),e.classList.remove("loading")},fusionRunNavIsCollapsed=function(){var e,t=document.querySelectorAll(".awb-menu");for(e=0;e<t.length;e++)fusionNavIsCollapsed(t[e])};function avadaGetScrollBarWidth(){var e,t,n,l=document.createElement("p");return l.style.width="100%",l.style.height="200px",(e=document.createElement("div")).style.position="absolute",e.style.top="0px",e.style.left="0px",e.style.visibility="hidden",e.style.width="200px",e.style.height="150px",e.style.overflow="hidden",e.appendChild(l),document.body.appendChild(e),t=l.offsetWidth,e.style.overflow="scroll",t==(n=l.offsetWidth)&&(n=e.clientWidth),document.body.removeChild(e),jQuery("html").hasClass("awb-scroll")&&10<t-n?10:t-n}fusionRunNavIsCollapsed(),window.addEventListener("fusion-resize-horizontal",fusionRunNavIsCollapsed);</script><script type="text/javascript" src="https://studioncreations.com/static-avada/2024-01-08/wp-content/uploads/fusion-scripts/a8e8e3b5cd66687a3713219a54f92959.min.js?ver=3.11.3" id="fusion-scripts-js"></script>
+            </div>
+
+      <section class="to-top-container to-top-right" aria-labelledby="awb-to-top-label">
+    <a href="#" id="toTop" class="fusion-top-top-link">
+      <span id="awb-to-top-label" class="screen-reader-text">Go to Top</span>
+    </a>
+  </section>
+    </body>
 </html>
