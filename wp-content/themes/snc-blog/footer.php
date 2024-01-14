@@ -6,7 +6,7 @@
   </div><!-- #content -->
 
   <footer id="colophon" class="footer" role="contentinfo">
-    <span class="colophon">&copy; Studio N Creations 2023</span>
+    <span class="colophon">&copy; Studio N Creations 2024</span>
   </footer>
 
 
