@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [1.45.0] Copyright Footers
+
+### Changed
 - `static-front-page.php` - Update copyright year to 2024
 - `web-development-template.php` - Update copyright year to 2024
 - `footer.php` - Update copyright year to 2024
