@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.46.0] Template Rollback
+
+### Changed
+- `header.php` - Revert template file back to `[1.43.0]`. Changed masthead site name back to "Studio N Creations" and have it link to index
+
 ## [1.45.0] Copyright Footers
 
 ### Changed

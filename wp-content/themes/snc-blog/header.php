@@ -19,9 +19,9 @@
 		<?php the_custom_logo(); ?>
 		<?php
 		if ( is_front_page() && is_home() ) : ?>
-			<h1 class="monospace header__title"><a href="/blog/" rel="home">Studio N Creations Blog</a></h1>
+			<h1 class="monospace header__title"><a href="/" rel="home">Studio N Creations</a></h1>
 		<?php else : ?>
-			<p class="monospace header__title"><a href="/blog/" rel="home">Studio N Creations Blog</a></p>
+			<p class="monospace header__title"><a href="/" rel="home">Studio N Creations</a></p>
 		<?php
 		endif;
 
