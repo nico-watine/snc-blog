@@ -13,20 +13,12 @@ CSS:
 	✔  <footer> img scrim multiply like index @done (23-01-23 19:28)
 	✔	<article> margin-bottom to increase space between tags-links and nav.post-navigation @done (23-01-29 18:05)
 	✔	<figcaption> <code> make font-weight:normal (since figcaption is bold by default) @done (23-01-23 11:39)
-	✔	move overflow-wrap:break-word from .entry__content p to .entry__content? So that <h> also inherit the rule @done (23-01-23 11:38)
-
-Other:
-	✔  Review color contrast visual styles (not much difference between <body> and <entry>) @done (23-01-22 09:52)
-	✔  check on jquery and jquery-migrate necessity in <head> @done (23-01-25 11:20)
-	☐  just have img and not srcset on main blog roll?
-	✔  font-smoothing:antialiased for hidpi screens only? @done (23-01-23 19:29)
-	✔	Remove jquery-migrate from <head>? @done (23-01-25 11:20)
-	☐	Remove author URL bc shows login name
-	✔	Fix ".publised-label" to ".published-label" @done (23-02-01 10:49)
+	☐	move overflow-wrap:break-word from .entry__content p to .entry__content? So that <h> also inherit the rule
 
 Sketch Doc:
 	☐	Define color variables by color or element?
 	☐	"tint-white" "shade-black" "tone-gray"
+
 JS:
 	☐	is iscroll.js necessary??
 
