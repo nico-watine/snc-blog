@@ -1,7 +1,8 @@
 .entry__content ul,
 .entry__content ol {
-	padding: 0 0 0 20px;
+	padding: rem-calc(0 0 0 20);
 	margin: rem-calc(16 0);
+	text-align: left;
 }
 
 .entry__content ul li,

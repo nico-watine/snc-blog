@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.47.0] Text Styles
+
+### Changed
+- `_theme-lists.scss` - Specified `text-align:left` for lists, so they don't inherit the `text-align:justify` from the article content
+
 ## [1.46.0] Template Rollback
 
 ### Changed

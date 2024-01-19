@@ -798,8 +798,9 @@ figure.alignright,
 
 .entry__content ul,
 .entry__content ol {
-  padding: 0 0 0 20px;
-  margin: 1rem 0; }
+  padding: 0 0 0 1.25rem;
+  margin: 1rem 0;
+  text-align: left; }
 
 .entry__content ul li,
 .entry__content ol li {

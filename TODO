@@ -14,6 +14,7 @@ CSS:
 	✔	<article> margin-bottom to increase space between tags-links and nav.post-navigation @done (23-01-29 18:05)
 	✔	<figcaption> <code> make font-weight:normal (since figcaption is bold by default) @done (23-01-23 11:39)
 	☐	move overflow-wrap:break-word from .entry__content p to .entry__content? So that <h> also inherit the rule
+	☐	transition:all 0.02s for <a>:hover?
 
 Sketch Doc:
 	☐	Define color variables by color or element?
