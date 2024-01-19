@@ -4,7 +4,6 @@
 	margin-top: 80px;
 	padding: 100px 0;
 	background: #fff url('https://studioncreations.com/img/index/bubble-bg/bubble-background.png') center/cover no-repeat;
-	color: #fff;
 	text-align: center;
 	position: relative;
 
@@ -19,13 +18,31 @@
 		mix-blend-mode: multiply;
 	}
 
-	// © STUDIO N CREATIONS
-	.colophon {
+	.prose-wrap {
 		text-transform: uppercase;
-		letter-spacing: rem-calc(1.5);
-		font-size: rem-calc(15);
 		position: relative;
 		z-index: 10;
+
+		p,
+		a {
+			font-size: rem-calc(16);
+			letter-spacing: rem-calc(1.5);
+		}
+
+		p {
+			color: #fff;
+		}
+
+		a {
+			color: #5ac8fa;
+			text-decoration: underline;
+			text-decoration-thickness: rem-calc(2);
+			text-underline-offset: rem-calc(2);
+
+			&:hover {
+				text-underline-offset: rem-calc(4);
+			}
+		}
 	}
 }
 

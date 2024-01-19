@@ -6,7 +6,12 @@
   </div><!-- #content -->
 
   <footer id="colophon" class="footer" role="contentinfo">
-    <span class="colophon">&copy; Studio N Creations 2024</span>
+    <div class="prose-wrap">
+      <p>&copy; Studio N Creations 2024 <br>
+        <a href="/">Home</a> <br>
+        <a href="/blog/">Articles</a>
+      </p>
+    </div>
   </footer>
 
 

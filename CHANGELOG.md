@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.48.0] Footer Site Links
+
+### Added
+- `footer.php` - Added `<a>` links to index and blog in `<footer>`
+
+### Changed
+- `_site-footer.scss` - Changed rules so `<footer>` content is correctly styled
+
 ## [1.47.0] Text Styles
 
 ### Changed
