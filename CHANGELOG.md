@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.49.0] `<abbr>` styles
+
+### Added
+- `_abbr.scss` - Added webkit-specific vendor-prefixed style for Safari
+
 ## [1.48.0] Footer Site Links
 
 ### Added
