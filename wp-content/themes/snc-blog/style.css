@@ -233,6 +233,12 @@ details {
 summary {
   display: list-item; }
 
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted; }
+
 img {
   display: inline-block;
   vertical-align: middle;
