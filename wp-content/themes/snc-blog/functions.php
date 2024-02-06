@@ -133,7 +133,7 @@ add_action('wp_footer', 'external_link_favicons_js');
 function external_link_favicons_js() {
   ?>
     <script>
-      jQuery('a:not([href^="https://studioncreations.com/"]):not([href^="#"]):not([href^="/"]):not([href^="mailto"])').each(function() {
+      jQuery('a:not([href^="https://studioncreations.com/"]):not([href^="#"]):not([href^="/"]):not([href^="mailto"]):not([href^="https://studioncreations-wp.local/"])').each(function() {
         jQuery(this).css({
           background: "url(https://www.google.com/s2/favicons?domain=" + this.hostname + ") left center no-repeat",
           "padding-left": "20px"
