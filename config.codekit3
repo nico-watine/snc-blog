@@ -406,6 +406,71 @@
       "oAP" : "\/functions\/sort-these.php",
       "oF" : 0
     },
+    "\/lightToggle\/dark-toggle.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/lightToggle\/dark-toggle-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/lightToggle\/dark-toggle.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/dark-toggle.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/lightToggle\/functions.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/lightToggle\/functions.php",
+      "oF" : 0
+    },
+    "\/lightToggle\/html-toggle.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/lightToggle\/html-toggle.html",
+      "oF" : 0
+    },
+    "\/lightToggle\/js\/src\/lighttoggle-check.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/lightToggle\/js\/src\/lighttoggle-check-min.js",
+      "oF" : 0,
+      "sC" : 0,
+      "tS" : 0
+    },
+    "\/lightToggle\/js\/src\/lighttoggle.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/lightToggle\/js\/src\/lighttoggle-min.js",
+      "oF" : 0,
+      "sC" : 0,
+      "tS" : 0
+    },
     "\/README.md" : {
       "cB" : 0,
       "cS" : 0,
