@@ -465,9 +465,9 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/lightToggle\/js\/src\/lighttoggle-min.js",
-      "oF" : 0,
+      "oA" : 0,
+      "oAP" : "\/lightToggle\/js\/lighttoggle.min.js",
+      "oF" : 3,
       "sC" : 0,
       "tS" : 0
     },
