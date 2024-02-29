@@ -3,7 +3,7 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.49.0
+Version: 1.50.0a1
 */
 @font-face {
   font-family: 'Lato';
@@ -1442,6 +1442,78 @@ label.dark-toggle {
     font-family: 'Lato';
     font-weight: 700;
     text-transform: initial; }
+
+body.is-light {
+  background: #323233;
+  color: rgba(255, 255, 255, 0.78);
+  -webkit-font-smoothing: auto; }
+  body.is-light p {
+    color: rgba(255, 255, 255, 0.78); }
+  body.is-light .entry {
+    background-color: #4a4a4d;
+    border: 1px solid #4e4f52; }
+  body.is-light .home .entry__content p,
+  body.is-light .archive .entry__content p,
+  body.is-light .search .entry__content p {
+    color: #fff; }
+  body.is-light .entry__featured {
+    background: #fff;
+    color: #000; }
+  body.is-light .entry__meta {
+    color: rgba(255, 255, 255, 0.78); }
+  body.is-light .entry__footer {
+    color: rgba(255, 255, 255, 0.78); }
+  body.is-light .single-post .entry,
+  body.is-light .page .entry {
+    background-color: #4a4a4d; }
+  body.is-light a {
+    color: #5ac8fa; }
+    body.is-light a:hover, body.is-light a:focus {
+      color: #5ac8fa; }
+  body.is-light .header__title,
+  body.is-light .header__title a,
+  body.is-light .header__description {
+    color: #fff; }
+  body.is-light blockquote {
+    background-color: #323233; }
+    body.is-light blockquote:before {
+      color: #fff; }
+  body.is-light .gnav {
+    background-color: #4a4a4d; }
+  body.is-light .gnav li.current-menu-item > a {
+    color: #5ac8fa; }
+  body.is-light .gnav a,
+  body.is-light .dark-toggle span {
+    color: #fff; }
+  body.is-light .gnav a:hover {
+    color: #5ac8fa; }
+  body.is-light .nav-links {
+    border-top: 1px solid rgba(255, 255, 255, 0.78);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.78); }
+  body.is-light .nav-previous a {
+    border-right: 1px solid rgba(255, 255, 255, 0.78); }
+  body.is-light .nav-previous a::before {
+    border-color: #5ac8fa; }
+  body.is-light .nav-next a::after {
+    border-color: #5ac8fa; }
+  body.is-light .comment {
+    border: 1px solid #222;
+    border-radius: 4px;
+    background: #2b2c2e; }
+  body.is-light .comment.depth-2,
+  body.is-light .comment.depth-4 {
+    background: #4a4a4d; }
+  body.is-light .comment.depth-3,
+  body.is-light .comment.depth-5 {
+    background: #2b2c2e; }
+  body.is-light input[name='submit'] {
+    background: #5ac8fa;
+    color: #333;
+    border-radius: 4px; }
+  body.is-light textarea {
+    background: #4a4a4d;
+    color: #fff;
+    border-radius: 4px; }
 
 .aligncenter {
   display: block;

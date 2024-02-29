@@ -1,0 +1,123 @@
+body.is-light {
+	background: $darkUI--bodyBackground;
+	color: $darkUI--bodyFontColor;
+	-webkit-font-smoothing: auto;
+
+	p {
+		color: $darkUI--pColor;
+	}
+
+	.entry {
+		background-color: $darkUI--articleBackground;
+		border: 1px solid #4e4f52;
+	}
+
+	.home .entry__content p,
+	.archive .entry__content p,
+	.search .entry__content p {
+		color: #fff;
+	}
+
+	.entry__featured {
+		background: #fff;
+		color: #000;
+	}
+
+	.entry__meta {
+		color: $darkUI--bodyFontColor;
+	}
+
+	.entry__footer {
+		color: $darkUI--bodyFontColor;
+	}
+
+	.single-post .entry,
+	.page .entry {
+		background-color: $darkUI--articleBackground;
+	}
+
+	a {
+		color: $darkUI--linkBlue;
+
+		&:hover,
+		&:focus {
+			color: $darkUI--linkBlue_hover;
+		}
+	}
+
+	.header__title,
+	.header__title a,
+	.header__description {
+		color: #fff;
+	}
+
+	blockquote {
+		background-color: $darkUI--bodyBackground;
+
+		&:before {
+			color: #fff;
+		}
+	}
+
+	.gnav {
+		background-color: $darkUI--articleBackground;
+	}
+
+	.gnav li.current-menu-item > a {
+		color: $darkUI--linkBlue;
+	}
+
+	.gnav a,
+	.dark-toggle span {
+		color: #fff;
+	}
+
+	.gnav a:hover {
+		color: $darkUI--linkBlue;
+	}
+
+	.nav-links {
+		border-top: 1px solid $darkUI--bodyFontColor;
+		border-bottom: 1px solid $darkUI--bodyFontColor;
+	}
+
+	.nav-previous a {
+		border-right: 1px solid $darkUI--bodyFontColor;
+	}
+
+	.nav-previous a::before {
+		border-color: $darkUI--linkBlue;
+	}
+
+	.nav-next a::after {
+		border-color: $darkUI--linkBlue;
+	}
+
+	.comment {
+		border: 1px solid #222;
+		border-radius: 4px;
+		background: $commentColor_primary-dark;
+	}
+
+	.comment.depth-2,
+	.comment.depth-4 {
+		background: $commentColor_secondary-dark;
+	}
+
+	.comment.depth-3,
+	.comment.depth-5 {
+		background: $commentColor_primary-dark;
+	}
+
+	input[name='submit'] {
+		background: $darkUI--linkBlue;
+		color: #333;
+		border-radius: 4px;
+	}
+
+	textarea {
+		background: #4a4a4d;
+		color: #fff;
+		border-radius: 4px;
+	}
+}
