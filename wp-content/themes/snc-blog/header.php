@@ -55,6 +55,12 @@
       <span>Dark Mode</span>
     </label>
 
+    <label class="light-toggle">
+      <input type="checkbox">
+      <div class="light-toggle__switch" tabindex="0"></div>
+      <span>Light Mode</span>
+    </label>
+
 	</nav><!-- #site-navigation -->
 	<?php endif; ?>
 
