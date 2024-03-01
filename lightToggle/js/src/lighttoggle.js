@@ -1,3 +1,19 @@
+// Check browser cache if darkmode is already activated
+(function() {
+  const lightMode = localStorage.lightMode === 'true';
+  if (lightMode) {
+    document.querySelector('body').classList.add('is-light');
+
+    // activate the toggle
+    document.addEventListener('DOMContentLoaded', () => {
+      const $toggles = document.querySelectorAll('.light-toggle input[type="checkbox"]');
+      $toggles.forEach(($t) => {
+        $t.checked = true;
+      });
+    });
+  }
+})();
+
 const myLightMode = {
 	init() {
 		this.changeListener();
@@ -47,18 +63,3 @@ const myLightMode = {
 document.addEventListener('DOMContentLoaded', () => {
 	myLightMode.init();
 });
-
-(function() {
-  const lightMode = localStorage.lightMode === 'true';
-  if (lightMode) {
-    document.querySelector('body').classList.add('is-light');
-
-    // activate the toggle
-    document.addEventListener('DOMContentLoaded', () => {
-      const $toggles = document.querySelectorAll('.light-toggle input[type="checkbox"]');
-      $toggles.forEach(($t) => {
-        $t.checked = true;
-      });
-    });
-  }
-})();

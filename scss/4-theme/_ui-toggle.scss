@@ -1,0 +1,27 @@
+label.dark-toggle,
+label.light-toggle {
+	padding-left: 10px;
+
+	span {
+		font-family: 'Lato';
+		font-weight: 700;
+		text-transform: initial;
+	}
+}
+
+label.light-toggle {
+	display: none;
+	visibility: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+	label.dark-toggle {
+		display: none;
+		visibility: hidden;
+	}
+
+	label.light-toggle {
+		display: block;
+		visibility: visible;
+	}
+}

@@ -123,10 +123,15 @@ body.is-dark {
 }
 
 @media (prefers-color-scheme: dark) {
-	label.dark-toggle {
-		display: none;
-		visibility: hidden;
-	}
+	// label.dark-toggle {
+	// 	display: none;
+	// 	visibility: hidden;
+	// }
+
+	// label.light-toggle {
+	// 	display: block;
+	// 	visibility: visible;
+	// }
 
 	body {
 		background: $darkUI--bodyBackground;
